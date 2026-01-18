@@ -17,7 +17,7 @@ public class MovementManager : MonoBehaviour
     private float castSize = 0.75f;
     private float castDistance = 1.5f;
 
-    public event Action<Vector2> DirectionChanged;
+    public event Action<Vector2> OnDirectionChanged;
 
     private void Awake()
     {
@@ -53,7 +53,7 @@ public class MovementManager : MonoBehaviour
 
             if (direction != Direction)
             {
-                DirectionChanged?.Invoke(direction);
+                OnDirectionChanged?.Invoke(direction);
                 Direction = direction;
             }
 
@@ -79,6 +79,6 @@ public class MovementManager : MonoBehaviour
         transform.position = StartingPosition;
         Rigidbody.bodyType = RigidbodyType2D.Dynamic;
 
-        DirectionChanged?.Invoke(Direction);
+        OnDirectionChanged?.Invoke(Direction);
     }
 }

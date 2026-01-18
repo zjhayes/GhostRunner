@@ -6,7 +6,7 @@ public class PlayerManager : CharacterManager
 {
 
     private PlayerInput playerInput;
-    private InputAction moveAction;
+    private UnityEngine.InputSystem.InputAction moveAction;
 
     protected override void Awake()
     {
@@ -14,7 +14,7 @@ public class PlayerManager : CharacterManager
         playerInput = GetComponent<PlayerInput>();
     }
 
-    private void OnMove(InputAction.CallbackContext ctx)
+    private void OnMove(UnityEngine.InputSystem.InputAction.CallbackContext ctx)
     {
         Vector2 v = ctx.ReadValue<Vector2>();
 
@@ -31,7 +31,7 @@ public class PlayerManager : CharacterManager
 
     private void OnEnable()
     {
-        moveAction = playerInput.actions[InputActions.MOVE];
+        moveAction = playerInput.actions[InputAction.MOVE];
         moveAction.performed += OnMove;
         moveAction.canceled += OnMove; // when released, value becomes zero
         moveAction.Enable();

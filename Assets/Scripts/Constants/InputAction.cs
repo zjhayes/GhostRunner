@@ -1,5 +1,5 @@
 
-public static class InputActions
+public static class InputAction
 {
     public const string MOVE = "Move";
 }

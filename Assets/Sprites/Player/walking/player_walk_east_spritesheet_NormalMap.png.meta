@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 971211886f3122a45b0b9d3c988da8d7
+guid: be60916c4556a4c44aeacb8fbd49da03
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6313282434850202958
-    second: player_walk_south_normals_spritesheet_0
+      213: 2899786086691509620
+    second: player_walk_east_normals_spritesheet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
-    sRGBTexture: 1
+    enableMipMap: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_walk_south_normals_spritesheet_0
+      name: player_walk_east_normals_spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ba5a002317b268a0800000000000000
-      internalID: -6313282434850202958
+      spriteID: 4751ed5051c1e3820800000000000000
+      internalID: 2899786086691509620
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_walk_south_normals_spritesheet_0: -6313282434850202958
+      player_walk_east_normals_spritesheet_0: 2899786086691509620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
