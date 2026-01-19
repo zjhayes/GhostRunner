@@ -21,7 +21,7 @@ public class CharacterAnimationController : MonoBehaviour
         if (direction == Vector2.zero)
             return;
 
-        Vector2 dir = QuantizeToCardinal(direction);
+        Vector2 dir = Conversion.QuantizeToCardinal(direction);
 
         animator.SetFloat(DirX, dir.x);
         animator.SetFloat(DirY, dir.y);
@@ -30,17 +30,6 @@ public class CharacterAnimationController : MonoBehaviour
     private void UpdateMoving(bool isMoving)
     {
         animator.SetBool(Moving, isMoving);
-    }
-
-    private static Vector2 QuantizeToCardinal(Vector2 dir)
-    {
-        if (dir == Vector2.zero) return Vector2.zero;
-
-        // Resolve diagonals to the dominant axis
-        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
-            return new Vector2(Mathf.Sign(dir.x), 0f);
-
-        return new Vector2(0f, Mathf.Sign(dir.y));
     }
 
     private void OnEnable()

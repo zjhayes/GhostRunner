@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -172,10 +172,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 1645
-        width: 342
-        height: 359
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 549
-        y: 1642
-        width: 342
-        height: 361
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 1635
-        width: 342
-        height: 365
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1573
-        y: 1629
-        width: 342
-        height: 369
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 2085
-        y: 1626
-        width: 342
-        height: 374
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 2598
-        y: 1627
-        width: 341
-        height: 377
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1120
-        width: 341
-        height: 375
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 551
-        y: 1131
-        width: 340
-        height: 367
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 1139
-        width: 340
-        height: 359
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1576
-        y: 1142
-        width: 339
-        height: 357
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 2088
-        y: 1145
-        width: 339
-        height: 353
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 2600
-        y: 1145
-        width: 339
-        height: 351
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_12
       rect:
         serializedVersion: 2
-        x: 41
-        y: 632
-        width: 338
-        height: 349
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 552
-        y: 632
-        width: 339
-        height: 346
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 630
-        width: 339
-        height: 346
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 1576
-        y: 625
-        width: 339
-        height: 350
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 2087
-        y: 620
-        width: 340
-        height: 357
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 2599
-        y: 610
-        width: 340
-        height: 370
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 38
-        y: 93
-        width: 341
-        height: 378
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 550
-        y: 95
-        width: 341
-        height: 378
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 99
-        width: 342
-        height: 375
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 1573
-        y: 104
-        width: 342
-        height: 370
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 2085
-        y: 108
-        width: 342
-        height: 365
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: player_walk_west_spritesheet_23
       rect:
         serializedVersion: 2
-        x: 2597
-        y: 109
-        width: 342
-        height: 360
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,7 +710,9 @@ TextureImporter:
     - texture: {fileID: 2800000, guid: afa3fd677a6bda24591d638100e62ddb, type: 3}
       name: _NormalMap
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       player_walk_west_spritesheet_0: -4010356152794756286
       player_walk_west_spritesheet_1: -4754279591162215824

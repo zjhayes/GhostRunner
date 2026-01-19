@@ -345,7 +345,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -397,10 +397,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 6193
-        width: 306
-        height: 445
+        x: 0
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +419,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 616
-        y: 6193
-        width: 306
-        height: 445
+        x: 512
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 6193
-        width: 309
-        height: 445
+        x: 1024
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +463,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1638
-        y: 6193
-        width: 308
-        height: 445
+        x: 1536
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,10 +485,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 6193
-        width: 308
-        height: 445
+        x: 2048
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 6193
-        width: 309
-        height: 445
+        x: 2560
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +529,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 6193
-        width: 306
-        height: 445
+        x: 3072
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,10 +551,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 6193
-        width: 306
-        height: 445
+        x: 3584
+        y: 6144
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +573,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 102
-        y: 5683
-        width: 306
-        height: 442
+        x: 0
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +595,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 616
-        y: 5683
-        width: 306
-        height: 442
+        x: 512
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +617,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 5683
-        width: 309
-        height: 442
+        x: 1024
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,10 +639,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 5683
-        width: 306
-        height: 442
+        x: 1536
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -661,10 +661,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_12
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 5683
-        width: 306
-        height: 442
+        x: 2048
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,10 +683,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 5683
-        width: 309
-        height: 442
+        x: 2560
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -705,10 +705,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 5683
-        width: 306
-        height: 442
+        x: 3072
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +727,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 5683
-        width: 306
-        height: 442
+        x: 3584
+        y: 5632
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,10 +749,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 102
-        y: 5169
-        width: 306
-        height: 442
+        x: 0
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,10 +771,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 616
-        y: 5169
-        width: 306
-        height: 442
+        x: 512
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +793,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 5169
-        width: 309
-        height: 442
+        x: 1024
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,10 +815,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 5169
-        width: 309
-        height: 442
+        x: 1536
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -837,10 +837,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 5169
-        width: 309
-        height: 442
+        x: 2048
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -859,10 +859,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 5169
-        width: 309
-        height: 442
+        x: 2560
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -881,10 +881,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 5169
-        width: 306
-        height: 442
+        x: 3072
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +903,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_23
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 5169
-        width: 306
-        height: 442
+        x: 3584
+        y: 5120
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -925,10 +925,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_24
       rect:
         serializedVersion: 2
-        x: 102
-        y: 4659
-        width: 306
-        height: 442
+        x: 0
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -947,10 +947,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_25
       rect:
         serializedVersion: 2
-        x: 616
-        y: 4659
-        width: 306
-        height: 442
+        x: 512
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -969,10 +969,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_26
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 4659
-        width: 309
-        height: 442
+        x: 1024
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -991,10 +991,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_27
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 4659
-        width: 306
-        height: 442
+        x: 1536
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1013,10 +1013,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 4659
-        width: 306
-        height: 442
+        x: 2048
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1035,10 +1035,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 4659
-        width: 309
-        height: 442
+        x: 2560
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1057,10 +1057,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_30
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 4659
-        width: 306
-        height: 442
+        x: 3072
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1079,10 +1079,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_31
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 4659
-        width: 306
-        height: 442
+        x: 3584
+        y: 4608
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1101,10 +1101,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_32
       rect:
         serializedVersion: 2
-        x: 102
-        y: 4145
-        width: 306
-        height: 442
+        x: 0
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1123,10 +1123,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_33
       rect:
         serializedVersion: 2
-        x: 616
-        y: 4145
-        width: 306
-        height: 442
+        x: 512
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1145,10 +1145,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 4145
-        width: 309
-        height: 442
+        x: 1024
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1167,10 +1167,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 1638
-        y: 4145
-        width: 308
-        height: 442
+        x: 1536
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1189,10 +1189,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_36
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 4145
-        width: 309
-        height: 442
+        x: 2048
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1211,10 +1211,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_37
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 4145
-        width: 309
-        height: 442
+        x: 2560
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1233,10 +1233,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_38
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 4145
-        width: 306
-        height: 442
+        x: 3072
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1255,10 +1255,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_39
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 4145
-        width: 306
-        height: 442
+        x: 3584
+        y: 4096
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1277,10 +1277,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 102
-        y: 3632
-        width: 306
-        height: 442
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1299,10 +1299,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_41
       rect:
         serializedVersion: 2
-        x: 616
-        y: 3632
-        width: 306
-        height: 442
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1321,10 +1321,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_42
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 3632
-        width: 309
-        height: 442
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1343,10 +1343,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_43
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 3632
-        width: 306
-        height: 442
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1365,10 +1365,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_44
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 3632
-        width: 308
-        height: 442
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1387,10 +1387,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 3632
-        width: 309
-        height: 442
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1409,10 +1409,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 3632
-        width: 306
-        height: 442
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,10 +1431,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_47
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 3632
-        width: 306
-        height: 442
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1453,10 +1453,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_48
       rect:
         serializedVersion: 2
-        x: 102
-        y: 3122
-        width: 306
-        height: 442
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1475,10 +1475,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_49
       rect:
         serializedVersion: 2
-        x: 616
-        y: 3122
-        width: 306
-        height: 442
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1497,10 +1497,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_50
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 3122
-        width: 309
-        height: 442
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1519,10 +1519,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_51
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 3122
-        width: 306
-        height: 442
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1541,10 +1541,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_52
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 3122
-        width: 306
-        height: 442
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1563,10 +1563,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_53
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 3122
-        width: 309
-        height: 442
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1585,10 +1585,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_54
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 3122
-        width: 306
-        height: 442
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1607,10 +1607,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_55
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 3122
-        width: 306
-        height: 442
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1629,10 +1629,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_56
       rect:
         serializedVersion: 2
-        x: 102
-        y: 2608
-        width: 306
-        height: 442
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1651,10 +1651,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_57
       rect:
         serializedVersion: 2
-        x: 616
-        y: 2608
-        width: 306
-        height: 442
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1673,10 +1673,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_58
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 2608
-        width: 309
-        height: 442
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1695,10 +1695,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_59
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 2608
-        width: 309
-        height: 442
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1717,10 +1717,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_60
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 2608
-        width: 309
-        height: 442
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1739,10 +1739,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_61
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 2608
-        width: 309
-        height: 442
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1761,10 +1761,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_62
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 2608
-        width: 306
-        height: 442
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1783,10 +1783,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_63
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 2608
-        width: 306
-        height: 442
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1805,10 +1805,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_64
       rect:
         serializedVersion: 2
-        x: 102
-        y: 2098
-        width: 306
-        height: 442
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,10 +1827,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_65
       rect:
         serializedVersion: 2
-        x: 616
-        y: 2098
-        width: 306
-        height: 442
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1849,10 +1849,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_66
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 2098
-        width: 309
-        height: 442
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1871,10 +1871,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_67
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 2098
-        width: 306
-        height: 442
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1893,10 +1893,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_68
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 2098
-        width: 306
-        height: 442
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1915,10 +1915,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_69
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 2098
-        width: 309
-        height: 442
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1937,10 +1937,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_70
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 2098
-        width: 306
-        height: 442
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1959,10 +1959,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_71
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 2098
-        width: 306
-        height: 442
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1981,10 +1981,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_72
       rect:
         serializedVersion: 2
-        x: 102
-        y: 1584
-        width: 306
-        height: 445
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2003,10 +2003,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_73
       rect:
         serializedVersion: 2
-        x: 616
-        y: 1584
-        width: 306
-        height: 445
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2025,10 +2025,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_74
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 1584
-        width: 309
-        height: 446
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2047,10 +2047,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_75
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 1584
-        width: 306
-        height: 445
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2069,10 +2069,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_76
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 1584
-        width: 308
-        height: 446
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2091,10 +2091,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_77
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 1584
-        width: 309
-        height: 446
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2113,10 +2113,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_78
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 1584
-        width: 306
-        height: 446
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2135,10 +2135,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_79
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 1584
-        width: 306
-        height: 446
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2157,10 +2157,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_80
       rect:
         serializedVersion: 2
-        x: 102
-        y: 1074
-        width: 306
-        height: 442
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2179,10 +2179,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_81
       rect:
         serializedVersion: 2
-        x: 616
-        y: 1074
-        width: 306
-        height: 442
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2201,10 +2201,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_82
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 1074
-        width: 309
-        height: 442
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2223,10 +2223,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_83
       rect:
         serializedVersion: 2
-        x: 1637
-        y: 1074
-        width: 309
-        height: 442
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2245,10 +2245,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_84
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 1074
-        width: 309
-        height: 442
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2267,10 +2267,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_85
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 1074
-        width: 309
-        height: 442
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2289,10 +2289,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_86
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 1074
-        width: 306
-        height: 442
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2311,10 +2311,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_87
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 1074
-        width: 306
-        height: 442
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2333,10 +2333,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_88
       rect:
         serializedVersion: 2
-        x: 102
-        y: 564
-        width: 306
-        height: 442
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2355,10 +2355,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_89
       rect:
         serializedVersion: 2
-        x: 616
-        y: 564
-        width: 306
-        height: 442
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2377,10 +2377,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_90
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 564
-        width: 309
-        height: 442
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2399,10 +2399,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_91
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 564
-        width: 306
-        height: 442
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2421,10 +2421,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_92
       rect:
         serializedVersion: 2
-        x: 2150
-        y: 564
-        width: 306
-        height: 442
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2443,10 +2443,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_93
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 564
-        width: 309
-        height: 442
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2465,10 +2465,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_94
       rect:
         serializedVersion: 2
-        x: 3174
-        y: 564
-        width: 306
-        height: 442
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2487,10 +2487,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_95
       rect:
         serializedVersion: 2
-        x: 3688
-        y: 564
-        width: 306
-        height: 442
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2509,10 +2509,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_96
       rect:
         serializedVersion: 2
-        x: 102
-        y: 50
-        width: 306
-        height: 442
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2531,10 +2531,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_97
       rect:
         serializedVersion: 2
-        x: 616
-        y: 50
-        width: 306
-        height: 442
+        x: 512
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2553,10 +2553,10 @@ TextureImporter:
       name: player_idle_south_spritesheet_98
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 50
-        width: 309
-        height: 442
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2587,7 +2587,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       player_idle_south_spritesheet_0: 8593750359920301626
       player_idle_south_spritesheet_1: -5160989717097288865
