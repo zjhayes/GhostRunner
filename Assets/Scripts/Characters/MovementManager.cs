@@ -8,21 +8,36 @@ public class MovementManager : MonoBehaviour
     [SerializeField] Vector2 initialDirection;
     [SerializeField] LayerMask obstacleLayer;
 
+    private float castSize = 0.75f;
+    private float castDistance = 1.5f;
+    private bool isMoving;
+    private Vector2 lastPosition;
+
     public Rigidbody2D Rigidbody { get; private set; }
     public Vector2 Direction { get; private set; }
     public Vector3 StartingPosition {  get; private set; }
+    public float SpeedMultiplier { get; set; } = 1.0f;
     public Vector2 NextDirection { get; private set; }
-    public float SpeedMultiplier = 1.0f;
+    public bool IsMoving
+    {
+        get => isMoving;
+        private set
+        {
+            if (isMoving == value) return;
+            isMoving = value;
+            OnMovingChanged?.Invoke(isMoving);
+        }
+    }
 
-    private float castSize = 0.75f;
-    private float castDistance = 1.5f;
-
+    public event Action<bool> OnMovingChanged;
+    
     public event Action<Vector2> OnDirectionChanged;
 
     private void Awake()
     {
         Rigidbody = GetComponent<Rigidbody2D> ();
         StartingPosition = transform.position;
+        lastPosition = Rigidbody.position;
     }
 
     private void Start()
@@ -43,6 +58,10 @@ public class MovementManager : MonoBehaviour
         Vector2 position = Rigidbody.position;
         Vector2 translation = Direction * speed * SpeedMultiplier * Time.fixedDeltaTime;
         Rigidbody.MovePosition(position + translation);
+        
+        Vector2 delta = position - lastPosition;
+        IsMoving = delta.sqrMagnitude > Numeric.MINIMUM_MAGNITUDE;
+        lastPosition = position;
     }
 
     public void SetDirection(Vector2 direction, bool forced = false)
@@ -73,10 +92,11 @@ public class MovementManager : MonoBehaviour
 
     public void ResetState()
     {
-        SpeedMultiplier = 1.0f;
+        SpeedMultiplier = Numeric.WHOLE;
         Direction = initialDirection;
         NextDirection = Vector2.zero;
-        transform.position = StartingPosition;
+        Rigidbody.position = StartingPosition;
+        lastPosition = Rigidbody.position;
         Rigidbody.bodyType = RigidbodyType2D.Dynamic;
 
         OnDirectionChanged?.Invoke(Direction);

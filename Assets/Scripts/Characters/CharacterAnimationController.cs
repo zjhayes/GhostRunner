@@ -27,6 +27,11 @@ public class CharacterAnimationController : MonoBehaviour
         animator.SetFloat(DirY, dir.y);
     }
 
+    private void UpdateMoving(bool isMoving)
+    {
+        animator.SetBool(Moving, isMoving);
+    }
+
     private static Vector2 QuantizeToCardinal(Vector2 dir)
     {
         if (dir == Vector2.zero) return Vector2.zero;
@@ -40,13 +45,20 @@ public class CharacterAnimationController : MonoBehaviour
 
     private void OnEnable()
     {
-        if (movementManager != null)
-            movementManager.OnDirectionChanged += UpdateDirection;
+        if (movementManager == null) return;
+
+        movementManager.OnDirectionChanged += UpdateDirection;
+        movementManager.OnMovingChanged += UpdateMoving;
+
+        UpdateMoving(movementManager.IsMoving);
+        UpdateDirection(movementManager.Direction);
     }
 
     private void OnDisable()
     {
-        if (movementManager != null)
-            movementManager.OnDirectionChanged -= UpdateDirection;
+        if (movementManager == null) return;
+
+        movementManager.OnDirectionChanged -= UpdateDirection;
+        movementManager.OnMovingChanged -= UpdateMoving;
     }
 }

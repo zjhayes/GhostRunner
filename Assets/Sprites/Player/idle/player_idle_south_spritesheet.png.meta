@@ -397,12 +397,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 6196
-        width: 304
-        height: 440
+        x: 102
+        y: 6193
+        width: 306
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -420,11 +420,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 6196
-        width: 304
-        height: 440
+        y: 6193
+        width: 306
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -441,12 +441,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 6196
-        width: 304
-        height: 440
+        x: 1126
+        y: 6193
+        width: 309
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,12 +463,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 6196
-        width: 304
-        height: 440
+        x: 1638
+        y: 6193
+        width: 308
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -485,12 +485,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 6196
-        width: 304
-        height: 440
+        x: 2150
+        y: 6193
+        width: 308
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -507,12 +507,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 6196
-        width: 304
-        height: 440
+        x: 2661
+        y: 6193
+        width: 309
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -529,12 +529,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 6196
-        width: 304
-        height: 440
+        x: 3174
+        y: 6193
+        width: 306
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -552,11 +552,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 6196
-        width: 304
-        height: 440
+        y: 6193
+        width: 306
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -573,12 +573,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 104
-        y: 5684
-        width: 304
-        height: 440
+        x: 102
+        y: 5683
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -596,11 +596,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 5684
-        width: 304
-        height: 440
+        y: 5683
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -617,12 +617,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 5684
-        width: 304
-        height: 440
+        x: 1126
+        y: 5683
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -640,11 +640,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1640
-        y: 5684
-        width: 304
-        height: 440
+        y: 5683
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -661,12 +661,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_12
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 5684
-        width: 304
-        height: 440
+        x: 2150
+        y: 5683
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -683,12 +683,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 5684
-        width: 304
-        height: 440
+        x: 2661
+        y: 5683
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -705,12 +705,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 5684
-        width: 304
-        height: 439
+        x: 3174
+        y: 5683
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -728,11 +728,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 5684
-        width: 304
-        height: 439
+        y: 5683
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -749,12 +749,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 104
-        y: 5172
-        width: 304
-        height: 439
+        x: 102
+        y: 5169
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -772,11 +772,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 5172
-        width: 304
-        height: 439
+        y: 5169
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -793,12 +793,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 5172
-        width: 304
-        height: 439
+        x: 1126
+        y: 5169
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -815,12 +815,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 5172
-        width: 304
-        height: 439
+        x: 1637
+        y: 5169
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -837,12 +837,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 5172
-        width: 304
-        height: 439
+        x: 2150
+        y: 5169
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -859,12 +859,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 5172
-        width: 304
-        height: 439
+        x: 2661
+        y: 5169
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -881,12 +881,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 5171
-        width: 304
-        height: 440
+        x: 3174
+        y: 5169
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -904,11 +904,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 5171
-        width: 304
-        height: 440
+        y: 5169
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -925,12 +925,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_24
       rect:
         serializedVersion: 2
-        x: 104
+        x: 102
         y: 4659
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -949,10 +949,10 @@ TextureImporter:
         serializedVersion: 2
         x: 616
         y: 4659
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -969,12 +969,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_26
       rect:
         serializedVersion: 2
-        x: 1128
+        x: 1126
         y: 4659
-        width: 304
-        height: 440
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -993,10 +993,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1640
         y: 4659
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1013,12 +1013,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 2152
+        x: 2150
         y: 4659
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1035,12 +1035,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 2664
+        x: 2661
         y: 4659
-        width: 304
-        height: 440
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1057,12 +1057,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_30
       rect:
         serializedVersion: 2
-        x: 3176
+        x: 3174
         y: 4659
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1081,10 +1081,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3688
         y: 4659
-        width: 304
-        height: 439
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1101,12 +1101,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_32
       rect:
         serializedVersion: 2
-        x: 104
-        y: 4147
-        width: 304
-        height: 439
+        x: 102
+        y: 4145
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1124,11 +1124,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 4147
-        width: 304
-        height: 439
+        y: 4145
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1145,12 +1145,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 4147
-        width: 304
-        height: 439
+        x: 1126
+        y: 4145
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1167,12 +1167,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 4147
-        width: 304
-        height: 439
+        x: 1638
+        y: 4145
+        width: 308
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1189,12 +1189,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_36
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 4147
-        width: 304
-        height: 439
+        x: 2150
+        y: 4145
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1211,12 +1211,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_37
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 4147
-        width: 304
-        height: 439
+        x: 2661
+        y: 4145
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1233,12 +1233,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_38
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 4147
-        width: 304
-        height: 439
+        x: 3174
+        y: 4145
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1256,11 +1256,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 4147
-        width: 304
-        height: 439
+        y: 4145
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1277,12 +1277,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 104
-        y: 3635
-        width: 304
-        height: 439
+        x: 102
+        y: 3632
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1300,11 +1300,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 3635
-        width: 304
-        height: 439
+        y: 3632
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1321,12 +1321,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_42
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 3635
-        width: 304
-        height: 439
+        x: 1126
+        y: 3632
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1344,11 +1344,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1640
-        y: 3635
-        width: 304
-        height: 439
+        y: 3632
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1365,12 +1365,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_44
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 3635
-        width: 304
-        height: 439
+        x: 2150
+        y: 3632
+        width: 308
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1387,12 +1387,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 3635
-        width: 304
-        height: 439
+        x: 2661
+        y: 3632
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1409,12 +1409,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 3635
-        width: 304
-        height: 439
+        x: 3174
+        y: 3632
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1432,11 +1432,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 3634
-        width: 304
-        height: 440
+        y: 3632
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1453,12 +1453,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_48
       rect:
         serializedVersion: 2
-        x: 104
+        x: 102
         y: 3122
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1477,10 +1477,10 @@ TextureImporter:
         serializedVersion: 2
         x: 616
         y: 3122
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1497,12 +1497,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_50
       rect:
         serializedVersion: 2
-        x: 1128
+        x: 1126
         y: 3122
-        width: 304
-        height: 440
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1521,10 +1521,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1640
         y: 3122
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1541,12 +1541,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_52
       rect:
         serializedVersion: 2
-        x: 2152
+        x: 2150
         y: 3122
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1563,12 +1563,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_53
       rect:
         serializedVersion: 2
-        x: 2664
+        x: 2661
         y: 3122
-        width: 304
-        height: 440
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1585,12 +1585,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_54
       rect:
         serializedVersion: 2
-        x: 3176
+        x: 3174
         y: 3122
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1609,10 +1609,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3688
         y: 3122
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1629,12 +1629,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_56
       rect:
         serializedVersion: 2
-        x: 104
-        y: 2611
-        width: 304
-        height: 439
+        x: 102
+        y: 2608
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1652,11 +1652,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 2611
-        width: 304
-        height: 439
+        y: 2608
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1673,12 +1673,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_58
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 2611
-        width: 304
-        height: 439
+        x: 1126
+        y: 2608
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1695,12 +1695,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_59
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 2611
-        width: 304
-        height: 439
+        x: 1637
+        y: 2608
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1717,12 +1717,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_60
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 2611
-        width: 304
-        height: 439
+        x: 2150
+        y: 2608
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1739,12 +1739,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_61
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 2611
-        width: 304
-        height: 439
+        x: 2661
+        y: 2608
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1761,12 +1761,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_62
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 2611
-        width: 304
-        height: 439
+        x: 3174
+        y: 2608
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1784,11 +1784,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 2611
-        width: 304
-        height: 439
+        y: 2608
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1805,12 +1805,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_64
       rect:
         serializedVersion: 2
-        x: 104
-        y: 2099
-        width: 304
-        height: 439
+        x: 102
+        y: 2098
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1828,11 +1828,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 2099
-        width: 304
-        height: 439
+        y: 2098
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1849,12 +1849,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_66
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 2099
-        width: 304
-        height: 439
+        x: 1126
+        y: 2098
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1872,11 +1872,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1640
-        y: 2099
-        width: 304
-        height: 439
+        y: 2098
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1893,12 +1893,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_68
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 2099
-        width: 304
-        height: 439
+        x: 2150
+        y: 2098
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1915,12 +1915,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_69
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 2099
-        width: 304
-        height: 439
+        x: 2661
+        y: 2098
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1937,12 +1937,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_70
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 2099
-        width: 304
-        height: 439
+        x: 3174
+        y: 2098
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1960,11 +1960,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 2099
-        width: 304
-        height: 440
+        y: 2098
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1981,12 +1981,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_72
       rect:
         serializedVersion: 2
-        x: 104
-        y: 1587
-        width: 304
-        height: 440
+        x: 102
+        y: 1584
+        width: 306
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2004,11 +2004,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 1587
-        width: 304
-        height: 440
+        y: 1584
+        width: 306
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2025,12 +2025,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_74
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 1587
-        width: 304
-        height: 440
+        x: 1126
+        y: 1584
+        width: 309
+        height: 446
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2048,11 +2048,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1640
-        y: 1587
-        width: 304
-        height: 440
+        y: 1584
+        width: 306
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2069,12 +2069,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_76
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 1587
-        width: 304
-        height: 440
+        x: 2150
+        y: 1584
+        width: 308
+        height: 446
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2091,12 +2091,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_77
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 1587
-        width: 304
-        height: 440
+        x: 2661
+        y: 1584
+        width: 309
+        height: 446
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2113,12 +2113,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_78
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 1587
-        width: 304
-        height: 440
+        x: 3174
+        y: 1584
+        width: 306
+        height: 446
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2136,11 +2136,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 1588
-        width: 304
-        height: 439
+        y: 1584
+        width: 306
+        height: 446
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2157,12 +2157,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_80
       rect:
         serializedVersion: 2
-        x: 104
-        y: 1076
-        width: 304
-        height: 439
+        x: 102
+        y: 1074
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2180,11 +2180,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 1076
-        width: 304
-        height: 439
+        y: 1074
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2201,12 +2201,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_82
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 1076
-        width: 304
-        height: 439
+        x: 1126
+        y: 1074
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2223,12 +2223,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_83
       rect:
         serializedVersion: 2
-        x: 1640
-        y: 1076
-        width: 304
-        height: 439
+        x: 1637
+        y: 1074
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2245,12 +2245,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_84
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 1076
-        width: 304
-        height: 439
+        x: 2150
+        y: 1074
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2267,12 +2267,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_85
       rect:
         serializedVersion: 2
-        x: 2664
-        y: 1076
-        width: 304
-        height: 439
+        x: 2661
+        y: 1074
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2289,12 +2289,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_86
       rect:
         serializedVersion: 2
-        x: 3176
-        y: 1076
-        width: 304
-        height: 439
+        x: 3174
+        y: 1074
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2312,11 +2312,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3688
-        y: 1076
-        width: 304
-        height: 440
+        y: 1074
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2333,12 +2333,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_88
       rect:
         serializedVersion: 2
-        x: 104
+        x: 102
         y: 564
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2357,10 +2357,10 @@ TextureImporter:
         serializedVersion: 2
         x: 616
         y: 564
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2377,12 +2377,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_90
       rect:
         serializedVersion: 2
-        x: 1128
+        x: 1126
         y: 564
-        width: 304
-        height: 440
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2401,10 +2401,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1640
         y: 564
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2421,12 +2421,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_92
       rect:
         serializedVersion: 2
-        x: 2152
+        x: 2150
         y: 564
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2443,12 +2443,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_93
       rect:
         serializedVersion: 2
-        x: 2664
+        x: 2661
         y: 564
-        width: 304
-        height: 440
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2465,12 +2465,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_94
       rect:
         serializedVersion: 2
-        x: 3176
+        x: 3174
         y: 564
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2489,10 +2489,10 @@ TextureImporter:
         serializedVersion: 2
         x: 3688
         y: 564
-        width: 304
-        height: 440
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2509,12 +2509,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_96
       rect:
         serializedVersion: 2
-        x: 104
-        y: 52
-        width: 304
-        height: 440
+        x: 102
+        y: 50
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2532,11 +2532,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 616
-        y: 52
-        width: 304
-        height: 440
+        y: 50
+        width: 306
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2553,12 +2553,12 @@ TextureImporter:
       name: player_idle_south_spritesheet_98
       rect:
         serializedVersion: 2
-        x: 1128
-        y: 52
-        width: 304
-        height: 440
+        x: 1126
+        y: 50
+        width: 309
+        height: 442
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2575,15 +2575,19 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5a3ce328bfd6a9d42882291b6d531d15
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 3f2a7666d8a45934083e1addc22664c8, type: 3}
+      name: _NormalMap
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       player_idle_south_spritesheet_0: 8593750359920301626
       player_idle_south_spritesheet_1: -5160989717097288865
