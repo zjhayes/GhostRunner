@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 316325855e16ff94a94ad3afcaf897bc
+guid: 6a5a19d44aa60b24a9d50f58daa1b1f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 70036038260617752
-    second: player_idle_east_normals_spritesheet_0
+      213: -6723817965761504004
+    second: player_idle_east_spritesheet_NormalMap_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_east_normals_spritesheet_0
+      name: player_idle_east_spritesheet_NormalMap_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 812fffdd761d8f000800000000000000
-      internalID: 70036038260617752
+      spriteID: cfc55683f2330b2a0800000000000000
+      internalID: -6723817965761504004
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_idle_east_normals_spritesheet_0: 70036038260617752
+      player_idle_east_spritesheet_NormalMap_0: -6723817965761504004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
