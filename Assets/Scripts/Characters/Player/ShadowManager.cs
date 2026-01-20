@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ShadowManager : MonoBehaviour
 {
+    [Header("Dependencies")]
     [SerializeField] private MovementManager movement;
 
     [Header("Shadow Blob")]
@@ -16,74 +17,81 @@ public class ShadowManager : MonoBehaviour
 
     private void Awake()
     {
+        if (!movement) movement = GetComponentInParent<MovementManager>();
+
         if (!shadowBlob) shadowBlob = transform;
         if (!shadowRenderer) shadowRenderer = shadowBlob.GetComponent<SpriteRenderer>();
     }
 
     private void OnEnable()
     {
-        if (movement != null)
-            movement.OnDirectionChanged += HandleDirectionChanged;
-        else
+        if (movement == null)
+        {
             Debug.LogWarning("ShadowManager: MovementManager not assigned; shadow will never update.");
+            return;
+        }
+
+        movement.OnDirectionChanged += HandleDirectionChanged;
     }
 
     private void OnDisable()
     {
-        if (movement != null)
-            movement.OnDirectionChanged -= HandleDirectionChanged;
+        if (movement == null) return;
+        movement.OnDirectionChanged -= HandleDirectionChanged;
     }
 
     private void Start()
     {
+        if (movement != null)
+            facing = movement.Direction;
+
         ApplyFacing(facing);
     }
 
-    private void HandleDirectionChanged(Vector2 dir)
+    private void HandleDirectionChanged(Cardinal dir)
     {
-        if (dir == Vector2.zero && useLastFacingWhenIdle)
-            return;
+        if (dir == facing) return;
 
-        var next = CardinalUtil.FromVector(dir, facing);
-        if (next == facing) return;
+        if (!useLastFacingWhenIdle)
+            facing = dir;
+        else
+            facing = dir;
 
-        facing = next;
         ApplyFacing(facing);
     }
 
-private void ApplyFacing(Cardinal dir)
-{
-    float zRot;
-    bool flipX;
-    bool flipY;
-
-    switch (dir)
+    private void ApplyFacing(Cardinal dir)
     {
-        case Cardinal.East:
-            zRot = 0f;   flipX = false; flipY = true;
-            break;
+        float zRot;
+        bool flipX;
+        bool flipY;
 
-        case Cardinal.West:
-            zRot = 0f;   flipX = true;  flipY = false;
-            break;
+        switch (dir)
+        {
+            case Cardinal.East:
+                zRot = 0f;  flipX = false; flipY = true;
+                break;
 
-        case Cardinal.North:
-            zRot = 90f;  flipX = false; flipY = true;
-            break;
+            case Cardinal.West:
+                zRot = 0f;  flipX = true;  flipY = false;
+                break;
 
-        case Cardinal.South:
-            zRot = 90f;  flipX = true;  flipY = false;
-            break;
+            case Cardinal.North:
+                zRot = 90f; flipX = false; flipY = true;
+                break;
 
-        default:
-            zRot = 0f;   flipX = false; flipY = false;
-            break;
+            case Cardinal.South:
+                zRot = 90f; flipX = true;  flipY = false;
+                break;
+
+            default:
+                zRot = 0f;  flipX = false; flipY = false;
+                break;
+        }
+
+        ApplyRotation(shadowBlob, zRot);
+        ApplyFlips(shadowBlob, shadowRenderer, flipX, flipY, flipUsingScale);
     }
-
-    ApplyRotation(shadowBlob, zRot);
-    ApplyFlips(shadowBlob, shadowRenderer, flipX, flipY, flipUsingScale);
-}
-
 
     private static void ApplyRotation(Transform t, float zRot)
     {

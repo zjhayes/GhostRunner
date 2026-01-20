@@ -2,41 +2,19 @@ using UnityEngine;
 
 public class LanternController : MonoBehaviour
 {
-    [SerializeField] MovementManager movement;
-    [SerializeField] Light lanternLight;
-    [SerializeField] Transform eastLanternTransform;
-    [SerializeField] Transform westLanternTransform;
-    [SerializeField] Transform northLanternTransform;
-    [SerializeField] Transform southLanternTransform;
+    [SerializeField] private MovementManager movement;
+    [SerializeField] private Light lanternLight;
 
-    private void HandleDirectionChanged(Vector2 dir)
+    [Header("Lantern Sockets")]
+    [SerializeField] private Transform eastSocket;
+    [SerializeField] private Transform westSocket;
+    [SerializeField] private Transform northSocket;
+    [SerializeField] private Transform southSocket;
+
+    private void Awake()
     {
-        if (dir == Vector2.zero) return;
-
-        // If you ever pass diagonals, resolve to a cardinal direction.
-        dir = Conversion.QuantizeToCardinal(dir);
-
-        ApplySocket(dir);
-    }
-
-    private void ApplySocket(Vector2 dir)
-    {
-        Transform socket = GetSocketFor(dir);
-        if (socket == null) return;
-
-        Transform t = lanternLight.transform;
-        if (t == null) return;
-
-        t.position = socket.position;
-        t.rotation = socket.rotation;
-    }
-
-    private Transform GetSocketFor(Vector2 dir)
-    {
-        if (dir.x > 0.5f) return eastLanternTransform;
-        if (dir.x < -0.5f) return westLanternTransform;
-        if (dir.y > 0.5f) return northLanternTransform;
-        return southLanternTransform;
+        if (!movement) movement = GetComponentInParent<MovementManager>();
+        if (!lanternLight) lanternLight = GetComponentInChildren<Light>();
     }
 
     private void OnEnable()
@@ -49,5 +27,34 @@ public class LanternController : MonoBehaviour
     {
         if (movement == null) return;
         movement.OnDirectionChanged -= HandleDirectionChanged;
+    }
+
+    private void Start()
+    {
+        if (movement != null)
+            ApplySocket(movement.Direction);
+    }
+
+    private void HandleDirectionChanged(Cardinal dir)
+    {
+        ApplySocket(dir);
+    }
+
+    private void ApplySocket(Cardinal dir)
+    {
+        if (!lanternLight) return;
+
+        Transform socket = dir switch
+        {
+            Cardinal.East  => eastSocket,
+            Cardinal.West  => westSocket,
+            Cardinal.North => northSocket,
+            Cardinal.South => southSocket,
+            _ => eastSocket
+        };
+
+        if (!socket) return;
+
+        lanternLight.transform.SetPositionAndRotation(socket.position, socket.rotation);
     }
 }

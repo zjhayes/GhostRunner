@@ -4,26 +4,32 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class MovementManager : MonoBehaviour
 {
-    [SerializeField] float speed = 8.0f;
-    [SerializeField] Vector2 initialDirection = Vector2.right;
+    [SerializeField] private float speed = 8.0f;
+    [SerializeField] private Vector2 initialDirection = Vector2.right;
 
     [Header("Node Centering")]
-    [SerializeField] float centerEpsilon = 0.01f;
+    [SerializeField] private float centerEpsilon = 0.01f;
 
     private bool isMoving;
     private Vector2 lastPosition;
-    private Node currentNode;
-    private Node targetNode;
-    private Node lastEnteredNode;
+
+    private Node currentNode;     // node trigger we are currently inside (may be null between nodes)
+    private Node targetNode;      // node we are currently centering to (null if free-moving)
+    private Node lastEnteredNode; // used to prevent re-locking same node while overlapping
 
     private int nodesLayer;
 
     public Rigidbody2D Rigidbody { get; private set; }
-    public Vector2 Direction { get; private set; }
     public Vector3 StartingPosition { get; private set; }
     public float SpeedMultiplier { get; set; } = 1.0f;
 
-    public Vector2 NextDirection { get; private set; }
+    public Cardinal Direction { get; private set; }
+    public Cardinal? NextDirection { get; private set; }
+
+    public bool IsStopped => DirectionVector == Vector2.zero;
+
+    // Convenience for physics
+    public Vector2 DirectionVector { get; private set; } = Vector2.right;
 
     public bool IsMoving
     {
@@ -37,7 +43,9 @@ public class MovementManager : MonoBehaviour
     }
 
     public event Action<bool> OnMovingChanged;
-    public event Action<Vector2> OnDirectionChanged;
+
+    // Prefer subscribing to this in other systems (lantern, shadow, anim, etc.)
+    public event Action<Cardinal> OnDirectionChanged;
 
     private void Awake()
     {
@@ -66,6 +74,7 @@ public class MovementManager : MonoBehaviour
 
         while (stepRemaining > Numeric.MILLIONTH)
         {
+            // Centering phase: move to exact node center.
             if (targetNode != null)
             {
                 Vector2 center = targetNode.transform.position;
@@ -81,20 +90,20 @@ public class MovementManager : MonoBehaviour
                     currentNode = targetNode;
 
                     // Decide direction at node center.
-                    Vector2 chosen = ChooseDirectionAtNode(targetNode);
+                    Cardinal? chosen = ChooseDirectionAtNode(targetNode);
 
                     // Done centering.
                     targetNode = null;
 
-                    if (chosen == Vector2.zero)
+                    if (!chosen.HasValue)
                     {
-                        ApplyDirection(Vector2.zero);
+                        Stop();
                         stepRemaining = 0f;
                         break;
                     }
 
-                    ApplyDirection(chosen);
-                    // Continue consuming remaining step outward.
+                    ApplyDirection(chosen.Value);
+                    // Continue consuming remaining step outward in the same FixedUpdate.
                     continue;
                 }
 
@@ -104,11 +113,11 @@ public class MovementManager : MonoBehaviour
                 continue;
             }
 
-            // Free movement between nodes (straight line).
-            if (Direction == Vector2.zero)
+            // Free movement between nodes.
+            if (DirectionVector == Vector2.zero)
                 break;
 
-            newPos += Direction * stepRemaining;
+            newPos += DirectionVector * stepRemaining;
             stepRemaining = 0f;
         }
 
@@ -123,54 +132,61 @@ public class MovementManager : MonoBehaviour
         lastPosition = newPos;
     }
 
-    public void SetDirection(Vector2 direction, bool forced = false)
+    public void SetDirection(Vector2 inputDirection, bool forced = false)
     {
-        if (direction == Vector2.zero) return;
+        if (inputDirection == Vector2.zero) return;
 
-        direction = Conversion.QuantizeToCardinal(direction);
+        Cardinal requested = CardinalUtil.FromVector(inputDirection, Direction);
 
         // Reversal: allow ANYTIME while moving.
-        if (Direction != Vector2.zero && direction == -Direction)
+        if (DirectionVector != Vector2.zero && CardinalUtil.IsOpposite(Direction, requested))
         {
-            ApplyDirection(direction);
-            NextDirection = Vector2.zero;
+            ApplyDirection(requested);
+            NextDirection = null;
 
             // If we're still inside a node trigger, re-center to THAT node once.
             if (currentNode != null)
-            {
                 targetNode = currentNode;
-            }
             else
-            {
-                // Between nodes: do NOT force centering; just reverse cleanly.
-                targetNode = null;
-            }
+                targetNode = null; // between nodes: reverse cleanly without forcing centering
 
             return;
         }
 
         // If we're stopped on a node, allow immediate start if valid.
-        if (Direction == Vector2.zero && currentNode != null)
+        if (DirectionVector == Vector2.zero && currentNode != null)
         {
-            if (forced || currentNode.AvailableDirections.Contains(direction))
+            if (forced || currentNode.AvailableDirections.Contains(requested))
             {
-                ApplyDirection(direction);
-                NextDirection = Vector2.zero;
+                ApplyDirection(requested);
+                NextDirection = null;
                 return;
             }
         }
 
         // Otherwise buffer until the next node center.
-        NextDirection = direction;
+        NextDirection = requested;
     }
 
-    private void ApplyDirection(Vector2 dir)
+    public void SetDirection(Cardinal requested, bool forced = false)
     {
-        dir = Conversion.QuantizeToCardinal(dir);
+        SetDirection(CardinalUtil.ToVector(requested), forced);
+    }
 
-        if (dir == Direction) return;
+    private void Stop()
+    {
+        // Keep Direction as the last facing direction, but stop movement by zeroing vector.
+        DirectionVector = Vector2.zero;
+        NextDirection = null;
+    }
 
+    private void ApplyDirection(Cardinal dir)
+    {
+        // If we're currently stopped, treat this as start moving in that direction.
+        // If we are moving, it might be a turn/reversal.
         Direction = dir;
+        DirectionVector = CardinalUtil.ToVector(dir);
+
         OnDirectionChanged?.Invoke(Direction);
     }
 
@@ -188,12 +204,12 @@ public class MovementManager : MonoBehaviour
             return;
 
         // Only decide whether to lock if we are NOT already centering.
-        if (targetNode == null && Direction != Vector2.zero)
+        if (targetNode == null && DirectionVector != Vector2.zero)
         {
             Vector2 toNode = (Vector2)node.transform.position - Rigidbody.position;
 
             // If the node is behind us relative to our current movement, don't lock onto it.
-            if (Vector2.Dot(Direction, toNode) <= 0f)
+            if (Vector2.Dot(DirectionVector, toNode) <= 0f)
                 return;
         }
 
@@ -217,28 +233,32 @@ public class MovementManager : MonoBehaviour
             lastEnteredNode = null;
     }
 
-    private Vector2 ChooseDirectionAtNode(Node node)
+    private Cardinal? ChooseDirectionAtNode(Node node)
     {
-        if (NextDirection != Vector2.zero && node.AvailableDirections.Contains(NextDirection))
+        if (NextDirection.HasValue && node.AvailableDirections.Contains(NextDirection.Value))
         {
-            Vector2 chosen = NextDirection;
-            NextDirection = Vector2.zero;
+            Cardinal chosen = NextDirection.Value;
+            NextDirection = null;
             return chosen;
         }
 
-        if (Direction != Vector2.zero && node.AvailableDirections.Contains(Direction))
+        // Continue forward if possible.
+        if (DirectionVector != Vector2.zero && node.AvailableDirections.Contains(Direction))
         {
             return Direction;
         }
 
-        return Vector2.zero;
+        return null;
     }
 
     public void ResetState()
     {
         SpeedMultiplier = 1f;
-        Direction = Conversion.QuantizeToCardinal(initialDirection);
-        NextDirection = Vector2.zero;
+
+        Direction = CardinalUtil.FromVector(initialDirection, Cardinal.East);
+        DirectionVector = CardinalUtil.ToVector(Direction);
+
+        NextDirection = null;
 
         Rigidbody.position = StartingPosition;
         lastPosition = Rigidbody.position;

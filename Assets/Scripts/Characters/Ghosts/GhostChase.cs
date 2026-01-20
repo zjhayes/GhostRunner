@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class GhostChase : GhostBehaviour
@@ -11,26 +10,30 @@ public class GhostChase : GhostBehaviour
     private void OnTrigger(Collider2D other)
     {
         Node node = other.GetComponent<Node>();
+        if (node == null) return;
 
-        if (node != null && enabled && !Context.Frightened.enabled)
+        if (!enabled || Context.Frightened.enabled) return;
+
+        Cardinal? best = null;
+        float minDistance = float.MaxValue;
+
+        foreach (Cardinal available in node.AvailableDirections)
         {
-            Vector2 direction = Vector2.zero;
-            float minDistance = float.MaxValue;
+            Vector2 step = CardinalUtil.ToVector(available);
 
-            foreach (Vector2 availableDirection in node.AvailableDirections)
+            // Predict the next tile/step in that direction.
+            Vector3 newPosition = transform.position + new Vector3(step.x, step.y, 0f);
+
+            float distance = (Context.Ghost.Target.position - newPosition).sqrMagnitude;
+            if (distance < minDistance)
             {
-                Vector3 newPosition = transform.position + new Vector3(availableDirection.x, availableDirection.y, transform.position.z);
-                float distance = (Context.Ghost.Target.position - newPosition).sqrMagnitude;
-
-                if (distance < minDistance)
-                {
-                    direction = availableDirection;
-                    minDistance = distance;
-                }
+                minDistance = distance;
+                best = available;
             }
-
-            Context.Ghost.Movement.SetDirection(direction);
         }
+
+        if (best.HasValue)
+            Context.Ghost.Movement.SetDirection(best.Value);
     }
 
     private void OnDisable()

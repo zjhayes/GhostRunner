@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class GhostFrightened : GhostBehaviour
@@ -16,7 +15,6 @@ public class GhostFrightened : GhostBehaviour
         Context.Ghost.OnCollisionEntered += OnCollision;
         Context.Ghost.OnTriggerEnter += OnTrigger;
     }
-
 
     public override void Enable(float duration)
     {
@@ -42,7 +40,8 @@ public class GhostFrightened : GhostBehaviour
 
     private void Flash()
     {
-        if (!eaten) return;
+        // Flash only if NOT eaten (typical Pac-Man behavior)
+        if (eaten) return;
 
         blue.enabled = false;
         white.enabled = true;
@@ -87,25 +86,25 @@ public class GhostFrightened : GhostBehaviour
     private void OnTrigger(Collider2D other)
     {
         Node node = other.GetComponent<Node>();
+        if (!enabled || node == null) return;
 
-        if (enabled && node != null)
+        Cardinal? best = null;
+        float maxDistance = float.MinValue;
+
+        foreach (Cardinal available in node.AvailableDirections)
         {
-            Vector2 direction = Vector2.zero;
-            float maxDistance = float.MinValue;
+            Vector2 step = CardinalUtil.ToVector(available);
+            Vector3 newPosition = transform.position + new Vector3(step.x, step.y, 0f);
 
-            foreach (Vector2 availableDirection in node.AvailableDirections)
+            float distance = (Context.Ghost.Target.position - newPosition).sqrMagnitude;
+            if (distance > maxDistance)
             {
-                Vector3 newPosition = transform.position + new Vector3(availableDirection.x, availableDirection.y, transform.position.z);
-                float distance = (Context.Ghost.Target.position - newPosition).sqrMagnitude;
-
-                if (distance > maxDistance)
-                {
-                    direction = availableDirection;
-                    maxDistance = distance;
-                }
+                maxDistance = distance;
+                best = available;
             }
-
-            Context.Ghost.Movement.SetDirection(direction);
         }
+
+        if (best.HasValue)
+            Context.Ghost.Movement.SetDirection(best.Value);
     }
 }

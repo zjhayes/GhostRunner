@@ -3520,10 +3520,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LanternController
   movement: {fileID: 862798099}
   lanternLight: {fileID: 2113933813}
-  eastLanternTransform: {fileID: 1706851942}
-  westLanternTransform: {fileID: 791710490}
-  northLanternTransform: {fileID: 869126670}
-  southLanternTransform: {fileID: 503330401}
+  eastSocket: {fileID: 1706851942}
+  westSocket: {fileID: 791710490}
+  northSocket: {fileID: 869126670}
+  southSocket: {fileID: 503330401}
 --- !u!1 &935309004
 GameObject:
   m_ObjectHideFlags: 0
