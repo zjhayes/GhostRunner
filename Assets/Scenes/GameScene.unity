@@ -11544,6 +11544,22 @@ MonoBehaviour:
   movement: {fileID: 862798099}
   shadowBlob: {fileID: 1592820908}
   shadowRenderer: {fileID: 1592820909}
+  eastOffset: {x: -0.3, y: -0.35}
+  westOffset: {x: 0.2, y: -0.15}
+  northOffset: {x: 0.2, y: -0.5}
+  southOffset: {x: -0.2, y: -0.05}
+  eastRotationZ: -45
+  westRotationZ: -40
+  northRotationZ: 45
+  southRotationZ: 60
+  eastFlipX: 0
+  eastFlipY: 1
+  westFlipX: 1
+  westFlipY: 0
+  northFlipX: 0
+  northFlipY: 1
+  southFlipX: 1
+  southFlipY: 0
   flipUsingScale: 1
   useLastFacingWhenIdle: 1
 --- !u!1 &1605350939
