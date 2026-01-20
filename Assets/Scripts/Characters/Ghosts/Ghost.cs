@@ -35,7 +35,7 @@ public class Ghost : CharacterManager
                 GameManager.Instance.PlayerEaten();
             }
         }
-        else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOST))
+        else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
         {
             Movement.SetDirection(-Movement.Direction);
         }

@@ -1,18 +1,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[DisallowMultipleComponent]
 public class Node : MonoBehaviour
 {
     [SerializeField] LayerMask obstacleLayer;
 
     public List<Vector2> AvailableDirections { get; private set; }
 
-    private float castSize = 0.5f;
-    private float castDistance = 1.0f;
+    [Header("Direction Checks")]
+    [SerializeField] float castSize = 0.5f;
+    [SerializeField] float castDistance = 1.0f;
+
+    private static readonly Vector2[] Cardinal =
+    {
+        Vector2.up,
+        Vector2.down,
+        Vector2.left,
+        Vector2.right
+    };
 
     private void Awake()
     {
-        AvailableDirections = new List<Vector2>();
+        AvailableDirections = new List<Vector2>(4);
+        gameObject.layer = LayerMask.NameToLayer(Layer.NODES);
     }
 
     private void Start()
@@ -20,21 +31,42 @@ public class Node : MonoBehaviour
         CheckAvailableDirections();
     }
 
-    private void CheckIfDirectionAvailable(Vector2 direction)
+    private void CheckAvailableDirections()
     {
-        RaycastHit2D hit = Physics2D.BoxCast(transform.position, Vector2.one * castSize, 0.0f, direction, castDistance, obstacleLayer);
-        
-        if (hit.collider == null)
+        AvailableDirections.Clear();
+
+        for (int i = 0; i < Cardinal.Length; i++)
         {
-            AvailableDirections.Add(direction);
+            Vector2 dir = Cardinal[i];
+
+            RaycastHit2D hit = Physics2D.BoxCast(
+                transform.position,
+                Vector2.one * castSize,
+                0.0f,
+                dir,
+                castDistance,
+                obstacleLayer
+            );
+
+            if (hit.collider == null)
+            {
+                AvailableDirections.Add(dir);
+            }
         }
     }
 
-    private void CheckAvailableDirections()
+#if UNITY_EDITOR
+    private void OnDrawGizmosSelected()
     {
-        CheckIfDirectionAvailable(Vector2.up);
-        CheckIfDirectionAvailable(Vector2.down);
-        CheckIfDirectionAvailable(Vector2.left);
-        CheckIfDirectionAvailable(Vector2.right);
+        if (AvailableDirections == null) return;
+
+        Gizmos.matrix = Matrix4x4.identity;
+        Gizmos.DrawWireCube(transform.position, Vector3.one * castSize);
+
+        foreach (var dir in AvailableDirections)
+        {
+            Gizmos.DrawLine(transform.position, transform.position + (Vector3)dir * 0.5f);
+        }
     }
+#endif
 }
