@@ -65,6 +65,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: a33aec0233b1cac4597e0c0c125e2258, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: b95f749700e13ee47ac54d86e196f618, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -131,9 +135,14 @@ Material:
     - _DstBlendAlpha: 0
     - _EnableExternalAlpha: 0
     - _EnvironmentReflections: 1
+    - _FlatNormalScale: 0.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _HeightStrength: 1
+    - _HideX: 1
+    - _HideY: 0
+    - _HideZ: 0
     - _InvertX: 0
     - _InvertY: 1
     - _InvertZ: 1
@@ -154,6 +163,7 @@ Material:
     - _Surface: 0
     - _Tile: 0.5
     - _TriplanarBlend: 4
+    - _WetnessStrength: 0
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
