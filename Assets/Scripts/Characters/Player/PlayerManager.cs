@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerManager : CharacterManager
 {
-
     private PlayerInput playerInput;
     private UnityEngine.InputSystem.InputAction moveAction;
 

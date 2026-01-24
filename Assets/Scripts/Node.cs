@@ -2,74 +2,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-public class Node : MonoBehaviour
+public class Node : Cell
 {
-    [SerializeField] private LayerMask obstacleLayer;
-
-    public HashSet<Cardinal> AvailableDirections { get; private set; }
-
-    [Header("Direction Checks")]
-    [SerializeField] private float castSize = 0.5f;
-    [SerializeField] private float castDistance = 1.0f;
-
-    private static readonly Cardinal[] Cardinals =
-    {
-        Cardinal.North,
-        Cardinal.South,
-        Cardinal.West,
-        Cardinal.East
-    };
+    public Dictionary<Cardinal, EdgeNode> Edges { get; private set; }
 
     private void Awake()
     {
-        AvailableDirections = new HashSet<Cardinal>();
         gameObject.layer = LayerMask.NameToLayer(Layer.NODES);
     }
 
     private void Start()
     {
-        RefreshAvailableDirections();
+        Edges = NodeUtil.BuildEdgeMap(this, GameManager.Instance.Nodes);
     }
 
-    public void RefreshAvailableDirections()
+    public void ResolveEdge(MovementManager movement, Cardinal direction)
     {
-        AvailableDirections.Clear();
-
-        foreach (var c in Cardinals)
+        if (Edges.TryGetValue(direction, out var edge))
         {
-            Vector2 dir = CardinalUtil.ToVector(c);
-
-            RaycastHit2D hit = Physics2D.BoxCast(
-                transform.position,
-                Vector2.one * castSize,
-                0f,
-                dir,
-                castDistance,
-                obstacleLayer
-            );
-
-            if (hit.collider == null)
-            {
-                AvailableDirections.Add(c);
-            }
+            edge.Resolve(movement, direction, this);
         }
     }
-
-#if UNITY_EDITOR
-    private void OnDrawGizmosSelected()
-    {
-        // In editor, show the cast box and available exits.
-        Gizmos.matrix = Matrix4x4.identity;
-        Gizmos.DrawWireCube(transform.position, Vector3.one * castSize);
-
-        // If we haven't played yet, approximate directions for visualization.
-        IEnumerable<Cardinal> dirs = AvailableDirections ?? (IEnumerable<Cardinal>)Cardinals;
-
-        foreach (var c in dirs)
-        {
-            Vector3 dir = (Vector3)CardinalUtil.ToVector(c);
-            Gizmos.DrawLine(transform.position, transform.position + dir * 0.5f);
-        }
-    }
-#endif
 }

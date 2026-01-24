@@ -14,7 +14,7 @@ public class GhostScatter : GhostBehaviour
 
         if (!enabled || Context.Frightened.enabled) return;
 
-        int count = node.AvailableDirections.Count;
+        int count = node.Edges.Count;
         if (count == 0) return;
 
         Cardinal opposite = CardinalUtil.Opposite(Context.Ghost.Movement.Direction);
@@ -29,7 +29,7 @@ public class GhostScatter : GhostBehaviour
             int pickIndex = Random.Range(0, count);
             int i = 0;
 
-            foreach (Cardinal d in node.AvailableDirections)
+            foreach (Cardinal d in node.Edges.Keys)
             {
                 if (i == pickIndex)
                 {
@@ -47,8 +47,11 @@ public class GhostScatter : GhostBehaviour
 
         if (!hasChosen)
         {
-            foreach (Cardinal d in node.AvailableDirections)
+            foreach (Cardinal d in node.Edges.Keys)
             {
+                if (avoidReverse && d == opposite)
+                    continue;
+                    
                 chosen = d;
                 hasChosen = true;
                 break;

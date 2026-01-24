@@ -91,7 +91,7 @@ public class GhostFrightened : GhostBehaviour
         Cardinal? best = null;
         float maxDistance = float.MinValue;
 
-        foreach (Cardinal available in node.AvailableDirections)
+        foreach (Cardinal available in node.Edges.Keys)
         {
             Vector2 step = CardinalUtil.ToVector(available);
             Vector3 newPosition = transform.position + new Vector3(step.x, step.y, 0f);

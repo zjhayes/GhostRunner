@@ -23,6 +23,16 @@ public static class CardinalUtil
         _ => Vector2.zero
     };
 
+    public static Vector3Int ToCellOffset(Cardinal c) => c switch
+    {
+        Cardinal.North => Vector3Int.up,
+        Cardinal.South => Vector3Int.down,
+        Cardinal.East  => Vector3Int.right,
+        Cardinal.West  => Vector3Int.left,
+        _ => Vector3Int.zero
+    };
+
+
     public static Cardinal Opposite(Cardinal c) => c switch
     {
         Cardinal.North => Cardinal.South,
@@ -30,6 +40,14 @@ public static class CardinalUtil
         Cardinal.East  => Cardinal.West,
         Cardinal.West  => Cardinal.East,
         _ => c
+    };
+
+    public static readonly Cardinal[] Cardinals =
+    {
+        Cardinal.North,
+        Cardinal.South,
+        Cardinal.West,
+        Cardinal.East
     };
 
     public static bool IsHorizontal(Cardinal c) => c == Cardinal.East || c == Cardinal.West;

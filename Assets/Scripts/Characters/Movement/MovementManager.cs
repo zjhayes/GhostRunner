@@ -28,7 +28,6 @@ public class MovementManager : MonoBehaviour
 
     public bool IsStopped => DirectionVector == Vector2.zero;
 
-    // Convenience for physics
     public Vector2 DirectionVector { get; private set; } = Vector2.right;
 
     public bool IsMoving
@@ -92,9 +91,6 @@ public class MovementManager : MonoBehaviour
                     // Decide direction at node center.
                     Cardinal? chosen = ChooseDirectionAtNode(targetNode);
 
-                    // Done centering.
-                    targetNode = null;
-
                     if (!chosen.HasValue)
                     {
                         Stop();
@@ -102,8 +98,11 @@ public class MovementManager : MonoBehaviour
                         break;
                     }
 
-                    ApplyDirection(chosen.Value);
-                    // Continue consuming remaining step outward in the same FixedUpdate.
+                    // Done centering.
+                    targetNode.ResolveEdge(this, chosen.Value);
+                    targetNode = null;
+
+                    // Continue consuming remaining step outward to keep transition smooth.
                     continue;
                 }
 
@@ -118,7 +117,7 @@ public class MovementManager : MonoBehaviour
                 break;
 
             newPos += DirectionVector * stepRemaining;
-            stepRemaining = 0f;
+            stepRemaining = 0f; // No more actions, no more steps needed.
         }
 
         Rigidbody.MovePosition(newPos);
@@ -156,9 +155,9 @@ public class MovementManager : MonoBehaviour
         // If we're stopped on a node, allow immediate start if valid.
         if (DirectionVector == Vector2.zero && currentNode != null)
         {
-            if (forced || currentNode.AvailableDirections.Contains(requested))
+            if (forced || currentNode.Edges.ContainsKey(requested))
             {
-                ApplyDirection(requested);
+                currentNode.ResolveEdge(this, requested);
                 NextDirection = null;
                 return;
             }
@@ -180,7 +179,7 @@ public class MovementManager : MonoBehaviour
         NextDirection = null;
     }
 
-    private void ApplyDirection(Cardinal dir)
+    public void ApplyDirection(Cardinal dir)
     {
         // If we're currently stopped, treat this as start moving in that direction.
         // If we are moving, it might be a turn/reversal.
@@ -233,9 +232,9 @@ public class MovementManager : MonoBehaviour
             lastEnteredNode = null;
     }
 
-    private Cardinal? ChooseDirectionAtNode(Node node)
+    private Cardinal? ChooseDirectionAtNode(Node node) // this needs to change
     {
-        if (NextDirection.HasValue && node.AvailableDirections.Contains(NextDirection.Value))
+        if (NextDirection.HasValue && node.Edges.ContainsKey(NextDirection.Value))
         {
             Cardinal chosen = NextDirection.Value;
             NextDirection = null;
@@ -243,7 +242,7 @@ public class MovementManager : MonoBehaviour
         }
 
         // Continue forward if possible.
-        if (DirectionVector != Vector2.zero && node.AvailableDirections.Contains(Direction))
+        if (DirectionVector != Vector2.zero && node.Edges.ContainsKey(Direction))
         {
             return Direction;
         }
