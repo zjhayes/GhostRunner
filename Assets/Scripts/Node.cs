@@ -1,40 +1,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Node : MonoBehaviour
+[DisallowMultipleComponent]
+public class Node : Cell
 {
-    [SerializeField] LayerMask obstacleLayer;
-
-    public List<Vector2> AvailableDirections { get; private set; }
-
-    private float castSize = 0.5f;
-    private float castDistance = 1.0f;
+    public Dictionary<Cardinal, EdgeNode> Edges { get; private set; }
 
     private void Awake()
     {
-        AvailableDirections = new List<Vector2>();
+        gameObject.layer = LayerMask.NameToLayer(Layer.NODES);
     }
 
     private void Start()
     {
-        CheckAvailableDirections();
+        Edges = NodeUtil.BuildEdgeMap(this, GameManager.Instance.Nodes);
     }
 
-    private void CheckIfDirectionAvailable(Vector2 direction)
+    public void ResolveEdge(MovementManager movement, Cardinal direction)
     {
-        RaycastHit2D hit = Physics2D.BoxCast(transform.position, Vector2.one * castSize, 0.0f, direction, castDistance, obstacleLayer);
-        
-        if (hit.collider == null)
+        if (Edges.TryGetValue(direction, out var edge))
         {
-            AvailableDirections.Add(direction);
+            edge.Resolve(movement, direction, this);
         }
-    }
-
-    private void CheckAvailableDirections()
-    {
-        CheckIfDirectionAvailable(Vector2.up);
-        CheckIfDirectionAvailable(Vector2.down);
-        CheckIfDirectionAvailable(Vector2.left);
-        CheckIfDirectionAvailable(Vector2.right);
     }
 }

@@ -4,10 +4,12 @@ public class GameManager : Singleton<GameManager>
 {
     [SerializeField] Ghost[] ghosts;
     [SerializeField] PlayerManager player;
+    [SerializeField] NodeManager nodeManager;
     [SerializeField] Transform collectables;
 
     public Ghost[] Ghosts {  get { return ghosts; } }
     public PlayerManager Player { get { return player; } }
+    public NodeManager Nodes { get { return nodeManager; } }
     public Transform Collectables { get { return collectables; } }
     public int Score { get; private set; }
     public int Lives { get; private set; }
@@ -65,7 +67,7 @@ public class GameManager : Singleton<GameManager>
     {
         for (int i = 0; i < Ghosts.Length; i++)
         {
-            Ghosts[i].ResetState();
+            //Ghosts[i].ResetState();
         }
     }
 

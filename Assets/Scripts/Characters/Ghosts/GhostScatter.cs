@@ -10,23 +10,56 @@ public class GhostScatter : GhostBehaviour
     private void OnTrigger(Collider2D other)
     {
         Node node = other.GetComponent<Node>();
+        if (node == null) return;
 
-        if (node != null && enabled && !Context.Frightened.enabled)
+        if (!enabled || Context.Frightened.enabled) return;
+
+        int count = node.Edges.Count;
+        if (count == 0) return;
+
+        Cardinal opposite = CardinalUtil.Opposite(Context.Ghost.Movement.Direction);
+
+        bool avoidReverse = count > 1;
+
+        Cardinal chosen = default;
+        bool hasChosen = false;
+
+        for (int attempt = 0; attempt < 6; attempt++)
         {
-            int index = Random.Range(0, node.AvailableDirections.Count);
-            
-            if (node.AvailableDirections[index] == -Context.Ghost.Movement.Direction && node.AvailableDirections.Count > 1)
-            {
-                index++;
+            int pickIndex = Random.Range(0, count);
+            int i = 0;
 
-                if (index >= node.AvailableDirections.Count)
+            foreach (Cardinal d in node.Edges.Keys)
+            {
+                if (i == pickIndex)
                 {
-                    index = 0;
+                    if (avoidReverse && d == opposite)
+                        break; // reroll
+                    chosen = d;
+                    hasChosen = true;
+                    break;
                 }
+                i++;
             }
 
-            Context.Ghost.Movement.SetDirection(node.AvailableDirections[index]);
+            if (hasChosen) break;
         }
+
+        if (!hasChosen)
+        {
+            foreach (Cardinal d in node.Edges.Keys)
+            {
+                if (avoidReverse && d == opposite)
+                    continue;
+                    
+                chosen = d;
+                hasChosen = true;
+                break;
+            }
+        }
+
+        if (hasChosen)
+            Context.Ghost.Movement.SetDirection(chosen);
     }
 
     private void OnDisable()

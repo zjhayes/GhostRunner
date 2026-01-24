@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f40c01941ce24d646bdc5a92d8428374, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ghost
+  movement: {fileID: 2269627489531168935}
   points: 200
   context: {fileID: 8251126884156391252}
 --- !u!114 &2269627489531168935
@@ -131,10 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovementManager
   speed: 7
   initialDirection: {x: 0, y: 0}
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 512
-  SpeedMultiplier: 1
+  centerEpsilon: 0.01
 --- !u!1 &3295034513337168918
 GameObject:
   m_ObjectHideFlags: 0

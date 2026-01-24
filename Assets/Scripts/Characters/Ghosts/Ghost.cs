@@ -1,10 +1,10 @@
 using UnityEngine;
 
-[RequireComponent (typeof(MovementManager))]
+[RequireComponent(typeof(MovementManager))]
 public class Ghost : CharacterManager
 {
-    [SerializeField] int points = 200;
-    [SerializeField] GhostContext context;
+    [SerializeField] private int points = 200;
+    [SerializeField] private GhostContext context;
 
     public int Points => points;
     public GhostContext Context => context;
@@ -35,12 +35,12 @@ public class Ghost : CharacterManager
                 GameManager.Instance.PlayerEaten();
             }
         }
-        else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOST))
+        else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
         {
-            Movement.SetDirection(-Movement.Direction);
+            // Reverse direction on ghost/ghost bump.
+            Movement.SetDirection(CardinalUtil.Opposite(Movement.Direction));
         }
 
         base.HandleCollision(other);
     }
-
 }
