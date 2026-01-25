@@ -59,8 +59,6 @@ public static class NodeUtil
         }
     }
 
-
-
     public static Dictionary<Cardinal, EdgeNode> BuildEdgeMap(Node node, NodeManager nodeManager)
     {
         var edges = new Dictionary<Cardinal, EdgeNode>(4);

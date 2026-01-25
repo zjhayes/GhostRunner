@@ -10,8 +10,8 @@ public class NodeManager : MonoBehaviour
     private Dictionary<Vector3Int, EdgeNode> edgeTiles;
 
     public Tilemap NodeTilemap => nodeTilemap;
-    public Dictionary<Vector3Int, Node> NodeTiles => nodeTiles;
-    public Dictionary<Vector3Int, EdgeNode> EdgeTiles => edgeTiles;
+    public Dictionary<Vector3Int, Node> Nodes => nodeTiles;
+    public Dictionary<Vector3Int, EdgeNode> Edges => edgeTiles;
 
     void Awake()
     {
