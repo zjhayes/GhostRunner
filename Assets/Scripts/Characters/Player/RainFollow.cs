@@ -20,7 +20,7 @@ public class RainFollow : MonoBehaviour
 
         Vector3 desired = target.position + followOffset;
 
-        // If player is inside any boundary → normal follow
+        // If target is inside any boundary, follow.
         if (IsInsideAnyBoundary(desired))
         {
             transform.position = desired;
