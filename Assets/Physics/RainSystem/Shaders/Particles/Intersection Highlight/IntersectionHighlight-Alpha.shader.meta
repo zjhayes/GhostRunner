@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 50cdca9a6d47bc946ad737e46d3f135f
+timeCreated: 1440728479
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76470
+  packageName: Storm VFX
+  packageVersion: 1.3.0
+  assetPath: Assets/Mirza Beig/Shaders/Particles/Intersection Highlight/IntersectionHighlight-Alpha.shader
+  uploadId: 235944

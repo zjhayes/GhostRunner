@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 022aea2c4f60b12498fd68f0e670288d
+timeCreated: 1440961891
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76470
+  packageName: Storm VFX
+  packageVersion: 1.3.0
+  assetPath: Assets/Mirza Beig/Shaders/Particles/Distortion/Distortion-Alpha.shader
+  uploadId: 235944

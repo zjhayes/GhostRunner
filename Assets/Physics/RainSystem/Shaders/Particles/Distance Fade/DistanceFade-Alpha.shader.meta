@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ac389cae077b5af45822bea04e7d7e5b
+timeCreated: 1501401544
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76470
+  packageName: Storm VFX
+  packageVersion: 1.3.0
+  assetPath: Assets/Mirza Beig/Shaders/Particles/Distance Fade/DistanceFade-Alpha.shader
+  uploadId: 235944

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 444a9ec2391eb104e890fad0c7e69883
+timeCreated: 1440680769
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76470
+  packageName: Storm VFX
+  packageVersion: 1.3.0
+  assetPath: Assets/Mirza Beig/Shaders/Particles/Intersection Highlight/IntersectionHighlight-Add.shader
+  uploadId: 235944

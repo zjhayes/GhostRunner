@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cc8394c64a9199543ac3a9c092a70906
+timeCreated: 1437246983
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 76470
+  packageName: Storm VFX
+  packageVersion: 1.3.0
+  assetPath: Assets/Mirza Beig/Shaders/Image Effects/Resources/Sharpen/Sharpen.shader
+  uploadId: 235944

@@ -130,7 +130,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HeightStrength: 2
+    - _HeightStrength: 1
     - _HideX: 0
     - _HideY: 1
     - _HideZ: 1
