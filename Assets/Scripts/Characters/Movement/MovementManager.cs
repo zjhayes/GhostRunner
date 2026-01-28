@@ -11,6 +11,7 @@ public class MovementManager : MonoBehaviour
     [SerializeField] private float centerEpsilon = 0.01f;
 
     private bool isMoving;
+    private float speedMultiplier = 1.0f;
     private Vector2 lastPosition;
 
     private Node currentNode;     // node trigger we are currently inside (may be null between nodes)
@@ -21,8 +22,6 @@ public class MovementManager : MonoBehaviour
 
     public Rigidbody2D Rigidbody { get; private set; }
     public Vector3 StartingPosition { get; private set; }
-    public float SpeedMultiplier { get; set; } = 1.0f;
-
     public Cardinal Direction { get; private set; }
     public Cardinal? NextDirection { get; private set; }
 
@@ -41,9 +40,19 @@ public class MovementManager : MonoBehaviour
         }
     }
 
-    public event Action<bool> OnMovingChanged;
+    public float SpeedMultiplier
+    { 
+        get => speedMultiplier;
+        set
+        {
+            if (Mathf.Approximately(speedMultiplier, value)) return;
+            speedMultiplier = value;
+            OnSpeedChanged?.Invoke(speedMultiplier);
+        }
+    }
 
-    // Prefer subscribing to this in other systems (lantern, shadow, anim, etc.)
+    public event Action<bool> OnMovingChanged;
+    public event Action<float> OnSpeedChanged;
     public event Action<Cardinal> OnDirectionChanged;
 
     private void Awake()
@@ -68,7 +77,7 @@ public class MovementManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float stepRemaining = speed * SpeedMultiplier * Time.fixedDeltaTime;
+        float stepRemaining = speed * speedMultiplier * Time.fixedDeltaTime;
         Vector2 newPos = Rigidbody.position;
 
         while (stepRemaining > Numeric.MILLIONTH)

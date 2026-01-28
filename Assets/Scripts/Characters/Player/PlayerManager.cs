@@ -6,6 +6,9 @@ public class PlayerManager : CharacterManager
 {
     private PlayerInput playerInput;
     private UnityEngine.InputSystem.InputAction moveAction;
+    private UnityEngine.InputSystem.InputAction runAction;
+
+    private bool isRunning = false;
 
     protected override void Awake()
     {
@@ -24,12 +27,22 @@ public class PlayerManager : CharacterManager
         Movement.SetDirection(Conversion.QuantizeToCardinal(v));
     }
 
+    private void ToggleRun()
+    {
+        isRunning = !isRunning;
+        Movement.SpeedMultiplier = isRunning ? 3f : 1.5f;
+    }
+
     private void OnEnable()
     {
         moveAction = playerInput.actions[InputAction.MOVE];
         moveAction.performed += OnMove;
         moveAction.canceled += OnMove;
         moveAction.Enable();
+
+        runAction = playerInput.actions[InputAction.RUN];
+        runAction.performed += ctx => ToggleRun();
+        runAction.Enable();
     }
 
     private void OnDisable()
@@ -39,5 +52,15 @@ public class PlayerManager : CharacterManager
         moveAction.performed -= OnMove;
         moveAction.canceled -= OnMove;
         moveAction.Disable();
+
+        runAction.performed -= ctx => ToggleRun();
+        runAction.Disable();
+    }
+
+    public override void ResetState()
+    {
+        base.ResetState();
+        isRunning = false;
+        ToggleRun();
     }
 }
