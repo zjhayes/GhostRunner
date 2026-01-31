@@ -9,7 +9,7 @@ public class GameManager : Singleton<GameManager>
 
     public Ghost[] Ghosts {  get { return ghosts; } }
     public PlayerManager Player { get { return player; } }
-    public NodeManager Nodes { get { return nodeManager; } }
+    public NodeManager NodeManager { get { return nodeManager; } }
     public Transform Collectables { get { return collectables; } }
     public int Score { get; private set; }
     public int Lives { get; private set; }

@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8956124802672132758}
-  - component: {fileID: 8360187476157599539}
+  - component: {fileID: -6491198693349759677}
   m_Layer: 10
-  m_Name: TransversalEdgeNode
+  m_Name: BlockedEdgeNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8360187476157599539
+--- !u!114 &-6491198693349759677
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,6 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1392584600400654761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40a66a596134233429f005c2ea898202, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c64348225c004141b0000b0a7ced09f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TraversalEdge
+  m_EditorClassIdentifier: Assembly-CSharp::ActionEdge
+  actionType: 1

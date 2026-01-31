@@ -6,14 +6,9 @@ public class Node : Cell
 {
     public Dictionary<Cardinal, EdgeNode> Edges { get; private set; }
 
-    private void Awake()
-    {
-        gameObject.layer = LayerMask.NameToLayer(Layer.NODES);
-    }
-
     private void Start()
     {
-        Edges = NodeUtil.BuildEdgeMap(this, GameManager.Instance.Nodes);
+        Edges = NodeUtil.BuildEdgeMap(this, GameManager.Instance.NodeManager);
     }
 
     public void ResolveEdge(MovementManager movement, Cardinal direction)

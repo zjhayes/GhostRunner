@@ -8,4 +8,9 @@ public abstract class Cell : MonoBehaviour
     {
         Position = cell;
     }
+
+    protected virtual void Awake()
+    {
+        gameObject.layer = LayerMask.NameToLayer(Layer.NODES);
+    }
 }

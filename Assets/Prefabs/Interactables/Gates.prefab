@@ -41,6 +41,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7277454768900355624}
+  - component: {fileID: 6988307654636466187}
+  - component: {fileID: 6276946671469883218}
   m_Layer: 0
   m_Name: Gates
   m_TagString: Untagged
@@ -65,6 +67,38 @@ Transform:
   - {fileID: 7735180658151267539}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6988307654636466187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082205331390181773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ab27eae35f23549b4f99d6cea7e191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gate
+  gate1: {fileID: 4082106736837134649}
+  gate2: {fileID: 7735180658151267539}
+  gate1ClosedEuler: {x: 0, y: 0, z: 0}
+  gate1OpenEuler: {x: 0, y: 0, z: 0}
+  gate2ClosedEuler: {x: 0, y: 0, z: 0}
+  gate2OpenEuler: {x: 0, y: 0, z: 0}
+  openSpeed: 90
+--- !u!114 &6276946671469883218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082205331390181773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f874b7e3d8fd0645a170992d4de4710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GateAction
+  gate: {fileID: 6988307654636466187}
 --- !u!1 &4201256918574398878
 GameObject:
   m_ObjectHideFlags: 0

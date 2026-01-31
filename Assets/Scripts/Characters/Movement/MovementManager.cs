@@ -181,7 +181,7 @@ public class MovementManager : MonoBehaviour
         SetDirection(CardinalUtil.ToVector(requested), forced);
     }
 
-    private void Stop()
+    public void Stop()
     {
         // Keep Direction as the last facing direction, but stop movement by zeroing vector.
         DirectionVector = Vector2.zero;

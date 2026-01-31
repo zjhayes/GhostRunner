@@ -55,3 +55,15 @@ public static class CardinalUtil
 
     public static bool IsOpposite(Cardinal a, Cardinal b) => Opposite(a) == b;
 }
+
+[System.Flags]
+public enum CardinalMask
+{
+    None = 0,
+    North = 1 << 0,
+    South = 1 << 1,
+    East = 1 << 2,
+    West = 1 << 3,
+
+    All = North | South | East | West
+}
