@@ -1,13 +1,14 @@
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class GateAction : NodeAction
 {
     [SerializeField] private Gate gate;
 
-    public override void OnResolve(MovementManager movement, Cardinal direction, Node node, ActionEdge edge)
+    public override void OnResolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
     {
-        movement.ApplyDirection(direction);
-        
+        character.Movement.ApplyDirection(direction);
+
         if (gate.IsOpen)
         {
             return;
@@ -18,7 +19,7 @@ public class GateAction : NodeAction
         }
         else if(edge.ActionType == ActionType.BLOCKED)
         {
-            movement.Stop();
+            character.Movement.Stop();
             return;
         }
     }

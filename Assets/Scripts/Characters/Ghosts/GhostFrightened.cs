@@ -45,7 +45,7 @@ public class GhostFrightened : GhostBehaviour
 
         blue.enabled = false;
         white.enabled = true;
-        white.GetComponent<SpriteAnimator>().Restart();
+        //white.GetComponent<SpriteAnimator>().Restart();
     }
 
     private void Eaten()

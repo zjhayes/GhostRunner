@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 91ce749485eff7a4c94ef3f858ece9ec
+guid: 8c4e9c1f2236804489d686bc70f82507
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1930096897540647520
-    second: teleport_1a_0
+      213: -4927055229324438513
+    second: torch_edge_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: teleport_1a_0
+      name: torch_edge_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06a6ef7f6e419ca10800000000000000
-      internalID: 1930096897540647520
+      spriteID: f04d263af559f9bb0800000000000000
+      internalID: -4927055229324438513
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      teleport_1a_0: 1930096897540647520
+      torch_edge_0: -4927055229324438513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

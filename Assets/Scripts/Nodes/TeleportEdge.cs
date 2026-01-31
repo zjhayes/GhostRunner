@@ -13,7 +13,7 @@ public class TeleportEdge : EdgeNode
         //targetNode = NodeUtil.FindNodeByTeleportId(this, teleportId);
     }
 
-    public override void Resolve(MovementManager movement, Cardinal direction, Node node)
+    public override void Resolve(CharacterManager character, Cardinal direction, Node node)
     {
         if (targetNode == null)
         {

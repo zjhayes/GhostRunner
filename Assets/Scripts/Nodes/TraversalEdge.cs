@@ -1,8 +1,8 @@
 
 public class TraversalEdge : EdgeNode
 {
-    public override void Resolve(MovementManager movement, Cardinal direction, Node node)
+    public override void Resolve(CharacterManager character, Cardinal direction, Node node)
     {
-        movement.ApplyDirection(direction);
+        character.Movement.ApplyDirection(direction);
     }
 }

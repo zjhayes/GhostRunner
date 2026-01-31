@@ -29,6 +29,8 @@ public class MovementManager : MonoBehaviour
 
     public Vector2 DirectionVector { get; private set; } = Vector2.right;
 
+    public event Action<Node, Cardinal> OnResolveEdge;
+
     public bool IsMoving
     {
         get => isMoving;
@@ -108,7 +110,7 @@ public class MovementManager : MonoBehaviour
                     }
 
                     // Done centering.
-                    targetNode.ResolveEdge(this, chosen.Value);
+                    ResolveEdge(targetNode, chosen.Value);
                     targetNode = null;
 
                     // Continue consuming remaining step outward to keep transition smooth.
@@ -166,7 +168,7 @@ public class MovementManager : MonoBehaviour
         {
             if (forced || currentNode.Edges.ContainsKey(requested))
             {
-                currentNode.ResolveEdge(this, requested);
+                ResolveEdge(currentNode, requested);
                 NextDirection = null;
                 return;
             }
@@ -196,6 +198,11 @@ public class MovementManager : MonoBehaviour
         DirectionVector = CardinalUtil.ToVector(dir);
 
         OnDirectionChanged?.Invoke(Direction);
+    }
+
+    private void ResolveEdge(Node node, Cardinal direction)
+    {
+        OnResolveEdge?.Invoke(node, direction);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

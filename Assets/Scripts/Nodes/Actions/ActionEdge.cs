@@ -9,11 +9,11 @@ public class ActionEdge : EdgeNode
 
     private List<NodeAction> actions = new List<NodeAction>();
 
-    public override void Resolve(MovementManager movement, Cardinal direction, Node node)
+    public override void Resolve(CharacterManager character, Cardinal direction, Node node)
     {
         foreach (var action in actions)
         {
-            action.Resolve(movement, direction, node, this);
+            action.Resolve(character, direction, node, this);
         }
     }
 

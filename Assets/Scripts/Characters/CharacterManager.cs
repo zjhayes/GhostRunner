@@ -13,6 +13,11 @@ public abstract class CharacterManager : MonoBehaviour
         Movement = GetComponent<MovementManager>();
     }
 
+    protected virtual void Start()
+    {
+        Movement.OnResolveEdge += HandleResolveEdge;
+    }
+
     public virtual void ResetState()
     {
         Movement.ResetState();
@@ -22,6 +27,11 @@ public abstract class CharacterManager : MonoBehaviour
     public virtual void Active(bool enabled = true)
     {
         gameObject.SetActive(enabled);
+    }
+
+    protected virtual void HandleResolveEdge(Node node, Cardinal direction)
+    {
+        node.ResolveEdge(this, direction);
     }
 
     protected virtual void HandleCollision(Collision2D other)

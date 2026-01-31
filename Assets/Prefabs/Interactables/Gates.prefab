@@ -81,10 +81,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Gate
   gate1: {fileID: 4082106736837134649}
   gate2: {fileID: 7735180658151267539}
-  gate1ClosedEuler: {x: 0, y: 0, z: 0}
-  gate1OpenEuler: {x: 0, y: 0, z: 0}
-  gate2ClosedEuler: {x: 0, y: 0, z: 0}
-  gate2OpenEuler: {x: 0, y: 0, z: 0}
+  rotationAxis: 2
+  gate1ClosedAngle: 0
+  gate1OpenAngle: 0
+  gate2ClosedAngle: 0
+  gate2OpenAngle: 0
   openSpeed: 90
 --- !u!114 &6276946671469883218
 MonoBehaviour:
@@ -98,6 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f874b7e3d8fd0645a170992d4de4710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GateAction
+  range: 1
+  offset: {x: 0, y: 0, z: 0}
+  directions: -1
+  allowedActions: 0000000001000000
   gate: {fileID: 6988307654636466187}
 --- !u!1 &4201256918574398878
 GameObject:

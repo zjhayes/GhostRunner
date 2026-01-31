@@ -11,11 +11,11 @@ public class Node : Cell
         Edges = NodeUtil.BuildEdgeMap(this, GameManager.Instance.NodeManager);
     }
 
-    public void ResolveEdge(MovementManager movement, Cardinal direction)
+    public void ResolveEdge(CharacterManager character, Cardinal direction)
     {
         if (Edges.TryGetValue(direction, out var edge))
         {
-            edge.Resolve(movement, direction, this);
+            edge.Resolve(character, direction, this);
         }
     }
 }

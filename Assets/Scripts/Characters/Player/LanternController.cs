@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class LanternController : MonoBehaviour
 {
+    [Header("Lantern Light")]
     [SerializeField] private Light lanternLight;
+    [SerializeField] private Color defaultLanternColor = Color.white;
 
     [Header("Lantern Sockets")]
     [SerializeField] private Transform eastSocket;
@@ -24,8 +26,6 @@ public class LanternController : MonoBehaviour
     [SerializeField] private float phaseOffset = 0f;
     [SerializeField] private float offsetBlendSpeed = 20f;
 
-    private Vector3 targetLocalOffset;
-
     [Header("Run Hold Offsets")]
     [SerializeField] private Vector3 northRunOffset;
     [SerializeField] private Vector3 southRunOffset;
@@ -38,6 +38,13 @@ public class LanternController : MonoBehaviour
     [SerializeField] private Vector3 eastWalkOffset;
     [SerializeField] private Vector3 westWalkOffset;
 
+    private Transform activeSocket;
+    private Vector3 swingAxisLocal;
+    private Vector3 runOffsetLocal;
+    private Vector3 walkOffsetLocal;
+    private Vector3 currentLocalOffset;
+    private Vector3 targetLocalOffset;
+
     private enum LanternMotionState
     {
         Idle,
@@ -45,29 +52,12 @@ public class LanternController : MonoBehaviour
         Run
     }
 
-    private Transform activeSocket;
-    private Vector3 swingAxisLocal;
-    private Vector3 runOffsetLocal;
-    private Vector3 walkOffsetLocal;
-    private Vector3 currentLocalOffset;
-
     private void Awake()
     {
         if (!movement) movement = GetComponentInParent<MovementManager>();
         if (!lanternLight) lanternLight = GetComponentInChildren<Light>();
         if (!animator) animator = GetComponentInParent<Animator>();
-    }
-
-    private void OnEnable()
-    {
-        if (movement != null)
-            movement.OnDirectionChanged += HandleDirectionChanged;
-    }
-
-    private void OnDisable()
-    {
-        if (movement != null)
-            movement.OnDirectionChanged -= HandleDirectionChanged;
+        SetLanternColor(defaultLanternColor);
     }
 
     private void Start()
@@ -104,6 +94,14 @@ public class LanternController : MonoBehaviour
         );
 
         lanternLight.transform.localPosition = currentLocalOffset;
+    }
+
+    public void SetLanternColor(Color color)
+    {
+        if (!lanternLight)
+            return;
+
+        lanternLight.color = color;
     }
 
     private LanternMotionState ResolveState()
@@ -163,6 +161,18 @@ public class LanternController : MonoBehaviour
 
         currentLocalOffset = Vector3.zero;
         lanternLight.transform.localPosition = Vector3.zero;
+    }
+
+    private void OnEnable()
+    {
+        if (movement != null)
+            movement.OnDirectionChanged += HandleDirectionChanged;
+    }
+
+    private void OnDisable()
+    {
+        if (movement != null)
+            movement.OnDirectionChanged -= HandleDirectionChanged;
     }
 
     private Vector3 GetSwingAxisLocal(Cardinal dir)

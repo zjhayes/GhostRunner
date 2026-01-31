@@ -1,5 +1,5 @@
 
 public abstract class EdgeNode : Cell
 {
-    public abstract void Resolve(MovementManager movement, Cardinal direction, Node node);
+    public abstract void Resolve(CharacterManager character, Cardinal direction, Node node);
 }

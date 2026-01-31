@@ -1,22 +1,25 @@
+using System.Linq;
 using UnityEngine;
 
 public abstract class NodeAction : MonoBehaviour
 {
     [Header("Edge Detection")]
-    [SerializeField] int range = 3;
-    [SerializeField] private Vector3 offset;
-    [SerializeField] private CardinalMask directions = CardinalMask.All;
+    [SerializeField] int range = 1;
+    [SerializeField] Vector3 offset;
+    [SerializeField] CardinalMask directions = CardinalMask.All;
+    [SerializeField] ActionType[] allowedActions;
 
     private void Start()
     {
         SubscribeToEdges();
     }
 
-    public void Resolve(MovementManager movement, Cardinal direction, Node node, ActionEdge edge)
+    public void Resolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
     {
-        OnResolve(movement, direction, node, edge);
+        OnResolve(character, direction, node, edge);
     }
-    public abstract void OnResolve(MovementManager movement, Cardinal direction, Node node, ActionEdge edge);
+
+    public abstract void OnResolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge);
 
     protected virtual void SubscribeToEdges()
     {
@@ -26,7 +29,8 @@ public abstract class NodeAction : MonoBehaviour
         if (nodeManager.TryGetEdgeAtPosition<ActionEdge>(
             transform.position,
             offset,
-            out var currentEdge))
+            out var currentEdge) &&
+            IsActionAllowed(currentEdge))
         {
             currentEdge.Subscribe(this);
         }
@@ -42,12 +46,23 @@ public abstract class NodeAction : MonoBehaviour
                 offset,
                 dir,
                 range,
-                out var actionEdge
-            ))
+                out var actionEdge) &&
+                IsActionAllowed(actionEdge))
             {
                 actionEdge.Subscribe(this);
             }
         }
+    }
+
+    private bool IsActionAllowed(ActionEdge edge)
+    {
+        if (allowedActions == null || allowedActions.Length == 0)
+            return true; // empty, accept all
+
+        if (allowedActions.Contains(edge.ActionType))
+            return true;
+
+        return false;
     }
 
     private bool IsDirectionEnabled(Cardinal dir)

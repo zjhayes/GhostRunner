@@ -4,11 +4,15 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerManager : CharacterManager
 {
+    [SerializeField] LanternController lanternController;
+
     private PlayerInput playerInput;
-    private UnityEngine.InputSystem.InputAction moveAction;
-    private UnityEngine.InputSystem.InputAction runAction;
+    private InputAction moveAction;
+    private InputAction runAction;
 
     private bool isRunning = false;
+
+    public LanternController Lantern => lanternController;
 
     protected override void Awake()
     {
@@ -16,7 +20,7 @@ public class PlayerManager : CharacterManager
         playerInput = GetComponent<PlayerInput>();
     }
 
-    private void OnMove(UnityEngine.InputSystem.InputAction.CallbackContext ctx)
+    private void OnMove(InputAction.CallbackContext ctx)
     {
         Vector2 v = ctx.ReadValue<Vector2>();
 
@@ -35,12 +39,12 @@ public class PlayerManager : CharacterManager
 
     private void OnEnable()
     {
-        moveAction = playerInput.actions[InputAction.MOVE];
+        moveAction = playerInput.actions[InputBinding.MOVE];
         moveAction.performed += OnMove;
         moveAction.canceled += OnMove;
         moveAction.Enable();
 
-        runAction = playerInput.actions[InputAction.RUN];
+        runAction = playerInput.actions[InputBinding.RUN];
         runAction.performed += ctx => ToggleRun();
         runAction.Enable();
     }

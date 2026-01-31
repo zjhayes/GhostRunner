@@ -16,7 +16,7 @@ public class Ghost : CharacterManager
         context.Ghost = this;
     }
 
-    private void Start()
+    protected override void Start()
     {
         ResetState();
         Target = GameManager.Instance.Player.transform;

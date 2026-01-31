@@ -115,7 +115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f40c01941ce24d646bdc5a92d8428374, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ghost
-  movement: {fileID: 2269627489531168935}
   points: 200
   context: {fileID: 8251126884156391252}
 --- !u!114 &2269627489531168935
@@ -143,7 +142,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3638085160049770185}
   - component: {fileID: 298619573340131837}
-  - component: {fileID: 3302335168121698195}
   m_Layer: 7
   m_Name: White
   m_TagString: Untagged
@@ -224,26 +222,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3302335168121698195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3295034513337168918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b24782b4f1fcd724b9fc51c65354fc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpriteAnimator
-  sprites:
-  - {fileID: 21300000, guid: 7031ccde0b7585f4593ec9ccd2626e05, type: 3}
-  - {fileID: 21300000, guid: d5e15c75b88558b469ecc97990cce215, type: 3}
-  - {fileID: 21300000, guid: a66fca21a2eaf43459e2fbb561e630d6, type: 3}
-  - {fileID: 21300000, guid: 0046507bc33d04343a6bcbf90288aff2, type: 3}
-  animationTime: 0.25
-  loop: 1
-  bounce: 0
 --- !u!1 &4060376152212501028
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +339,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6433672953240255056}
   - component: {fileID: 6938644076454448531}
-  - component: {fileID: 8773712838169306821}
   m_Layer: 7
   m_Name: Body
   m_TagString: Untagged
@@ -442,24 +419,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8773712838169306821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5989263486987204282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b24782b4f1fcd724b9fc51c65354fc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpriteAnimator
-  sprites:
-  - {fileID: 21300000, guid: afc3b534b8a93544984cf1676ba61ae4, type: 3}
-  - {fileID: 21300000, guid: 6f51e42bf59063c4ab7a5608a42bd23d, type: 3}
-  animationTime: 0.25
-  loop: 1
-  bounce: 0
 --- !u!1 &6921736843534166139
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,7 +429,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1248775395626089978}
   - component: {fileID: 3676329853098496302}
-  - component: {fileID: 5633119696535293206}
   m_Layer: 7
   m_Name: Blue
   m_TagString: Untagged
@@ -551,24 +509,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5633119696535293206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6921736843534166139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b24782b4f1fcd724b9fc51c65354fc60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpriteAnimator
-  sprites:
-  - {fileID: 21300000, guid: 7031ccde0b7585f4593ec9ccd2626e05, type: 3}
-  - {fileID: 21300000, guid: d5e15c75b88558b469ecc97990cce215, type: 3}
-  animationTime: 0.25
-  loop: 1
-  bounce: 0
 --- !u!1 &7104901568073887565
 GameObject:
   m_ObjectHideFlags: 0
