@@ -29,7 +29,7 @@ public class Gate : MonoBehaviour
         SetGateRotation(closed: true);
     }
 
-    private void Update()
+    private void Update() // TODO: Move to coroutine
     {
         if (!isOpening)
             return;
