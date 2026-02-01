@@ -10,11 +10,11 @@ public class Torch : MonoBehaviour
     [Header("Flame Settings")]
     [ColorUsage(true, true)]
     [SerializeField] private Color flameColor = Color.white;
-    [SerializeField] private Color lightColor = Color.white;
+    [SerializeField] private LanternColor lightColor = LanternColor.ORANGE;
 
-    public Color LightColor => lightColor;
+    public LanternColor LightColor => lightColor;
 
-    private static readonly int VfxColorId = Shader.PropertyToID("Color");
+    private static readonly int VfxColorId = Shader.PropertyToID(ShaderProperty.FIRE_COLOR);
 
     private void Awake()
     {
@@ -28,7 +28,7 @@ public class Torch : MonoBehaviour
         ApplyFlameColor(color);
     }
 
-    public void SetParticleLightColor(Color color)
+    public void SetParticleLightColor(LanternColor color)
     {
         lightColor = color;
         ApplyParticleColor(color);
@@ -42,13 +42,13 @@ public class Torch : MonoBehaviour
         }
     }
 
-    private void ApplyParticleColor(Color color)
+    private void ApplyParticleColor(LanternColor color)
     {
         if (flameParticles == null)
             return;
 
         var main = flameParticles.main;
-        main.startColor = color;
+        main.startColor = LanternColorUtil.ToColor(color);
     }
 
     public void Light()

@@ -4,7 +4,7 @@ public class LanternController : MonoBehaviour
 {
     [Header("Lantern Light")]
     [SerializeField] private Light lanternLight;
-    [SerializeField] private Color defaultLanternColor = Color.white;
+    [SerializeField] private LanternColor defaultLanternColor = LanternColor.DEFAULT;
 
     [Header("Lantern Sockets")]
     [SerializeField] private Transform eastSocket;
@@ -38,12 +38,16 @@ public class LanternController : MonoBehaviour
     [SerializeField] private Vector3 eastWalkOffset;
     [SerializeField] private Vector3 westWalkOffset;
 
+    private LanternColor currentColor;
     private Transform activeSocket;
     private Vector3 swingAxisLocal;
     private Vector3 runOffsetLocal;
     private Vector3 walkOffsetLocal;
     private Vector3 currentLocalOffset;
     private Vector3 targetLocalOffset;
+
+    public Light Light => lanternLight;
+    public LanternColor Color => currentColor;
 
     private enum LanternMotionState
     {
@@ -57,7 +61,8 @@ public class LanternController : MonoBehaviour
         if (!movement) movement = GetComponentInParent<MovementManager>();
         if (!lanternLight) lanternLight = GetComponentInChildren<Light>();
         if (!animator) animator = GetComponentInParent<Animator>();
-        SetLanternColor(defaultLanternColor);
+        currentColor = defaultLanternColor;
+        SetLanternColor(currentColor);
     }
 
     private void Start()
@@ -96,12 +101,13 @@ public class LanternController : MonoBehaviour
         lanternLight.transform.localPosition = currentLocalOffset;
     }
 
-    public void SetLanternColor(Color color)
+    public void SetLanternColor(LanternColor color)
     {
         if (!lanternLight)
             return;
 
-        lanternLight.color = color;
+        lanternLight.color = LanternColorUtil.ToColor(color);
+        currentColor = color;
     }
 
     private LanternMotionState ResolveState()
