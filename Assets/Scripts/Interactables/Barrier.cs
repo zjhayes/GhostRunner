@@ -35,10 +35,8 @@ public class Barrier : MonoBehaviour
     void Update()
     {
         if (!lantern) return;
-        
-        Shader.SetGlobalVector(LanternPosId, lantern.transform.position);
-        Shader.SetGlobalFloat(LanternRadiusId, lantern.Light.range);
-        Shader.SetGlobalFloat(LanternColorId, (float)lantern.Color);
+
+        SetGlobalProperties();
 
         float distance = Vector3.Distance(
             lantern.transform.position,
@@ -55,6 +53,18 @@ public class Barrier : MonoBehaviour
         currentVisibility = distanceFactor * colorMatch;
 
         barrierCollider.enabled = currentVisibility < passThroughThreshold;
+    }
+
+    void OnEnable()
+    {
+        SetGlobalProperties();
+    }
+
+    private void SetGlobalProperties()
+    {
+        Shader.SetGlobalVector(LanternPosId, lantern.transform.position);
+        Shader.SetGlobalFloat(LanternRadiusId, lantern.Light.range);
+        Shader.SetGlobalFloat(LanternColorId, (float)lantern.Color);
     }
 
 }
