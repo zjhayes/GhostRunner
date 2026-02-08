@@ -18,6 +18,7 @@ public class Ghost : CharacterManager
 
     protected override void Start()
     {
+        base.Start();
         ResetState();
         Target = GameManager.Instance.Player.transform;
     }
@@ -42,5 +43,11 @@ public class Ghost : CharacterManager
         }
 
         base.HandleCollision(other);
+    }
+
+    public void TurnAround()
+    {
+        Cardinal newDirection = CardinalUtil.Opposite(Movement.Direction);
+        Movement.SetDirection(newDirection);
     }
 }

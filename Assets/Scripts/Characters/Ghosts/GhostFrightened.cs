@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GhostFrightened : GhostBehaviour
@@ -13,7 +14,6 @@ public class GhostFrightened : GhostBehaviour
     {
         Context.Ghost.Movement.SpeedMultiplier = 0.5f;
         Context.Ghost.OnCollisionEntered += OnCollision;
-        Context.Ghost.OnTriggerEnter += OnTrigger;
     }
 
     public override void Enable(float duration)
@@ -75,36 +75,37 @@ public class GhostFrightened : GhostBehaviour
         }
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
+        base.OnDisable();
         Context.Ghost.Movement.SpeedMultiplier = 1.0f;
         Context.Ghost.OnCollisionEntered -= OnCollision;
-        Context.Ghost.OnTriggerEnter -= OnTrigger;
         eaten = false;
     }
 
-    private void OnTrigger(Collider2D other)
+    protected override bool TryPickDirection(Node node, IReadOnlyList<Cardinal> candidates, out Cardinal chosen)
     {
-        Node node = other.GetComponent<Node>();
-        if (!enabled || node == null) return;
+        chosen = default;
+        if (candidates.Count == 0)
+            return false;
 
-        Cardinal? best = null;
+        bool hasBest = false;
         float maxDistance = float.MinValue;
 
-        foreach (Cardinal available in node.Edges.Keys)
+        foreach (Cardinal available in candidates)
         {
             Vector2 step = CardinalUtil.ToVector(available);
-            Vector3 newPosition = transform.position + new Vector3(step.x, step.y, 0f);
+            Vector3 newPosition = node.transform.position + new Vector3(step.x, step.y, 0f);
 
             float distance = (Context.Ghost.Target.position - newPosition).sqrMagnitude;
             if (distance > maxDistance)
             {
                 maxDistance = distance;
-                best = available;
+                chosen = available;
+                hasBest = true;
             }
         }
 
-        if (best.HasValue)
-            Context.Ghost.Movement.SetDirection(best.Value);
+        return hasBest;
     }
 }

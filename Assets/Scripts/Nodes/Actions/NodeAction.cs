@@ -16,10 +16,27 @@ public abstract class NodeAction : MonoBehaviour
 
     public void Resolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
     {
-        OnResolve(character, direction, node, edge);
+        if (allowedActions.Contains(edge.ActionType))
+        {
+            OnResolve(character, direction, node, edge);
+        }
     }
 
-    public abstract void OnResolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge);
+    public void OnResolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
+    {
+        if (character is PlayerManager player)
+        {
+            OnResolvePlayer(player, direction, node, edge);
+        }
+        else if (character is Ghost ghost)
+        {
+            OnResolveGhost(ghost, direction, node, edge);
+        }
+    }
+
+    protected abstract void OnResolvePlayer(PlayerManager player, Cardinal direction, Node node, ActionEdge edge);
+
+    protected abstract void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge);
 
     protected virtual void SubscribeToEdges()
     {

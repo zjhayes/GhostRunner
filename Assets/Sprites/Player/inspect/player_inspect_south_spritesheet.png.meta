@@ -1,0 +1,2691 @@
+fileFormatVersion: 2
+guid: d10ce9bd9aeb51244a4962e55021cd36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3159960349939031902
+    second: player_inspect_south_spritesheet_0
+  - first:
+      213: 1438361203592642689
+    second: player_inspect_south_spritesheet_1
+  - first:
+      213: -5623666489826167526
+    second: player_inspect_south_spritesheet_2
+  - first:
+      213: 1797019120390321684
+    second: player_inspect_south_spritesheet_3
+  - first:
+      213: -8240124032808734084
+    second: player_inspect_south_spritesheet_4
+  - first:
+      213: 2468343484793877276
+    second: player_inspect_south_spritesheet_5
+  - first:
+      213: -306476672579736716
+    second: player_inspect_south_spritesheet_6
+  - first:
+      213: -7501860873197829228
+    second: player_inspect_south_spritesheet_7
+  - first:
+      213: -5548394663820401405
+    second: player_inspect_south_spritesheet_8
+  - first:
+      213: 1880277238592959164
+    second: player_inspect_south_spritesheet_9
+  - first:
+      213: 5167509051601967991
+    second: player_inspect_south_spritesheet_10
+  - first:
+      213: -7122826168515242467
+    second: player_inspect_south_spritesheet_11
+  - first:
+      213: -7278948255417790389
+    second: player_inspect_south_spritesheet_12
+  - first:
+      213: -7529879358874686501
+    second: player_inspect_south_spritesheet_13
+  - first:
+      213: -5224073471184607851
+    second: player_inspect_south_spritesheet_14
+  - first:
+      213: 6121765802221331914
+    second: player_inspect_south_spritesheet_15
+  - first:
+      213: 7943923362115212976
+    second: player_inspect_south_spritesheet_16
+  - first:
+      213: 5816366562319370956
+    second: player_inspect_south_spritesheet_17
+  - first:
+      213: 3348475438446511046
+    second: player_inspect_south_spritesheet_18
+  - first:
+      213: -2812869009048398436
+    second: player_inspect_south_spritesheet_19
+  - first:
+      213: -5011475016670831841
+    second: player_inspect_south_spritesheet_20
+  - first:
+      213: 8058193376548163658
+    second: player_inspect_south_spritesheet_21
+  - first:
+      213: 2505094191285530085
+    second: player_inspect_south_spritesheet_22
+  - first:
+      213: 7293799870626554701
+    second: player_inspect_south_spritesheet_23
+  - first:
+      213: -2239336623084678106
+    second: player_inspect_south_spritesheet_24
+  - first:
+      213: -1121031086473669999
+    second: player_inspect_south_spritesheet_25
+  - first:
+      213: -7048678950112246402
+    second: player_inspect_south_spritesheet_26
+  - first:
+      213: 518866877874281179
+    second: player_inspect_south_spritesheet_27
+  - first:
+      213: -8531196871772969546
+    second: player_inspect_south_spritesheet_28
+  - first:
+      213: 1251289334512932968
+    second: player_inspect_south_spritesheet_29
+  - first:
+      213: -9054469650626716129
+    second: player_inspect_south_spritesheet_30
+  - first:
+      213: 4158010533632552907
+    second: player_inspect_south_spritesheet_31
+  - first:
+      213: 3271107204067725717
+    second: player_inspect_south_spritesheet_32
+  - first:
+      213: 1240720037206318778
+    second: player_inspect_south_spritesheet_33
+  - first:
+      213: -5858185800468387778
+    second: player_inspect_south_spritesheet_34
+  - first:
+      213: 9135885035166444409
+    second: player_inspect_south_spritesheet_35
+  - first:
+      213: -7162793965474460767
+    second: player_inspect_south_spritesheet_36
+  - first:
+      213: -3412735046480742701
+    second: player_inspect_south_spritesheet_37
+  - first:
+      213: -7865014195619784631
+    second: player_inspect_south_spritesheet_38
+  - first:
+      213: 119019621684496256
+    second: player_inspect_south_spritesheet_39
+  - first:
+      213: 4049761877453716672
+    second: player_inspect_south_spritesheet_40
+  - first:
+      213: -8819062970560171660
+    second: player_inspect_south_spritesheet_41
+  - first:
+      213: 2449438512029881239
+    second: player_inspect_south_spritesheet_42
+  - first:
+      213: -3478803615119812329
+    second: player_inspect_south_spritesheet_43
+  - first:
+      213: -3684999106599511293
+    second: player_inspect_south_spritesheet_44
+  - first:
+      213: 553527765735745720
+    second: player_inspect_south_spritesheet_45
+  - first:
+      213: -2035128961915283837
+    second: player_inspect_south_spritesheet_46
+  - first:
+      213: -6631313401657799021
+    second: player_inspect_south_spritesheet_47
+  - first:
+      213: 8660537825450532443
+    second: player_inspect_south_spritesheet_48
+  - first:
+      213: -132425837585655045
+    second: player_inspect_south_spritesheet_49
+  - first:
+      213: -8134644472982006418
+    second: player_inspect_south_spritesheet_50
+  - first:
+      213: 2119301572948517003
+    second: player_inspect_south_spritesheet_51
+  - first:
+      213: -6348688793536877131
+    second: player_inspect_south_spritesheet_52
+  - first:
+      213: -4243346733476670156
+    second: player_inspect_south_spritesheet_53
+  - first:
+      213: -7285689661214890566
+    second: player_inspect_south_spritesheet_54
+  - first:
+      213: 2306193728898150594
+    second: player_inspect_south_spritesheet_55
+  - first:
+      213: 3828335691029029287
+    second: player_inspect_south_spritesheet_56
+  - first:
+      213: -6086807173908480601
+    second: player_inspect_south_spritesheet_57
+  - first:
+      213: -3322662343300233972
+    second: player_inspect_south_spritesheet_58
+  - first:
+      213: 1357622940689008153
+    second: player_inspect_south_spritesheet_59
+  - first:
+      213: -7527450964066439889
+    second: player_inspect_south_spritesheet_60
+  - first:
+      213: 3153972945397746846
+    second: player_inspect_south_spritesheet_61
+  - first:
+      213: 6008389353483192984
+    second: player_inspect_south_spritesheet_62
+  - first:
+      213: 1197900952663974826
+    second: player_inspect_south_spritesheet_63
+  - first:
+      213: 3377011559762436407
+    second: player_inspect_south_spritesheet_64
+  - first:
+      213: 1393400918720659699
+    second: player_inspect_south_spritesheet_65
+  - first:
+      213: 1514695994879761903
+    second: player_inspect_south_spritesheet_66
+  - first:
+      213: 264550643196767044
+    second: player_inspect_south_spritesheet_67
+  - first:
+      213: 115730550800235835
+    second: player_inspect_south_spritesheet_68
+  - first:
+      213: 1737358469752692624
+    second: player_inspect_south_spritesheet_69
+  - first:
+      213: -5149550309341658344
+    second: player_inspect_south_spritesheet_70
+  - first:
+      213: 6928095643799389322
+    second: player_inspect_south_spritesheet_71
+  - first:
+      213: -1275145951127045664
+    second: player_inspect_south_spritesheet_72
+  - first:
+      213: -6023116686881204177
+    second: player_inspect_south_spritesheet_73
+  - first:
+      213: -5748705348886694486
+    second: player_inspect_south_spritesheet_74
+  - first:
+      213: 143978763754026670
+    second: player_inspect_south_spritesheet_75
+  - first:
+      213: 2536791275906901931
+    second: player_inspect_south_spritesheet_76
+  - first:
+      213: -4419550844088086641
+    second: player_inspect_south_spritesheet_77
+  - first:
+      213: -1739042942655264396
+    second: player_inspect_south_spritesheet_78
+  - first:
+      213: -5182248845694647755
+    second: player_inspect_south_spritesheet_79
+  - first:
+      213: -8292510751797204854
+    second: player_inspect_south_spritesheet_80
+  - first:
+      213: -3143907354002865735
+    second: player_inspect_south_spritesheet_81
+  - first:
+      213: -679039214447591630
+    second: player_inspect_south_spritesheet_82
+  - first:
+      213: -8680331571030007556
+    second: player_inspect_south_spritesheet_83
+  - first:
+      213: -6328239994387737085
+    second: player_inspect_south_spritesheet_84
+  - first:
+      213: -5656150866008377999
+    second: player_inspect_south_spritesheet_85
+  - first:
+      213: -6378515639236360209
+    second: player_inspect_south_spritesheet_86
+  - first:
+      213: -1698630986762159426
+    second: player_inspect_south_spritesheet_87
+  - first:
+      213: 28999437460091466
+    second: player_inspect_south_spritesheet_88
+  - first:
+      213: -2874015486652762078
+    second: player_inspect_south_spritesheet_89
+  - first:
+      213: -3304108821783239849
+    second: player_inspect_south_spritesheet_90
+  - first:
+      213: 8245050903177301765
+    second: player_inspect_south_spritesheet_91
+  - first:
+      213: -4504229020512890617
+    second: player_inspect_south_spritesheet_92
+  - first:
+      213: 1382962535490024514
+    second: player_inspect_south_spritesheet_93
+  - first:
+      213: 4895695784212687587
+    second: player_inspect_south_spritesheet_94
+  - first:
+      213: 3887552012232019101
+    second: player_inspect_south_spritesheet_95
+  - first:
+      213: 7698937137636979576
+    second: player_inspect_south_spritesheet_96
+  - first:
+      213: -6123132751153487033
+    second: player_inspect_south_spritesheet_97
+  - first:
+      213: 2197082218923719406
+    second: player_inspect_south_spritesheet_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0a09dcdc09524d0800000000000000
+      internalID: -3159960349939031902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180c7d6d4e516f310800000000000000
+      internalID: 1438361203592642689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15b4aa7f19b4f1b0800000000000000
+      internalID: -5623666489826167526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41633757e5b40f810800000000000000
+      internalID: 1797019120390321684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72b647a9d235ad80800000000000000
+      internalID: -8240124032808734084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13f9c25251514220800000000000000
+      internalID: 2468343484793877276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47be0fe071d2fbbf0800000000000000
+      internalID: -306476672579736716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 6222
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49344aa484904e790800000000000000
+      internalID: -7501860873197829228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 5710
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305ef4d23742003b0800000000000000
+      internalID: -5548394663820401405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5710
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2f595bf26181a10800000000000000
+      internalID: 1880277238592959164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 5710
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bd9529a1ea6b740800000000000000
+      internalID: 5167509051601967991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 5710
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16dacc8653a62d90800000000000000
+      internalID: -7122826168515242467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 5710
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b409f51902bfbfa90800000000000000
+      internalID: -7278948255417790389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 5710
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb6abc3e9e708790800000000000000
+      internalID: -7529879358874686501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 5710
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595ef753bdc5087b0800000000000000
+      internalID: -5224073471184607851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 5710
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac569870091e4f450800000000000000
+      internalID: 6121765802221331914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 5198
+        width: 323
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6ddc9853c7e3e60800000000000000
+      internalID: 7943923362115212976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5198
+        width: 323
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca818e6292e7b050800000000000000
+      internalID: 5816366562319370956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 5198
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c389b79bac287e20800000000000000
+      internalID: 3348475438446511046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 5198
+        width: 322
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9517fb1a8ea6f8d0800000000000000
+      internalID: -2812869009048398436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 5198
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b1796360aa37ab0800000000000000
+      internalID: -5011475016670831841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 5198
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a401f8c8e2474df60800000000000000
+      internalID: 8058193376548163658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 5198
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ede778f4e1e3c220800000000000000
+      internalID: 2505094191285530085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 5198
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d436c7f8658c83560800000000000000
+      internalID: 7293799870626554701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 4686
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624d380b4374ce0e0800000000000000
+      internalID: -2239336623084678106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4686
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19211949a2c4170f0800000000000000
+      internalID: -1121031086473669999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 4686
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7549c227df0e2e90800000000000000
+      internalID: -7048678950112246402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 4686
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda99652da2633700800000000000000
+      internalID: 518866877874281179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 4686
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b56c0535a91b9980800000000000000
+      internalID: -8531196871772969546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 4686
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868d0e625097d5110800000000000000
+      internalID: 1251289334512932968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 4686
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ed6dc43df085280800000000000000
+      internalID: -9054469650626716129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 4686
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf208ddc8834b930800000000000000
+      internalID: 4158010533632552907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 4174
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5919da8cbae456d20800000000000000
+      internalID: 3271107204067725717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 4174
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe546bdc4ce73110800000000000000
+      internalID: 1240720037206318778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 4174
+        width: 320
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3828de6d0b83bea0800000000000000
+      internalID: -5858185800468387778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 4174
+        width: 320
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b27e5190f29ce70800000000000000
+      internalID: 9135885035166444409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 4174
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab4598a6d4a89c90800000000000000
+      internalID: -7162793965474460767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 4174
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d63df18e8783a0d0800000000000000
+      internalID: -3412735046480742701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 4174
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9489dac724bd9d290800000000000000
+      internalID: -7865014195619784631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 4174
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0874ecf17b7d6a100800000000000000
+      internalID: 119019621684496256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc3c8298f4a33830800000000000000
+      internalID: 4049761877453716672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471b5f324f46c9580800000000000000
+      internalID: -8819062970560171660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793d3b859572ef120800000000000000
+      internalID: 2449438512029881239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71950752b8ec8bfc0800000000000000
+      internalID: -3478803615119812329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b118526d04cdcc0800000000000000
+      internalID: -3684999106599511293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8aef9f1968ea700800000000000000
+      internalID: 553527765735745720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3861ee0edf4c1c3e0800000000000000
+      internalID: -2035128961915283837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 3662
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e46eb6897d8f3a0800000000000000
+      internalID: -6631313401657799021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e10d94449603870800000000000000
+      internalID: 8660537825450532443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa9f9ff667892ef0800000000000000
+      internalID: -132425837585655045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6510d573ffeb1f80800000000000000
+      internalID: -8134644472982006418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80e5835d85496d10800000000000000
+      internalID: 2119301572948517003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd2bb7dd2de4e7a0800000000000000
+      internalID: -6348688793536877131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4351f4cc0aa9c15c0800000000000000
+      internalID: -4243346733476670156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5ec87bad704ea90800000000000000
+      internalID: -7285689661214890566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 3150
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0353a4afe310020800000000000000
+      internalID: 2306193728898150594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a12cb0170bf02530800000000000000
+      internalID: 3828335691029029287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adb2e6ef11578ba0800000000000000
+      internalID: -6086807173908480601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05c507f33883e1d0800000000000000
+      internalID: -3322662343300233972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91680be1fde37d210800000000000000
+      internalID: 1357622940689008153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2de5a6fa3f198790800000000000000
+      internalID: -7527450964066439889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c00a1fea925cb20800000000000000
+      internalID: 3153972945397746846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89aca9e7846126350800000000000000
+      internalID: 6008389353483192984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 2638
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa363a7d19ccf9010800000000000000
+      internalID: 1197900952663974826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 2126
+        width: 320
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73127061f1e8dde20800000000000000
+      internalID: 3377011559762436407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2126
+        width: 320
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f04c06c0ca565310800000000000000
+      internalID: 1393400918720659699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 2126
+        width: 320
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedd38d6bf7450510800000000000000
+      internalID: 1514695994879761903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2126
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b28d8886fdba300800000000000000
+      internalID: 264550643196767044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2126
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dbb12a2582b9100800000000000000
+      internalID: 115730550800235835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 2126
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f1025c2565c1810800000000000000
+      internalID: 1737358469752692624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 2126
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81300b2f64f1988b0800000000000000
+      internalID: -5149550309341658344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 2126
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84089a084a852060800000000000000
+      internalID: 6928095643799389322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1614
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e97b427385cd4ee0800000000000000
+      internalID: -1275145951127045664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1614
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28d7bdf847996ca0800000000000000
+      internalID: -6023116686881204177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1614
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5783171fe7830b0800000000000000
+      internalID: -5748705348886694486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1614
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea632cc3ce38ff100800000000000000
+      internalID: 143978763754026670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1614
+        width: 321
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7adb5993e743320800000000000000
+      internalID: 2536791275906901931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1614
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f0a5f4ce99aa2c0800000000000000
+      internalID: -4419550844088086641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 1614
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47902e158adadd7e0800000000000000
+      internalID: -1739042942655264396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1614
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53241bea124f418b0800000000000000
+      internalID: -5182248845694647755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1102
+        width: 322
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88250728651bec80800000000000000
+      internalID: -8292510751797204854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1102
+        width: 322
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1cbed2be89e54d0800000000000000
+      internalID: -3143907354002865735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1102
+        width: 323
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f7a42ae619396f0800000000000000
+      internalID: -679039214447591630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1102
+        width: 323
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0e5203d64498780800000000000000
+      internalID: -8680331571030007556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1102
+        width: 323
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3065919e0439d28a0800000000000000
+      internalID: -6328239994387737085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1102
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1757d8341c05181b0800000000000000
+      internalID: -5656150866008377999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 1102
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe70b0922d5fa77a0800000000000000
+      internalID: -6378515639236360209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1102
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaf1950e104d68e0800000000000000
+      internalID: -1698630986762159426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 590
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42be70b5d6076000800000000000000
+      internalID: 28999437460091466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 590
+        width: 323
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228371f54227d18d0800000000000000
+      internalID: -2874015486652762078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 590
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753206258827522d0800000000000000
+      internalID: -3304108821783239849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 590
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f85eebc1e4c6270800000000000000
+      internalID: 8245050903177301765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 590
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701d25df193cd71c0800000000000000
+      internalID: -4504229020512890617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 590
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2447e894915413310800000000000000
+      internalID: 1382962535490024514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 590
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaef52906101f340800000000000000
+      internalID: 4895695784212687587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 590
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9cc1fe35fb53f530800000000000000
+      internalID: 3887552012232019101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 78
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8733ae4398e18da60800000000000000
+      internalID: 7698937137636979576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 78
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743afee5433460ba0800000000000000
+      internalID: -6123132751153487033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_inspect_south_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 78
+        width: 324
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea764133aa9d7e10800000000000000
+      internalID: 2197082218923719406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_inspect_south_spritesheet_0: -3159960349939031902
+      player_inspect_south_spritesheet_1: 1438361203592642689
+      player_inspect_south_spritesheet_10: 5167509051601967991
+      player_inspect_south_spritesheet_11: -7122826168515242467
+      player_inspect_south_spritesheet_12: -7278948255417790389
+      player_inspect_south_spritesheet_13: -7529879358874686501
+      player_inspect_south_spritesheet_14: -5224073471184607851
+      player_inspect_south_spritesheet_15: 6121765802221331914
+      player_inspect_south_spritesheet_16: 7943923362115212976
+      player_inspect_south_spritesheet_17: 5816366562319370956
+      player_inspect_south_spritesheet_18: 3348475438446511046
+      player_inspect_south_spritesheet_19: -2812869009048398436
+      player_inspect_south_spritesheet_2: -5623666489826167526
+      player_inspect_south_spritesheet_20: -5011475016670831841
+      player_inspect_south_spritesheet_21: 8058193376548163658
+      player_inspect_south_spritesheet_22: 2505094191285530085
+      player_inspect_south_spritesheet_23: 7293799870626554701
+      player_inspect_south_spritesheet_24: -2239336623084678106
+      player_inspect_south_spritesheet_25: -1121031086473669999
+      player_inspect_south_spritesheet_26: -7048678950112246402
+      player_inspect_south_spritesheet_27: 518866877874281179
+      player_inspect_south_spritesheet_28: -8531196871772969546
+      player_inspect_south_spritesheet_29: 1251289334512932968
+      player_inspect_south_spritesheet_3: 1797019120390321684
+      player_inspect_south_spritesheet_30: -9054469650626716129
+      player_inspect_south_spritesheet_31: 4158010533632552907
+      player_inspect_south_spritesheet_32: 3271107204067725717
+      player_inspect_south_spritesheet_33: 1240720037206318778
+      player_inspect_south_spritesheet_34: -5858185800468387778
+      player_inspect_south_spritesheet_35: 9135885035166444409
+      player_inspect_south_spritesheet_36: -7162793965474460767
+      player_inspect_south_spritesheet_37: -3412735046480742701
+      player_inspect_south_spritesheet_38: -7865014195619784631
+      player_inspect_south_spritesheet_39: 119019621684496256
+      player_inspect_south_spritesheet_4: -8240124032808734084
+      player_inspect_south_spritesheet_40: 4049761877453716672
+      player_inspect_south_spritesheet_41: -8819062970560171660
+      player_inspect_south_spritesheet_42: 2449438512029881239
+      player_inspect_south_spritesheet_43: -3478803615119812329
+      player_inspect_south_spritesheet_44: -3684999106599511293
+      player_inspect_south_spritesheet_45: 553527765735745720
+      player_inspect_south_spritesheet_46: -2035128961915283837
+      player_inspect_south_spritesheet_47: -6631313401657799021
+      player_inspect_south_spritesheet_48: 8660537825450532443
+      player_inspect_south_spritesheet_49: -132425837585655045
+      player_inspect_south_spritesheet_5: 2468343484793877276
+      player_inspect_south_spritesheet_50: -8134644472982006418
+      player_inspect_south_spritesheet_51: 2119301572948517003
+      player_inspect_south_spritesheet_52: -6348688793536877131
+      player_inspect_south_spritesheet_53: -4243346733476670156
+      player_inspect_south_spritesheet_54: -7285689661214890566
+      player_inspect_south_spritesheet_55: 2306193728898150594
+      player_inspect_south_spritesheet_56: 3828335691029029287
+      player_inspect_south_spritesheet_57: -6086807173908480601
+      player_inspect_south_spritesheet_58: -3322662343300233972
+      player_inspect_south_spritesheet_59: 1357622940689008153
+      player_inspect_south_spritesheet_6: -306476672579736716
+      player_inspect_south_spritesheet_60: -7527450964066439889
+      player_inspect_south_spritesheet_61: 3153972945397746846
+      player_inspect_south_spritesheet_62: 6008389353483192984
+      player_inspect_south_spritesheet_63: 1197900952663974826
+      player_inspect_south_spritesheet_64: 3377011559762436407
+      player_inspect_south_spritesheet_65: 1393400918720659699
+      player_inspect_south_spritesheet_66: 1514695994879761903
+      player_inspect_south_spritesheet_67: 264550643196767044
+      player_inspect_south_spritesheet_68: 115730550800235835
+      player_inspect_south_spritesheet_69: 1737358469752692624
+      player_inspect_south_spritesheet_7: -7501860873197829228
+      player_inspect_south_spritesheet_70: -5149550309341658344
+      player_inspect_south_spritesheet_71: 6928095643799389322
+      player_inspect_south_spritesheet_72: -1275145951127045664
+      player_inspect_south_spritesheet_73: -6023116686881204177
+      player_inspect_south_spritesheet_74: -5748705348886694486
+      player_inspect_south_spritesheet_75: 143978763754026670
+      player_inspect_south_spritesheet_76: 2536791275906901931
+      player_inspect_south_spritesheet_77: -4419550844088086641
+      player_inspect_south_spritesheet_78: -1739042942655264396
+      player_inspect_south_spritesheet_79: -5182248845694647755
+      player_inspect_south_spritesheet_8: -5548394663820401405
+      player_inspect_south_spritesheet_80: -8292510751797204854
+      player_inspect_south_spritesheet_81: -3143907354002865735
+      player_inspect_south_spritesheet_82: -679039214447591630
+      player_inspect_south_spritesheet_83: -8680331571030007556
+      player_inspect_south_spritesheet_84: -6328239994387737085
+      player_inspect_south_spritesheet_85: -5656150866008377999
+      player_inspect_south_spritesheet_86: -6378515639236360209
+      player_inspect_south_spritesheet_87: -1698630986762159426
+      player_inspect_south_spritesheet_88: 28999437460091466
+      player_inspect_south_spritesheet_89: -2874015486652762078
+      player_inspect_south_spritesheet_9: 1880277238592959164
+      player_inspect_south_spritesheet_90: -3304108821783239849
+      player_inspect_south_spritesheet_91: 8245050903177301765
+      player_inspect_south_spritesheet_92: -4504229020512890617
+      player_inspect_south_spritesheet_93: 1382962535490024514
+      player_inspect_south_spritesheet_94: 4895695784212687587
+      player_inspect_south_spritesheet_95: 3887552012232019101
+      player_inspect_south_spritesheet_96: 7698937137636979576
+      player_inspect_south_spritesheet_97: -6123132751153487033
+      player_inspect_south_spritesheet_98: 2197082218923719406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

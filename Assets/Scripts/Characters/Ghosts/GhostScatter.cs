@@ -1,69 +1,22 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GhostScatter : GhostBehaviour
 {
-    private void Start()
+    protected override bool TryPickDirection(Node node, IReadOnlyList<Cardinal> candidates, out Cardinal chosen)
     {
-        Context.Ghost.OnTriggerEnter += OnTrigger;
+        chosen = default;
+        if (candidates.Count == 0)
+            return false;
+
+        int pickIndex = Random.Range(0, candidates.Count);
+        chosen = candidates[pickIndex];
+        return true;
     }
 
-    private void OnTrigger(Collider2D other)
+    protected override void OnDisable()
     {
-        Node node = other.GetComponent<Node>();
-        if (node == null) return;
-
-        if (!enabled || Context.Frightened.enabled) return;
-
-        int count = node.Edges.Count;
-        if (count == 0) return;
-
-        Cardinal opposite = CardinalUtil.Opposite(Context.Ghost.Movement.Direction);
-
-        bool avoidReverse = count > 1;
-
-        Cardinal chosen = default;
-        bool hasChosen = false;
-
-        for (int attempt = 0; attempt < 6; attempt++)
-        {
-            int pickIndex = Random.Range(0, count);
-            int i = 0;
-
-            foreach (Cardinal d in node.Edges.Keys)
-            {
-                if (i == pickIndex)
-                {
-                    if (avoidReverse && d == opposite)
-                        break; // reroll
-                    chosen = d;
-                    hasChosen = true;
-                    break;
-                }
-                i++;
-            }
-
-            if (hasChosen) break;
-        }
-
-        if (!hasChosen)
-        {
-            foreach (Cardinal d in node.Edges.Keys)
-            {
-                if (avoidReverse && d == opposite)
-                    continue;
-                    
-                chosen = d;
-                hasChosen = true;
-                break;
-            }
-        }
-
-        if (hasChosen)
-            Context.Ghost.Movement.SetDirection(chosen);
-    }
-
-    private void OnDisable()
-    {
+        base.OnDisable();
         Context.Chase.Enable();
     }
 }

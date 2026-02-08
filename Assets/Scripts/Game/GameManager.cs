@@ -67,7 +67,7 @@ public class GameManager : Singleton<GameManager>
     {
         for (int i = 0; i < Ghosts.Length; i++)
         {
-            //Ghosts[i].ResetState();
+            Ghosts[i].ResetState();
         }
     }
 

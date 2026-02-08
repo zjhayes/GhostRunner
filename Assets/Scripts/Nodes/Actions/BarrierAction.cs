@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Barrier : NodeAction
+public class BarrierAction : NodeAction
 {
     [Header("Barrier Settings")]
     [SerializeField] private Renderer barrierRenderer;
@@ -42,15 +42,32 @@ public class Barrier : NodeAction
         isPassable = lantern.Color == requiredColor;
     }
 
-    public override void OnResolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
+    protected override void OnResolvePlayer(PlayerManager player, Cardinal direction, Node node, ActionEdge edge)
     {
-        character.Movement.ApplyDirection(direction);
+        player.Movement.ApplyDirection(direction);
 
         if (!IsPassable)
         {
-            character.Movement.Stop();
+            player.Movement.Stop();
         }
     }
+
+    protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
+    {
+        /**Cardinal[] exclude = { direction };
+
+        if (ghost.Movement.TryResolveDirection(node, out var chosen, exclude))
+        {
+            node.ResolveEdge(ghost, chosen);
+        }
+        else
+        {
+            // No valid alternatives; pick your fallback.
+            ghost.Movement.Stop();
+        }*/
+        ghost.TurnAround();
+    }
+
 
     void OnEnable()
     {

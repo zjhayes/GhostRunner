@@ -36,16 +36,12 @@ public class GhostContext : MonoBehaviour
     {
         Frightened.Disable();
         Chase.Disable();
-        Scatter.Enable();
-
-        if (Home != initialBehaviour)
-        {
-            Home.Disable();
-        }
+        Scatter.Disable();
+        Home.Disable();
 
         if (initialBehaviour != null)
-        {
             initialBehaviour.Enable();
-        }
+        else
+            Scatter.Enable();
     }
 }

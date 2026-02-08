@@ -1,44 +1,39 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GhostChase : GhostBehaviour
 {
-    private void Start()
+    protected override bool TryPickDirection(Node node, IReadOnlyList<Cardinal> candidates, out Cardinal chosen)
     {
-        Context.Ghost.OnTriggerEnter += OnTrigger;
-    }
+        chosen = default;
+        if (candidates.Count == 0)
+            return false;
 
-    private void OnTrigger(Collider2D other)
-    {
-        Node node = other.GetComponent<Node>();
-        if (node == null) return;
-
-        if (!enabled || Context.Frightened.enabled) return;
-
-        Cardinal? best = null;
+        bool hasBest = false;
         float minDistance = float.MaxValue;
 
-        foreach (Cardinal available in node.Edges.Keys)
+        foreach (Cardinal available in candidates)
         {
             Vector2 step = CardinalUtil.ToVector(available);
 
             // Predict the next tile/step in that direction.
-            Vector3 newPosition = transform.position + new Vector3(step.x, step.y, 0f);
+            Vector3 newPosition = node.transform.position + new Vector3(step.x, step.y, 0f);
 
             float distance = (Context.Ghost.Target.position - newPosition).sqrMagnitude;
             if (distance < minDistance)
             {
                 minDistance = distance;
-                best = available;
+                chosen = available;
+                hasBest = true;
             }
         }
 
-        if (best.HasValue)
-            Context.Ghost.Movement.SetDirection(best.Value);
+        return hasBest;
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
-        Context.Ghost.OnTriggerEnter -= OnTrigger;
+        base.OnDisable();
         Context.Scatter.Enable();
     }
 }

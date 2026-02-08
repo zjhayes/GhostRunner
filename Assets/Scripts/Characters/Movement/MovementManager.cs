@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovementManager : MonoBehaviour
 {
     [SerializeField] private float speed = 8.0f;
-    [SerializeField] private Vector2 initialDirection = Vector2.right;
+    [SerializeField] private Cardinal initialDirection = Cardinal.East;
 
     [Header("Node Centering")]
     [SerializeField] private float centerEpsilon = 0.01f;
@@ -56,6 +56,7 @@ public class MovementManager : MonoBehaviour
     public event Action<bool> OnMovingChanged;
     public event Action<float> OnSpeedChanged;
     public event Action<Cardinal> OnDirectionChanged;
+    public Func<Node, Cardinal[], Cardinal?> DirectionResolver { get; set; }
 
     private void Awake()
     {
@@ -148,13 +149,13 @@ public class MovementManager : MonoBehaviour
 
         Cardinal requested = CardinalUtil.FromVector(inputDirection, Direction);
 
-        // Reversal: allow ANYTIME while moving.
+        // Allow reversal.
         if (DirectionVector != Vector2.zero && CardinalUtil.IsOpposite(Direction, requested))
         {
             ApplyDirection(requested);
             NextDirection = null;
 
-            // If we're still inside a node trigger, re-center to THAT node once.
+            // If we're still inside a node trigger, re-center to that node once.
             if (currentNode != null)
                 targetNode = currentNode;
             else
@@ -248,8 +249,17 @@ public class MovementManager : MonoBehaviour
             lastEnteredNode = null;
     }
 
-    private Cardinal? ChooseDirectionAtNode(Node node) // this needs to change
+    private Cardinal? ChooseDirectionAtNode(Node node, Cardinal[] exclude = null)
     {
+        if (DirectionResolver != null)
+        {
+            Cardinal? resolved = DirectionResolver(node, exclude);
+            if (resolved.HasValue &&
+                (exclude == null || Array.IndexOf(exclude, resolved.Value) < 0) &&
+                node.Edges.ContainsKey(resolved.Value))
+                return resolved.Value;
+        }
+
         if (NextDirection.HasValue && node.Edges.ContainsKey(NextDirection.Value))
         {
             Cardinal chosen = NextDirection.Value;
@@ -258,7 +268,9 @@ public class MovementManager : MonoBehaviour
         }
 
         // Continue forward if possible.
-        if (DirectionVector != Vector2.zero && node.Edges.ContainsKey(Direction))
+        if (DirectionVector != Vector2.zero &&
+            (exclude == null || Array.IndexOf(exclude, Direction) < 0) &&
+            node.Edges.ContainsKey(Direction))
         {
             return Direction;
         }
@@ -270,7 +282,7 @@ public class MovementManager : MonoBehaviour
     {
         SpeedMultiplier = 1f;
 
-        Direction = CardinalUtil.FromVector(initialDirection, Cardinal.East);
+        Direction = initialDirection;
         DirectionVector = CardinalUtil.ToVector(Direction);
 
         NextDirection = null;

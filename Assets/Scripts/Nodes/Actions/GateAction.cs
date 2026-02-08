@@ -1,14 +1,11 @@
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 
 public class GateAction : NodeAction
 {
     [SerializeField] private Gate gate;
 
-    public override void OnResolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
+    protected override void OnResolvePlayer(PlayerManager player, Cardinal direction, Node node, ActionEdge edge)
     {
-        character.Movement.ApplyDirection(direction);
-
         if (gate.IsOpen)
         {
             return;
@@ -19,8 +16,15 @@ public class GateAction : NodeAction
         }
         else if(edge.ActionType == ActionType.BLOCKED)
         {
-            character.Movement.Stop();
+            player.Movement.ApplyDirection(direction); // Face gate.
+            player.Movement.Stop();
             return;
         }
+    }
+
+    protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
+    {
+        // Ghosts can pass through gates.
+        ghost.Movement.ApplyDirection(direction);
     }
 }
