@@ -24,8 +24,8 @@ public class BarrierAction : NodeAction
     private void Awake()
     {
         barrierMaterial = barrierRenderer.material;
-        lantern = GameManager.Instance.Player.Lantern;
-        
+        lantern = GameManager.Player.Lantern;
+
         barrierMaterial.SetFloat(RequiredColorId, (float)requiredColor);
         barrierMaterial.SetColor(
             BarrierBaseColorId,

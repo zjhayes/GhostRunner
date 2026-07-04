@@ -5,19 +5,26 @@ using UnityEngine.InputSystem;
 public class PlayerManager : CharacterManager
 {
     [SerializeField] LanternController lanternController;
+    [SerializeField] float walkSpeed = 1.5f;
+    [SerializeField] float runSpeed = 3f;
 
     private PlayerInput playerInput;
     private InputAction moveAction;
     private InputAction runAction;
 
-    private bool isRunning = false;
+    private bool isRunning = true;
 
     public LanternController Lantern => lanternController;
 
-    protected override void Awake()
+    protected void Awake()
     {
-        base.Awake();
         playerInput = GetComponent<PlayerInput>();
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+        SetRun();
     }
 
     private void OnMove(InputAction.CallbackContext ctx)
@@ -34,7 +41,17 @@ public class PlayerManager : CharacterManager
     private void ToggleRun()
     {
         isRunning = !isRunning;
-        Movement.SpeedMultiplier = isRunning ? 3f : 1.5f;
+        SetRun();
+    }
+
+    private void SetRun()
+    {
+        Movement.SpeedMultiplier = isRunning ? runSpeed : walkSpeed;
+    }
+
+    public void PlayerFrightened()
+    {
+        Debug.Log("Player Frightened");
     }
 
     private void OnEnable()
@@ -64,7 +81,6 @@ public class PlayerManager : CharacterManager
     public override void ResetState()
     {
         base.ResetState();
-        isRunning = false;
-        ToggleRun();
+        SetRun();
     }
 }

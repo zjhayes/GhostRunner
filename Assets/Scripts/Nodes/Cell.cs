@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class Cell : MonoBehaviour
+public abstract class Cell : GameBehaviour
 {
     public Vector3Int Position { get; private set; }
 

@@ -8,7 +8,7 @@ public class Node : Cell
 
     private void Start()
     {
-        Edges = NodeUtil.BuildEdgeMap(this, GameManager.Instance.NodeManager);
+        Edges = NodeUtil.BuildEdgeMap(this, GameManager.NodeManager);
     }
 
     public void ResolveEdge(CharacterManager character, Cardinal direction)

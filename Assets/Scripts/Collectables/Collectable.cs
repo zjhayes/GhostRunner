@@ -15,6 +15,6 @@ public class Collectable : MonoBehaviour
 
     protected virtual void Collect()
     {
-        GameManager.Instance.OnCollect(this);
+        //GameManager.Instance.OnCollect(this);
     }
 }

@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: fbdbb3be4252dc14e83cfa7337bc86a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2268488729138125806
+    second: gremlin_walk_south_spritesheet_EmissionMap_0
+  - first:
+      213: -6516907610484605132
+    second: gremlin_walk_south_spritesheet_EmissionMap_1
+  - first:
+      213: 8900572427112977347
+    second: gremlin_walk_south_spritesheet_EmissionMap_2
+  - first:
+      213: -9182804258939636184
+    second: gremlin_walk_south_spritesheet_EmissionMap_3
+  - first:
+      213: -7187956631233230770
+    second: gremlin_walk_south_spritesheet_EmissionMap_4
+  - first:
+      213: 4843926481328759936
+    second: gremlin_walk_south_spritesheet_EmissionMap_5
+  - first:
+      213: 3595579571715604744
+    second: gremlin_walk_south_spritesheet_EmissionMap_6
+  - first:
+      213: 5283457433116202212
+    second: gremlin_walk_south_spritesheet_EmissionMap_7
+  - first:
+      213: 550699308051397492
+    second: gremlin_walk_south_spritesheet_EmissionMap_8
+  - first:
+      213: 3667044629658060240
+    second: gremlin_walk_south_spritesheet_EmissionMap_9
+  - first:
+      213: 4297771119866756356
+    second: gremlin_walk_south_spritesheet_EmissionMap_10
+  - first:
+      213: 6429802770531316596
+    second: gremlin_walk_south_spritesheet_EmissionMap_11
+  - first:
+      213: 7585296729168575708
+    second: gremlin_walk_south_spritesheet_EmissionMap_12
+  - first:
+      213: -9218777445122972816
+    second: gremlin_walk_south_spritesheet_EmissionMap_13
+  - first:
+      213: 4348498803471725592
+    second: gremlin_walk_south_spritesheet_EmissionMap_14
+  - first:
+      213: 5326698386015019017
+    second: gremlin_walk_south_spritesheet_EmissionMap_15
+  - first:
+      213: 1307362957086756154
+    second: gremlin_walk_south_spritesheet_EmissionMap_16
+  - first:
+      213: -5221370238383765429
+    second: gremlin_walk_south_spritesheet_EmissionMap_17
+  - first:
+      213: -8646049787675086016
+    second: gremlin_walk_south_spritesheet_EmissionMap_18
+  - first:
+      213: 7168588625476567460
+    second: gremlin_walk_south_spritesheet_EmissionMap_19
+  - first:
+      213: -6324820472849067367
+    second: gremlin_walk_south_spritesheet_EmissionMap_20
+  - first:
+      213: 3540805775069678799
+    second: gremlin_walk_south_spritesheet_EmissionMap_21
+  - first:
+      213: 2303175351441755778
+    second: gremlin_walk_south_spritesheet_EmissionMap_22
+  - first:
+      213: -5254813235967771610
+    second: gremlin_walk_south_spritesheet_EmissionMap_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1622
+        width: 286
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb514dea7a4b7f10800000000000000
+      internalID: 2268488729138125806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_1
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1621
+        width: 288
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f760b6e0b4f85a0800000000000000
+      internalID: -6516907610484605132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_2
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1612
+        width: 287
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c394b7177f258b70800000000000000
+      internalID: 8900572427112977347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_3
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1615
+        width: 281
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82675f7dd20209080800000000000000
+      internalID: -9182804258939636184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_4
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 1623
+        width: 277
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e480e6ef68f3f3c90800000000000000
+      internalID: -7187956631233230770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_5
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 1633
+        width: 272
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08465b57875193340800000000000000
+      internalID: 4843926481328759936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1131
+        width: 274
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80182cdf19016e130800000000000000
+      internalID: 3595579571715604744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1140
+        width: 282
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4d9ceda8c925940800000000000000
+      internalID: 5283457433116202212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_8
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1149
+        width: 290
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bf47a5a1a74a700800000000000000
+      internalID: 550699308051397492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_9
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1134
+        width: 293
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5c54e69a5f3e230800000000000000
+      internalID: 3667044629658060240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_10
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1120
+        width: 292
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d379d1010c4ab30800000000000000
+      internalID: 4297771119866756356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_11
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1113
+        width: 289
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4737751ad8f3b3950800000000000000
+      internalID: 6429802770531316596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 598
+        width: 287
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc7602cf23644960800000000000000
+      internalID: 7585296729168575708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_13
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 597
+        width: 288
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073ef00c1c2501080800000000000000
+      internalID: -9218777445122972816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_14
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 588
+        width: 287
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814b4275f98f85c30800000000000000
+      internalID: 4348498803471725592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_15
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 591
+        width: 281
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9006214c5fb3ce940800000000000000
+      internalID: 5326698386015019017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_16
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 599
+        width: 277
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d09a9ceafa42210800000000000000
+      internalID: 1307362957086756154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_17
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 609
+        width: 273
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48c654ae67f987b0800000000000000
+      internalID: -5221370238383765429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 107
+        width: 267
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043f84fd68f030880800000000000000
+      internalID: -8646049787675086016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_19
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 116
+        width: 275
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1cf62cf51fb7360800000000000000
+      internalID: 7168588625476567460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_20
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 124
+        width: 289
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99296bf4a49b938a0800000000000000
+      internalID: -6324820472849067367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_21
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 110
+        width: 294
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc0ea9a718732130800000000000000
+      internalID: 3540805775069678799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_22
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 95
+        width: 294
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e0f1687c586ff10800000000000000
+      internalID: 2303175351441755778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_south_spritesheet_EmissionMap_23
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 87
+        width: 290
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cbe1df3372317b0800000000000000
+      internalID: -5254813235967771610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: df16b5d1b5ccba244862da6512320af4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      gremlin_walk_south_spritesheet_EmissionMap_0: 2268488729138125806
+      gremlin_walk_south_spritesheet_EmissionMap_1: -6516907610484605132
+      gremlin_walk_south_spritesheet_EmissionMap_10: 4297771119866756356
+      gremlin_walk_south_spritesheet_EmissionMap_11: 6429802770531316596
+      gremlin_walk_south_spritesheet_EmissionMap_12: 7585296729168575708
+      gremlin_walk_south_spritesheet_EmissionMap_13: -9218777445122972816
+      gremlin_walk_south_spritesheet_EmissionMap_14: 4348498803471725592
+      gremlin_walk_south_spritesheet_EmissionMap_15: 5326698386015019017
+      gremlin_walk_south_spritesheet_EmissionMap_16: 1307362957086756154
+      gremlin_walk_south_spritesheet_EmissionMap_17: -5221370238383765429
+      gremlin_walk_south_spritesheet_EmissionMap_18: -8646049787675086016
+      gremlin_walk_south_spritesheet_EmissionMap_19: 7168588625476567460
+      gremlin_walk_south_spritesheet_EmissionMap_2: 8900572427112977347
+      gremlin_walk_south_spritesheet_EmissionMap_20: -6324820472849067367
+      gremlin_walk_south_spritesheet_EmissionMap_21: 3540805775069678799
+      gremlin_walk_south_spritesheet_EmissionMap_22: 2303175351441755778
+      gremlin_walk_south_spritesheet_EmissionMap_23: -5254813235967771610
+      gremlin_walk_south_spritesheet_EmissionMap_3: -9182804258939636184
+      gremlin_walk_south_spritesheet_EmissionMap_4: -7187956631233230770
+      gremlin_walk_south_spritesheet_EmissionMap_5: 4843926481328759936
+      gremlin_walk_south_spritesheet_EmissionMap_6: 3595579571715604744
+      gremlin_walk_south_spritesheet_EmissionMap_7: 5283457433116202212
+      gremlin_walk_south_spritesheet_EmissionMap_8: 550699308051397492
+      gremlin_walk_south_spritesheet_EmissionMap_9: 3667044629658060240
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

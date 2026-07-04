@@ -2,10 +2,24 @@ using UnityEngine;
 
 public class GremlinAnimatorController : MonoBehaviour
 {
-    public FlipbookAnimation walkSouth;
-    public FlipbookAnimation walkWest;
-    public FlipbookAnimation walkNorth;
-    public FlipbookAnimation walkEast;
+    [SerializeField] FlipbookAnimator animator;
+    [SerializeField] AnimationGroup walkingAnimations;
+    [SerializeField] Gremlin gremlin;
 
-    
+    private void OnEnable()
+    {
+        gremlin.Movement.OnDirectionChanged += HandleDirectionChanged;
+    }
+
+    private void OnDisable()
+    {
+        gremlin.Movement.OnDirectionChanged -= HandleDirectionChanged;
+    }
+
+    private void HandleDirectionChanged(Cardinal direction)
+    {
+        animator.Animation = walkingAnimations.GetAnimation(direction);
+    }
+
+
 }

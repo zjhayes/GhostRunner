@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-public abstract class NodeAction : MonoBehaviour
+public abstract class NodeAction : GameBehaviour
 {
     [Header("Edge Detection")]
     [SerializeField] int range = 1;
@@ -40,7 +40,7 @@ public abstract class NodeAction : MonoBehaviour
 
     protected virtual void SubscribeToEdges()
     {
-        var nodeManager = GameManager.Instance.NodeManager;
+        var nodeManager = GameManager.NodeManager;
 
         // Subscribe to tile beneath object.
         if (nodeManager.TryGetEdgeAtPosition<ActionEdge>(

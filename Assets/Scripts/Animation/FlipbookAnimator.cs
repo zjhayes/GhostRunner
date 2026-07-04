@@ -3,45 +3,51 @@ using UnityEngine;
 [RequireComponent(typeof(Renderer))]
 public class FlipbookAnimator : MonoBehaviour
 {
-    [SerializeField] private FlipbookAnimation flipbookAnimation;
-
+    private FlipbookAnimation flipbookAnimation;
     private Renderer rend;
     private MaterialPropertyBlock block;
     private float timeOffset;
 
     private static readonly int BaseMapID = Shader.PropertyToID("_BaseMap");
     private static readonly int NormalMapID = Shader.PropertyToID("_NormalMap");
+    private static readonly int EmissionMapID = Shader.PropertyToID("_EmissionMap");
+
     private static readonly int FrameIndexID = Shader.PropertyToID("_FrameIndex");
     private static readonly int ColumnsID = Shader.PropertyToID("_Columns");
     private static readonly int RowsID = Shader.PropertyToID("_Rows");
+
+    public FlipbookAnimation Animation
+    {
+        set
+        {
+            flipbookAnimation = value;
+
+            if (rend == null)
+            {
+                rend = GetComponent<Renderer>();
+            }
+
+            if (block == null)
+            {
+                block = new MaterialPropertyBlock();
+            }
+
+            ApplyStaticProperties();
+        }
+    }
 
     private void Awake()
     {
         rend = GetComponent<Renderer>();
         block = new MaterialPropertyBlock();
-
-        if (flipbookAnimation == null)
-        {
-            flipbookAnimation = GetComponent<FlipbookAnimation>();
-        }
-
-        if (flipbookAnimation == null)
-        {
-            Debug.LogError($"{nameof(FlipbookAnimator)} on {name} needs a {nameof(FlipbookAnimation)} assigned.", this);
-            enabled = false;
-            return;
-        }
-
-        if (flipbookAnimation.randomizeStart)
-        {
-            timeOffset = Random.value * flipbookAnimation.frameCount / flipbookAnimation.framesPerSecond;
-        }
-
-        ApplyStaticProperties();
     }
 
     private void LateUpdate()
     {
+        if (flipbookAnimation == null) { return; }
+        if (flipbookAnimation.frameCount <= 0) { return; }
+        if (flipbookAnimation.framesPerSecond <= 0f) { return; }
+
         int localFrame = Mathf.FloorToInt(
             (Time.time + timeOffset) * flipbookAnimation.framesPerSecond
         ) % flipbookAnimation.frameCount;
@@ -55,6 +61,8 @@ public class FlipbookAnimator : MonoBehaviour
 
     private void ApplyStaticProperties()
     {
+        if (flipbookAnimation == null) { return; }
+
         rend.GetPropertyBlock(block);
 
         block.SetFloat(ColumnsID, flipbookAnimation.columns);
@@ -68,6 +76,11 @@ public class FlipbookAnimator : MonoBehaviour
         if (flipbookAnimation.normalSpritesheet != null)
         {
             block.SetTexture(NormalMapID, flipbookAnimation.normalSpritesheet);
+        }
+
+        if (flipbookAnimation.emissionsSpritesheet != null)
+        {
+            block.SetTexture(EmissionMapID, flipbookAnimation.emissionsSpritesheet);
         }
 
         rend.SetPropertyBlock(block);

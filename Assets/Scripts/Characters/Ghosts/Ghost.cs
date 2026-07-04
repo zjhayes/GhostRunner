@@ -8,9 +8,8 @@ public class Ghost : CharacterManager
     public GhostContext Context => context;
     public Transform Target { get; private set; }
 
-    protected override void Awake()
+    protected void Awake()
     {
-        base.Awake();
         context.Ghost = this;
     }
 
@@ -18,14 +17,14 @@ public class Ghost : CharacterManager
     {
         base.Start();
         ResetState();
-        Target = GameManager.Instance.Player.transform;
+        Target = GameManager.Player.transform;
     }
 
     protected override void HandleCollision(Collision2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer(Layer.PLAYER))
         {
-            GameManager.Instance.PlayerFrightened();
+            GameManager.Player.PlayerFrightened();
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
         {

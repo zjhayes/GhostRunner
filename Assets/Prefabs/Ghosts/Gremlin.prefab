@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7156508547897986335}
-  - component: {fileID: 5242632733129676038}
+  - component: {fileID: 2115087568239474520}
   m_Layer: 0
   m_Name: GremlinAnimations
   m_TagString: Untagged
@@ -29,10 +29,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5745952156888885993}
   m_Father: {fileID: 7061851816723464548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5242632733129676038
+--- !u!114 &2115087568239474520
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,17 +42,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2458369581986400781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Script: {fileID: 11500000, guid: c08b9017c828da344be8ad384525d018, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
-  baseSpritesheet: {fileID: 2800000, guid: 17476445e5ff5f647a7019ba0590f733, type: 3}
-  normalSpritesheet: {fileID: 2800000, guid: c9e04ceb0aca06e448e22afc427e72fb, type: 3}
-  columns: 6
-  rows: 4
-  startFrame: 0
-  frameCount: 24
-  framesPerSecond: 12
-  randomizeStart: 1
+  m_EditorClassIdentifier: Assembly-CSharp::GremlinAnimatorController
+  animator: {fileID: 6017738780052332995}
+  walkingAnimations: {fileID: 1836169656960541755}
+  gremlin: {fileID: 5604137542805576700}
 --- !u!1 &3377063592273687563
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,7 +77,7 @@ Transform:
   m_GameObject: {fileID: 3377063592273687563}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.96}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -178,7 +174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b892f2d2e569a4ea4026ea9a1e0fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimator
-  flipbookAnimation: {fileID: 5242632733129676038}
 --- !u!1 &4376302308385466420
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +288,7 @@ GameObject:
   - component: {fileID: 327510786786289969}
   - component: {fileID: 344765569576184570}
   - component: {fileID: 2406700763631807595}
-  - component: {fileID: 2465185821951160247}
+  - component: {fileID: 5604137542805576700}
   - component: {fileID: 3874072177646290681}
   m_Layer: 7
   m_Name: Gremlin
@@ -382,7 +377,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &2465185821951160247
+--- !u!114 &5604137542805576700
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -391,10 +386,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4408589904904907292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f40c01941ce24d646bdc5a92d8428374, type: 3}
+  m_Script: {fileID: 11500000, guid: 9cab6460ee4a7a046841f40086994029, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Ghost
-  points: 200
+  m_EditorClassIdentifier: Assembly-CSharp::Gremlin
+  movement: {fileID: 3874072177646290681}
   context: {fileID: 1038963779610047996}
 --- !u!114 &3874072177646290681
 MonoBehaviour:
@@ -408,6 +403,138 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5caf9a734eb39e408ca7af4990c5751, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovementManager
-  speed: 3
+  speed: 1
   initialDirection: 3
   centerEpsilon: 0.01
+--- !u!1 &6369120381082285411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5745952156888885993}
+  - component: {fileID: 1836169656960541755}
+  - component: {fileID: 8305769315282242858}
+  - component: {fileID: 3444902972150076297}
+  - component: {fileID: 9122496275297032596}
+  - component: {fileID: 507081511170518107}
+  m_Layer: 0
+  m_Name: WalkAnimations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5745952156888885993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369120381082285411}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7156508547897986335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1836169656960541755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369120381082285411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cda322d3796bdd42b88e89accd6e392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationGroup
+  south: {fileID: 8305769315282242858}
+  east: {fileID: 3444902972150076297}
+  north: {fileID: 9122496275297032596}
+  west: {fileID: 507081511170518107}
+--- !u!114 &8305769315282242858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369120381082285411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: 17476445e5ff5f647a7019ba0590f733, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: c9e04ceb0aca06e448e22afc427e72fb, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: fbdbb3be4252dc14e83cfa7337bc86a1, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 12
+--- !u!114 &3444902972150076297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369120381082285411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: 922ea1ddcd25ef64384ca7da33ac865b, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: 2b06436973e61ee4a84e29f6365d5264, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: 74fda0dd6b4e65449a220602c4c79e30, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 12
+--- !u!114 &9122496275297032596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369120381082285411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: e73d70c5b5b431749b1c26d06cada60b, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: b016cb2b804c9c04d90c4a972de42ee3, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: d65ed81abb7500641a41ca82571302f2, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 12
+--- !u!114 &507081511170518107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369120381082285411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: c4655ec292afd6c43a50d1d3c4d960a9, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: 7f963ee4afc40d9478a1ad9b05f46c87, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: 364920d6511d0974f834172f3fbe3e38, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 12

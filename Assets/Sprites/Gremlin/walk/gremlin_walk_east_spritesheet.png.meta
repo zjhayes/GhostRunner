@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: 922ea1ddcd25ef64384ca7da33ac865b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7878238904399108634
+    second: gremlin_walk_east_spritesheet_0
+  - first:
+      213: -2497807971030396053
+    second: gremlin_walk_east_spritesheet_1
+  - first:
+      213: 4941999660374962420
+    second: gremlin_walk_east_spritesheet_2
+  - first:
+      213: 7028762489925987693
+    second: gremlin_walk_east_spritesheet_3
+  - first:
+      213: -2767264281087288667
+    second: gremlin_walk_east_spritesheet_4
+  - first:
+      213: 5168572381819737669
+    second: gremlin_walk_east_spritesheet_5
+  - first:
+      213: 8120258975077357734
+    second: gremlin_walk_east_spritesheet_6
+  - first:
+      213: -6996350705821991924
+    second: gremlin_walk_east_spritesheet_7
+  - first:
+      213: 1810421880113864836
+    second: gremlin_walk_east_spritesheet_8
+  - first:
+      213: 904954851624770475
+    second: gremlin_walk_east_spritesheet_9
+  - first:
+      213: 8659581290176349612
+    second: gremlin_walk_east_spritesheet_10
+  - first:
+      213: 147435593116027241
+    second: gremlin_walk_east_spritesheet_11
+  - first:
+      213: 4236756407866347840
+    second: gremlin_walk_east_spritesheet_12
+  - first:
+      213: 8870078889237730245
+    second: gremlin_walk_east_spritesheet_13
+  - first:
+      213: -1210626398034953006
+    second: gremlin_walk_east_spritesheet_14
+  - first:
+      213: -7590675726803834876
+    second: gremlin_walk_east_spritesheet_15
+  - first:
+      213: -8247211856575861603
+    second: gremlin_walk_east_spritesheet_16
+  - first:
+      213: -8709897225643597821
+    second: gremlin_walk_east_spritesheet_17
+  - first:
+      213: 7032857567561527898
+    second: gremlin_walk_east_spritesheet_18
+  - first:
+      213: 5878767168788942225
+    second: gremlin_walk_east_spritesheet_19
+  - first:
+      213: 4166253482066244858
+    second: gremlin_walk_east_spritesheet_20
+  - first:
+      213: -3644620587127173668
+    second: gremlin_walk_east_spritesheet_21
+  - first:
+      213: 7921082890180299577
+    second: gremlin_walk_east_spritesheet_22
+  - first:
+      213: 6640832401837503168
+    second: gremlin_walk_east_spritesheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1655
+        width: 440
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5e0a7057fdaa290800000000000000
+      internalID: -7878238904399108634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1657
+        width: 435
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63189162e0065dd0800000000000000
+      internalID: -2497807971030396053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1661
+        width: 430
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f030ccd182859440800000000000000
+      internalID: 4941999660374962420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1665
+        width: 422
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6de0ae9e3e2b8160800000000000000
+      internalID: 7028762489925987693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1660
+        width: 404
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa5a264cc3b899d0800000000000000
+      internalID: -2767264281087288667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 1664
+        width: 384
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546924e62357ab740800000000000000
+      internalID: 5168572381819737669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1161
+        width: 360
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8d9adc384f0b070800000000000000
+      internalID: 8120258975077357734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1161
+        width: 337
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c3d6fe918f7ee90800000000000000
+      internalID: -6996350705821991924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1159
+        width: 360
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48028c1ab19ef1910800000000000000
+      internalID: 1810421880113864836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1164
+        width: 381
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab5cd494ab0f8c00800000000000000
+      internalID: 904954851624770475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1166
+        width: 408
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca584909d430d2870800000000000000
+      internalID: 8659581290176349612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1163
+        width: 433
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9690eea04ebcb0200800000000000000
+      internalID: 147435593116027241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 650
+        width: 439
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041dbb2718bfbca30800000000000000
+      internalID: 4236756407866347840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 644
+        width: 435
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3d4ba01c9d81b70800000000000000
+      internalID: 8870078889237730245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 638
+        width: 430
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7a6584bdf23fe0800000000000000
+      internalID: -1210626398034953006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 643
+        width: 422
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4086da2c4a088a690800000000000000
+      internalID: -7590675726803834876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 643
+        width: 403
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ce76513840c8d80800000000000000
+      internalID: -8247211856575861603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 642
+        width: 384
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3006a5bce9a302780800000000000000
+      internalID: -8709897225643597821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 129
+        width: 359
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a523c6e22bab99160800000000000000
+      internalID: 7032857567561527898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 127
+        width: 337
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dc4ecc793959150800000000000000
+      internalID: 5878767168788942225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 123
+        width: 360
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4facad77181d930800000000000000
+      internalID: 4166253482066244858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 121
+        width: 380
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd8533d2e4bb6dc0800000000000000
+      internalID: -3644620587127173668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 121
+        width: 406
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b0f91cbe65ded60800000000000000
+      internalID: 7921082890180299577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_walk_east_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 120
+        width: 431
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2bd6482e9f82c50800000000000000
+      internalID: 6640832401837503168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5d411cbd165e2c54a9d8b6850864c7e0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 2b06436973e61ee4a84e29f6365d5264, type: 3}
+      name: _NormalMap
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      gremlin_walk_east_spritesheet_0: -7878238904399108634
+      gremlin_walk_east_spritesheet_1: -2497807971030396053
+      gremlin_walk_east_spritesheet_10: 8659581290176349612
+      gremlin_walk_east_spritesheet_11: 147435593116027241
+      gremlin_walk_east_spritesheet_12: 4236756407866347840
+      gremlin_walk_east_spritesheet_13: 8870078889237730245
+      gremlin_walk_east_spritesheet_14: -1210626398034953006
+      gremlin_walk_east_spritesheet_15: -7590675726803834876
+      gremlin_walk_east_spritesheet_16: -8247211856575861603
+      gremlin_walk_east_spritesheet_17: -8709897225643597821
+      gremlin_walk_east_spritesheet_18: 7032857567561527898
+      gremlin_walk_east_spritesheet_19: 5878767168788942225
+      gremlin_walk_east_spritesheet_2: 4941999660374962420
+      gremlin_walk_east_spritesheet_20: 4166253482066244858
+      gremlin_walk_east_spritesheet_21: -3644620587127173668
+      gremlin_walk_east_spritesheet_22: 7921082890180299577
+      gremlin_walk_east_spritesheet_23: 6640832401837503168
+      gremlin_walk_east_spritesheet_3: 7028762489925987693
+      gremlin_walk_east_spritesheet_4: -2767264281087288667
+      gremlin_walk_east_spritesheet_5: 5168572381819737669
+      gremlin_walk_east_spritesheet_6: 8120258975077357734
+      gremlin_walk_east_spritesheet_7: -6996350705821991924
+      gremlin_walk_east_spritesheet_8: 1810421880113864836
+      gremlin_walk_east_spritesheet_9: 904954851624770475
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

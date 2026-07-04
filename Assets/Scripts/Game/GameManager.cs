@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GameManager : Singleton<GameManager>
+public class GameManager : MonoBehaviour, IGameManager
 {
     [SerializeField] Ghost[] ghosts;
     [SerializeField] PlayerManager player;
@@ -11,24 +11,28 @@ public class GameManager : Singleton<GameManager>
     public PlayerManager Player { get { return player; } }
     public NodeManager NodeManager { get { return nodeManager; } }
     public Transform Collectables { get { return collectables; } }
-    public int Lives { get; private set; }
+
+    void Awake()
+    {
+        // Inject gameManager into dependents.
+        ServiceInjector.Resolve<IGameManager, GameBehaviour>(this);
+    }
 
     private void Start()
     {
         NewGame();
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (Lives < 0 && Input.anyKeyDown)
         {
             NewGame();
         }
-    }
+    }*/
 
     private void NewGame()
     {
-        SetLives(3);
         NewScene();
     }
 
@@ -53,10 +57,10 @@ public class GameManager : Singleton<GameManager>
 
     private void ResetCollectables()
     {
-        foreach (Transform collectable in Collectables)
+        /*foreach (Transform collectable in Collectables)
         {
             collectable.gameObject.SetActive(true);
-        }
+        }*/
     }
 
     private void ResetGhosts()
@@ -72,26 +76,6 @@ public class GameManager : Singleton<GameManager>
         for (int i = 0; i < Ghosts.Length; i++)
         {
             Ghosts[i].Active(false);
-        }
-    }
-
-    private void SetLives(int lives)
-    {
-        Lives = lives;
-    }
-
-    public void PlayerFrightened()
-    {
-        Player.Active(false);
-        SetLives(Lives - 1);
-
-        if (Lives > 0)
-        {
-            Invoke(nameof(NewRound), 3.0f);
-        }
-        else
-        {
-            GameOver();
         }
     }
 

@@ -1,17 +1,12 @@
 using System;
 using UnityEngine;
 
-[RequireComponent(typeof(MovementManager))]
-public abstract class CharacterManager : MonoBehaviour
+public abstract class CharacterManager : GameBehaviour
 {
-    public MovementManager Movement { get; protected set; }
+    [SerializeField] protected MovementManager movement;
+    public MovementManager Movement { get { return movement; } }
     public event Action<Collision2D> OnCollisionEntered;
     public event Action<Collider2D> OnTriggerEnter;
-
-    protected virtual void Awake()
-    {
-        Movement = GetComponent<MovementManager>();
-    }
 
     protected virtual void Start()
     {
