@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c246c18f3fad9644394b6d36563e7332
+guid: c9e04ceb0aca06e448e22afc427e72fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6593898465161506965
-    second: player_run_west_spritesheet_NormalMap_0
+      213: 8076272406194288591
+    second: gremlin_walk_south_spritesheet_NormalMap_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_run_west_spritesheet_NormalMap_0
+      name: gremlin_walk_south_spritesheet_NormalMap_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2048
+        width: 3072
         height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6f0e0b2844cd74a0800000000000000
-      internalID: -6593898465161506965
+      spriteID: fc7ff78a6fea41070800000000000000
+      internalID: 8076272406194288591
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_run_west_spritesheet_NormalMap_0: -6593898465161506965
+      gremlin_walk_south_spritesheet_NormalMap_0: 8076272406194288591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
