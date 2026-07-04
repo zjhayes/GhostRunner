@@ -3,11 +3,6 @@ using UnityEngine;
 
 public class GhostFrightened : GhostBehaviour
 {
-    public SpriteRenderer body;
-    public SpriteRenderer eyes;
-    public SpriteRenderer blue;
-    public SpriteRenderer white;
-
     public bool eaten { get; private set; }
 
     private void Start()
@@ -20,32 +15,18 @@ public class GhostFrightened : GhostBehaviour
     {
         base.Enable(duration);
 
-        body.enabled = false;
-        eyes.enabled = false;
-        blue.enabled = true;
-        white.enabled = false;
-
         Invoke(nameof(Flash), duration * Numeric.HALF);
     }
 
     public override void Disable()
     {
         base.Disable();
-
-        body.enabled = true;
-        eyes.enabled = true;
-        blue.enabled = false;
-        white.enabled = false;
     }
 
     private void Flash()
     {
         // Flash only if NOT eaten (typical Pac-Man behavior)
         if (eaten) return;
-
-        blue.enabled = false;
-        white.enabled = true;
-        //white.GetComponent<SpriteAnimator>().Restart();
     }
 
     private void Eaten()
@@ -57,11 +38,6 @@ public class GhostFrightened : GhostBehaviour
         Context.Ghost.transform.position = position;
 
         Context.Home.Enable(duration);
-
-        body.enabled = false;
-        eyes.enabled = true;
-        blue.enabled = false;
-        white.enabled = false;
     }
 
     private void OnCollision(Collision2D other)

@@ -11,9 +11,7 @@ public class GameManager : Singleton<GameManager>
     public PlayerManager Player { get { return player; } }
     public NodeManager NodeManager { get { return nodeManager; } }
     public Transform Collectables { get { return collectables; } }
-    public int Score { get; private set; }
     public int Lives { get; private set; }
-    public int GhostMultiplier { get; private set; } = 1;
 
     private void Start()
     {
@@ -30,7 +28,6 @@ public class GameManager : Singleton<GameManager>
 
     private void NewGame()
     {
-        SetScore(0);
         SetLives(3);
         NewScene();
     }
@@ -45,7 +42,6 @@ public class GameManager : Singleton<GameManager>
     {
         ResetGhosts();
         Player.ResetState();
-        ResetGhostMultiplier();
     }
 
     private void GameOver()
@@ -79,23 +75,12 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
-    private void SetScore(int score)
-    {
-        Score = score;
-    }
-
     private void SetLives(int lives)
     {
         Lives = lives;
     }
 
-    public void GhostEaten(Ghost ghost)
-    {
-        SetScore(Score + (ghost.Points * GhostMultiplier));
-        GhostMultiplier++;
-    }
-
-    public void PlayerEaten()
+    public void PlayerFrightened()
     {
         Player.Active(false);
         SetLives(Lives - 1);
@@ -114,8 +99,6 @@ public class GameManager : Singleton<GameManager>
     {
         collectable.gameObject.SetActive(false);
 
-        SetScore(Score + collectable.Points);
-
         if (!HasRemainingCollectables())
         {
             Player.Active(false);
@@ -131,9 +114,4 @@ public class GameManager : Singleton<GameManager>
         }
         return false;
     }
-
-    public void ResetGhostMultiplier()
-    {
-        GhostMultiplier = 1;
-    }    
 }

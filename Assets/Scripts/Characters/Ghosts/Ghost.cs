@@ -3,10 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(MovementManager))]
 public class Ghost : CharacterManager
 {
-    [SerializeField] private int points = 200;
     [SerializeField] private GhostContext context;
 
-    public int Points => points;
     public GhostContext Context => context;
     public Transform Target { get; private set; }
 
@@ -27,14 +25,7 @@ public class Ghost : CharacterManager
     {
         if (other.gameObject.layer == LayerMask.NameToLayer(Layer.PLAYER))
         {
-            if (context.Frightened.enabled)
-            {
-                GameManager.Instance.GhostEaten(this);
-            }
-            else
-            {
-                GameManager.Instance.PlayerEaten();
-            }
+            GameManager.Instance.PlayerFrightened();
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
         {

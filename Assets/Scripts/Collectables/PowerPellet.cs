@@ -18,6 +18,5 @@ public class PowerPellet : Collectable
         }
 
         CancelInvoke();
-        Invoke(nameof(GameManager.Instance.ResetGhostMultiplier), Duration);
     }
 }
