@@ -1,0 +1,2691 @@
+fileFormatVersion: 2
+guid: 5d3f6788dcb43df4880a2a38f52818d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4931518313383005417
+    second: gremlin_hide_west_spritesheet_0
+  - first:
+      213: 7155060778023724493
+    second: gremlin_hide_west_spritesheet_1
+  - first:
+      213: 2268863625207488012
+    second: gremlin_hide_west_spritesheet_2
+  - first:
+      213: -5378816364631789221
+    second: gremlin_hide_west_spritesheet_3
+  - first:
+      213: 3770088951124885958
+    second: gremlin_hide_west_spritesheet_4
+  - first:
+      213: 1561656952471941514
+    second: gremlin_hide_west_spritesheet_5
+  - first:
+      213: 796034069116605094
+    second: gremlin_hide_west_spritesheet_6
+  - first:
+      213: -5705441679528506024
+    second: gremlin_hide_west_spritesheet_7
+  - first:
+      213: -532280047441461536
+    second: gremlin_hide_west_spritesheet_8
+  - first:
+      213: 4217611474121818762
+    second: gremlin_hide_west_spritesheet_9
+  - first:
+      213: 529872826482381059
+    second: gremlin_hide_west_spritesheet_10
+  - first:
+      213: 5554371366010080744
+    second: gremlin_hide_west_spritesheet_11
+  - first:
+      213: -1646677401261874929
+    second: gremlin_hide_west_spritesheet_12
+  - first:
+      213: -5434078308870102835
+    second: gremlin_hide_west_spritesheet_13
+  - first:
+      213: 7179553947882963936
+    second: gremlin_hide_west_spritesheet_14
+  - first:
+      213: 6397091057463515245
+    second: gremlin_hide_west_spritesheet_15
+  - first:
+      213: 8371414341323760060
+    second: gremlin_hide_west_spritesheet_16
+  - first:
+      213: -2896400379684196171
+    second: gremlin_hide_west_spritesheet_17
+  - first:
+      213: -6929506706805648744
+    second: gremlin_hide_west_spritesheet_18
+  - first:
+      213: -963660305853280869
+    second: gremlin_hide_west_spritesheet_19
+  - first:
+      213: 6733454188034645257
+    second: gremlin_hide_west_spritesheet_20
+  - first:
+      213: 85290579541585234
+    second: gremlin_hide_west_spritesheet_21
+  - first:
+      213: -2200428277231139669
+    second: gremlin_hide_west_spritesheet_22
+  - first:
+      213: 5546868364453238024
+    second: gremlin_hide_west_spritesheet_23
+  - first:
+      213: -2135218125966373747
+    second: gremlin_hide_west_spritesheet_24
+  - first:
+      213: 933083582032731548
+    second: gremlin_hide_west_spritesheet_25
+  - first:
+      213: -7393630534972791387
+    second: gremlin_hide_west_spritesheet_26
+  - first:
+      213: 1259653216496337395
+    second: gremlin_hide_west_spritesheet_27
+  - first:
+      213: -6478264937536578573
+    second: gremlin_hide_west_spritesheet_28
+  - first:
+      213: -2982338801889795751
+    second: gremlin_hide_west_spritesheet_29
+  - first:
+      213: 346044129692002400
+    second: gremlin_hide_west_spritesheet_30
+  - first:
+      213: 5080867951707087551
+    second: gremlin_hide_west_spritesheet_31
+  - first:
+      213: -7789172984095401485
+    second: gremlin_hide_west_spritesheet_32
+  - first:
+      213: 9185905285884528999
+    second: gremlin_hide_west_spritesheet_33
+  - first:
+      213: -5005396518744592970
+    second: gremlin_hide_west_spritesheet_34
+  - first:
+      213: -3291881357184929240
+    second: gremlin_hide_west_spritesheet_35
+  - first:
+      213: -7807598111678645189
+    second: gremlin_hide_west_spritesheet_36
+  - first:
+      213: -1091469862803571235
+    second: gremlin_hide_west_spritesheet_37
+  - first:
+      213: -7817866444773603110
+    second: gremlin_hide_west_spritesheet_38
+  - first:
+      213: 1445487205264176403
+    second: gremlin_hide_west_spritesheet_39
+  - first:
+      213: -3056165608486620302
+    second: gremlin_hide_west_spritesheet_40
+  - first:
+      213: -4695274052414676393
+    second: gremlin_hide_west_spritesheet_41
+  - first:
+      213: -6566844629510924972
+    second: gremlin_hide_west_spritesheet_42
+  - first:
+      213: 961248947438185257
+    second: gremlin_hide_west_spritesheet_43
+  - first:
+      213: 2090532935331960570
+    second: gremlin_hide_west_spritesheet_44
+  - first:
+      213: 2143528770687705961
+    second: gremlin_hide_west_spritesheet_45
+  - first:
+      213: 6554752909186476486
+    second: gremlin_hide_west_spritesheet_46
+  - first:
+      213: -5072246398426168466
+    second: gremlin_hide_west_spritesheet_47
+  - first:
+      213: 3359986816974344689
+    second: gremlin_hide_west_spritesheet_48
+  - first:
+      213: -7166201793439468171
+    second: gremlin_hide_west_spritesheet_49
+  - first:
+      213: 5129646384190954420
+    second: gremlin_hide_west_spritesheet_50
+  - first:
+      213: 2947621721247492531
+    second: gremlin_hide_west_spritesheet_51
+  - first:
+      213: -7671576386557101456
+    second: gremlin_hide_west_spritesheet_52
+  - first:
+      213: 1412376328946723381
+    second: gremlin_hide_west_spritesheet_53
+  - first:
+      213: -2542628806030948551
+    second: gremlin_hide_west_spritesheet_54
+  - first:
+      213: 1180001915753234618
+    second: gremlin_hide_west_spritesheet_55
+  - first:
+      213: -4645705009562020031
+    second: gremlin_hide_west_spritesheet_56
+  - first:
+      213: 482415968037598818
+    second: gremlin_hide_west_spritesheet_57
+  - first:
+      213: -7107511315450321568
+    second: gremlin_hide_west_spritesheet_58
+  - first:
+      213: -315361001607403228
+    second: gremlin_hide_west_spritesheet_59
+  - first:
+      213: -4967380151766526569
+    second: gremlin_hide_west_spritesheet_60
+  - first:
+      213: 7397957147391174185
+    second: gremlin_hide_west_spritesheet_61
+  - first:
+      213: 8801007358233370002
+    second: gremlin_hide_west_spritesheet_62
+  - first:
+      213: 8599797162553438294
+    second: gremlin_hide_west_spritesheet_63
+  - first:
+      213: -5477660883864749696
+    second: gremlin_hide_west_spritesheet_64
+  - first:
+      213: -1706534854103330480
+    second: gremlin_hide_west_spritesheet_65
+  - first:
+      213: -8096133960398770832
+    second: gremlin_hide_west_spritesheet_66
+  - first:
+      213: 223977774356172995
+    second: gremlin_hide_west_spritesheet_67
+  - first:
+      213: 2364392541069621875
+    second: gremlin_hide_west_spritesheet_68
+  - first:
+      213: -471586058473009062
+    second: gremlin_hide_west_spritesheet_69
+  - first:
+      213: -2035550428773763004
+    second: gremlin_hide_west_spritesheet_70
+  - first:
+      213: -2363970914432548400
+    second: gremlin_hide_west_spritesheet_71
+  - first:
+      213: 716316364870068169
+    second: gremlin_hide_west_spritesheet_72
+  - first:
+      213: 4269691233116256356
+    second: gremlin_hide_west_spritesheet_73
+  - first:
+      213: -3718879513827223678
+    second: gremlin_hide_west_spritesheet_74
+  - first:
+      213: 3533627642653685241
+    second: gremlin_hide_west_spritesheet_75
+  - first:
+      213: -2899395966132717876
+    second: gremlin_hide_west_spritesheet_76
+  - first:
+      213: -1680942455338826938
+    second: gremlin_hide_west_spritesheet_77
+  - first:
+      213: -26115760014701224
+    second: gremlin_hide_west_spritesheet_78
+  - first:
+      213: 5595804402325775163
+    second: gremlin_hide_west_spritesheet_79
+  - first:
+      213: -5915877067983111425
+    second: gremlin_hide_west_spritesheet_80
+  - first:
+      213: 6615232976747533423
+    second: gremlin_hide_west_spritesheet_81
+  - first:
+      213: -3083534918559212726
+    second: gremlin_hide_west_spritesheet_82
+  - first:
+      213: 7956727561030194615
+    second: gremlin_hide_west_spritesheet_83
+  - first:
+      213: 3172782545394388496
+    second: gremlin_hide_west_spritesheet_84
+  - first:
+      213: 3763620418094167745
+    second: gremlin_hide_west_spritesheet_85
+  - first:
+      213: -8066310845173434336
+    second: gremlin_hide_west_spritesheet_86
+  - first:
+      213: -475788426406560441
+    second: gremlin_hide_west_spritesheet_87
+  - first:
+      213: 4942003971419848145
+    second: gremlin_hide_west_spritesheet_88
+  - first:
+      213: -9045559336154491026
+    second: gremlin_hide_west_spritesheet_89
+  - first:
+      213: 3838984856671000802
+    second: gremlin_hide_west_spritesheet_90
+  - first:
+      213: 4561322169130556726
+    second: gremlin_hide_west_spritesheet_91
+  - first:
+      213: -4317009797323214852
+    second: gremlin_hide_west_spritesheet_92
+  - first:
+      213: -5660681203005808912
+    second: gremlin_hide_west_spritesheet_93
+  - first:
+      213: 7924300954672254601
+    second: gremlin_hide_west_spritesheet_94
+  - first:
+      213: 8621120761455093813
+    second: gremlin_hide_west_spritesheet_95
+  - first:
+      213: 2535330460798601171
+    second: gremlin_hide_west_spritesheet_96
+  - first:
+      213: -5792929314435818243
+    second: gremlin_hide_west_spritesheet_97
+  - first:
+      213: 3707605699440469963
+    second: gremlin_hide_west_spritesheet_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713f877e83abf8bb0800000000000000
+      internalID: -4931518313383005417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc52f645ed1eb4360800000000000000
+      internalID: 7155060778023724493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e1c48327f9c7f10800000000000000
+      internalID: 2268863625207488012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51701ab30b9a55b0800000000000000
+      internalID: -5378816364631789221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c18c6f1deb025430800000000000000
+      internalID: 3770088951124885958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81fb1969be1ca510800000000000000
+      internalID: 1561656952471941514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2ddcea4c41c0b00800000000000000
+      internalID: 796034069116605094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 6292
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dcefc650332d0b0800000000000000
+      internalID: -5705441679528506024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 5780
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee3933fd16fc98f0800000000000000
+      internalID: -532280047441461536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 5780
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8284a33a47f78a30800000000000000
+      internalID: 4217611474121818762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 5780
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3015d9e378c7a5700800000000000000
+      internalID: 529872826482381059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 5780
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edc1ad3457151d40800000000000000
+      internalID: 5554371366010080744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 5780
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f016f16c0a3d529e0800000000000000
+      internalID: -1646677401261874929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 5780
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0642ea1964694b0800000000000000
+      internalID: -5434078308870102835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 5780
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e34155d646e2a360800000000000000
+      internalID: 7179553947882963936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 5780
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68d0fb6c6807c850800000000000000
+      internalID: 6397091057463515245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1a6326dfc3d2470800000000000000
+      internalID: 8371414341323760060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0fd91533bedc7d0800000000000000
+      internalID: -2896400379684196171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89299204d5275df90800000000000000
+      internalID: -6929506706805648744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d8879be0460a2f0800000000000000
+      internalID: -963660305853280869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ddb2d98e8027d50800000000000000
+      internalID: 6733454188034645257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d634884530f2100800000000000000
+      internalID: 85290579541585234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4c9e5e3228671e0800000000000000
+      internalID: -2200428277231139669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 5268
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805561f836f6afc40800000000000000
+      internalID: 5546868364453238024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 4756
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c8cc36d6e2e52e0800000000000000
+      internalID: -2135218125966373747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 4756
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d5fccf29af2fc00800000000000000
+      internalID: 933083582032731548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 4756
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5277a933c846990800000000000000
+      internalID: -7393630534972791387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 4756
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1417d2def2b7110800000000000000
+      internalID: 1259653216496337395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 4756
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb9345dc549816a0800000000000000
+      internalID: -6478264937536578573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 4756
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951ae7929aa9c96d0800000000000000
+      internalID: -2982338801889795751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 4756
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068a6e27d456dc400800000000000000
+      internalID: 346044129692002400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 4756
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2ea248b7ed28640800000000000000
+      internalID: 5080867951707087551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 4244
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f99ce4907c47e390800000000000000
+      internalID: -7789172984095401485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 4244
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769c7814034ea7f70800000000000000
+      internalID: 9185905285884528999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 4244
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd604cc262498ab0800000000000000
+      internalID: -5005396518744592970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 4244
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822f246c853e052d0800000000000000
+      internalID: -3291881357184929240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 4244
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c326442e6d5a390800000000000000
+      internalID: -7807598111678645189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 4244
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd7c8051f15ad0f0800000000000000
+      internalID: -1091469862803571235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 4244
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8c2d9a3eb518390800000000000000
+      internalID: -7817866444773603110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 4244
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315b42564f66f0410800000000000000
+      internalID: 1445487205264176403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273b36342915695d0800000000000000
+      internalID: -3056165608486620302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752e6be302907deb0800000000000000
+      internalID: -4695274052414676393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455d1d22a91edd4a0800000000000000
+      internalID: -6566844629510924972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b65c423da075d00800000000000000
+      internalID: 961248947438185257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af657b9e0a0130d10800000000000000
+      internalID: 2090532935331960570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963abae5f085fbd10800000000000000
+      internalID: 2143528770687705961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9a486da0927fa50800000000000000
+      internalID: 6554752909186476486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 3732
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63cd8846c2cb99b0800000000000000
+      internalID: -5072246398426168466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f150c3453211ae20800000000000000
+      internalID: 3359986816974344689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575f541ef698c8c90800000000000000
+      internalID: -7166201793439468171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb9119553a203740800000000000000
+      internalID: 5129646384190954420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9ae2b965e08e820800000000000000
+      internalID: 2947621721247492531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a3df31ce5198590800000000000000
+      internalID: -7671576386557101456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2a00c9c4c99310800000000000000
+      internalID: 1412376328946723381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93789d48294c6bcd0800000000000000
+      internalID: -2542628806030948551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 3220
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab080ce8d75306010800000000000000
+      internalID: 1180001915753234618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2708
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1479dc568e3278fb0800000000000000
+      internalID: -4645705009562020031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2708
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2667bd854c2e1b600800000000000000
+      internalID: 482415968037598818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2708
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065a385ad1c0d5d90800000000000000
+      internalID: -7107511315450321568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2708
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429ed2307dc9f9bf0800000000000000
+      internalID: -315361001607403228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 2708
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79551adf112501bb0800000000000000
+      internalID: -4967380151766526569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 2708
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92620d954d2daa660800000000000000
+      internalID: 7397957147391174185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 2708
+        width: 338
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d59150095732a70800000000000000
+      internalID: 8801007358233370002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 2708
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650f866a4fd985770800000000000000
+      internalID: 8599797162553438294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2196
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0897031b2707bf3b0800000000000000
+      internalID: -5477660883864749696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2196
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0511950879b2158e0800000000000000
+      internalID: -1706534854103330480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2196
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d6474ee01c4af80800000000000000
+      internalID: -8096133960398770832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 2196
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0151e599abb1300800000000000000
+      internalID: 223977774356172995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 2196
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ab9003d7200d020800000000000000
+      internalID: 2364392541069621875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 2196
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5090b77af69479f0800000000000000
+      internalID: -471586058473009062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 2196
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448bb8a7ba540c3e0800000000000000
+      internalID: -2035550428773763004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 2196
+        width: 338
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d184e96afc713fd0800000000000000
+      internalID: -2363970914432548400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1684
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c721ea40fdd0f900800000000000000
+      internalID: 716316364870068169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1684
+        width: 337
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4687e720e8df04b30800000000000000
+      internalID: 4269691233116256356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1684
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287d9df19c2e36cc0800000000000000
+      internalID: -3718879513827223678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1684
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5bfd87e97f90130800000000000000
+      internalID: 3533627642653685241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 1684
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6757ffab643c7d0800000000000000
+      internalID: -2899395966132717876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 1684
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64308ad2eb71ca8e0800000000000000
+      internalID: -1680942455338826938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 1684
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dc849cad733aff0800000000000000
+      internalID: -26115760014701224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 1684
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33e131c47a48ad40800000000000000
+      internalID: 5595804402325775163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1172
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffabcfb762596eda0800000000000000
+      internalID: -5915877067983111425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1172
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f649c75e7570ecb50800000000000000
+      internalID: 6615232976747533423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1172
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bd3ce24551535d0800000000000000
+      internalID: -3083534918559212726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1172
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5d3c96f89fb6e60800000000000000
+      internalID: 7956727561030194615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 1172
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ecac73aecf70c20800000000000000
+      internalID: 3172782545394388496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 1172
+        width: 337
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6f8e964d01b3430800000000000000
+      internalID: 3763620418094167745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 1172
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0287e810605be0090800000000000000
+      internalID: -8066310845173434336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 1172
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d7bcf62f8a569f0800000000000000
+      internalID: -475788426406560441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddbc0b9d66859440800000000000000
+      internalID: 4942003971419848145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e671bcd85b7b77280800000000000000
+      internalID: -9045559336154491026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e89af72360d64530800000000000000
+      internalID: 3838984856671000802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d142d88521d4f30800000000000000
+      internalID: 4561322169130556726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff2baa3676e614c0800000000000000
+      internalID: -4317009797323214852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe9b1cff683171b0800000000000000
+      internalID: -5660681203005808912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e4788cbb5c8fd60800000000000000
+      internalID: 7924300954672254601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 660
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538a648e7af54a770800000000000000
+      internalID: 8621120761455093813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 148
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7c0201f9d4f2320800000000000000
+      internalID: 2535330460798601171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 148
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc1b141b716b9fa0800000000000000
+      internalID: -5792929314435818243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_west_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 148
+        width: 337
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7ec5a6dbf047330800000000000000
+      internalID: 3707605699440469963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gremlin_hide_west_spritesheet_0: -4931518313383005417
+      gremlin_hide_west_spritesheet_1: 7155060778023724493
+      gremlin_hide_west_spritesheet_10: 529872826482381059
+      gremlin_hide_west_spritesheet_11: 5554371366010080744
+      gremlin_hide_west_spritesheet_12: -1646677401261874929
+      gremlin_hide_west_spritesheet_13: -5434078308870102835
+      gremlin_hide_west_spritesheet_14: 7179553947882963936
+      gremlin_hide_west_spritesheet_15: 6397091057463515245
+      gremlin_hide_west_spritesheet_16: 8371414341323760060
+      gremlin_hide_west_spritesheet_17: -2896400379684196171
+      gremlin_hide_west_spritesheet_18: -6929506706805648744
+      gremlin_hide_west_spritesheet_19: -963660305853280869
+      gremlin_hide_west_spritesheet_2: 2268863625207488012
+      gremlin_hide_west_spritesheet_20: 6733454188034645257
+      gremlin_hide_west_spritesheet_21: 85290579541585234
+      gremlin_hide_west_spritesheet_22: -2200428277231139669
+      gremlin_hide_west_spritesheet_23: 5546868364453238024
+      gremlin_hide_west_spritesheet_24: -2135218125966373747
+      gremlin_hide_west_spritesheet_25: 933083582032731548
+      gremlin_hide_west_spritesheet_26: -7393630534972791387
+      gremlin_hide_west_spritesheet_27: 1259653216496337395
+      gremlin_hide_west_spritesheet_28: -6478264937536578573
+      gremlin_hide_west_spritesheet_29: -2982338801889795751
+      gremlin_hide_west_spritesheet_3: -5378816364631789221
+      gremlin_hide_west_spritesheet_30: 346044129692002400
+      gremlin_hide_west_spritesheet_31: 5080867951707087551
+      gremlin_hide_west_spritesheet_32: -7789172984095401485
+      gremlin_hide_west_spritesheet_33: 9185905285884528999
+      gremlin_hide_west_spritesheet_34: -5005396518744592970
+      gremlin_hide_west_spritesheet_35: -3291881357184929240
+      gremlin_hide_west_spritesheet_36: -7807598111678645189
+      gremlin_hide_west_spritesheet_37: -1091469862803571235
+      gremlin_hide_west_spritesheet_38: -7817866444773603110
+      gremlin_hide_west_spritesheet_39: 1445487205264176403
+      gremlin_hide_west_spritesheet_4: 3770088951124885958
+      gremlin_hide_west_spritesheet_40: -3056165608486620302
+      gremlin_hide_west_spritesheet_41: -4695274052414676393
+      gremlin_hide_west_spritesheet_42: -6566844629510924972
+      gremlin_hide_west_spritesheet_43: 961248947438185257
+      gremlin_hide_west_spritesheet_44: 2090532935331960570
+      gremlin_hide_west_spritesheet_45: 2143528770687705961
+      gremlin_hide_west_spritesheet_46: 6554752909186476486
+      gremlin_hide_west_spritesheet_47: -5072246398426168466
+      gremlin_hide_west_spritesheet_48: 3359986816974344689
+      gremlin_hide_west_spritesheet_49: -7166201793439468171
+      gremlin_hide_west_spritesheet_5: 1561656952471941514
+      gremlin_hide_west_spritesheet_50: 5129646384190954420
+      gremlin_hide_west_spritesheet_51: 2947621721247492531
+      gremlin_hide_west_spritesheet_52: -7671576386557101456
+      gremlin_hide_west_spritesheet_53: 1412376328946723381
+      gremlin_hide_west_spritesheet_54: -2542628806030948551
+      gremlin_hide_west_spritesheet_55: 1180001915753234618
+      gremlin_hide_west_spritesheet_56: -4645705009562020031
+      gremlin_hide_west_spritesheet_57: 482415968037598818
+      gremlin_hide_west_spritesheet_58: -7107511315450321568
+      gremlin_hide_west_spritesheet_59: -315361001607403228
+      gremlin_hide_west_spritesheet_6: 796034069116605094
+      gremlin_hide_west_spritesheet_60: -4967380151766526569
+      gremlin_hide_west_spritesheet_61: 7397957147391174185
+      gremlin_hide_west_spritesheet_62: 8801007358233370002
+      gremlin_hide_west_spritesheet_63: 8599797162553438294
+      gremlin_hide_west_spritesheet_64: -5477660883864749696
+      gremlin_hide_west_spritesheet_65: -1706534854103330480
+      gremlin_hide_west_spritesheet_66: -8096133960398770832
+      gremlin_hide_west_spritesheet_67: 223977774356172995
+      gremlin_hide_west_spritesheet_68: 2364392541069621875
+      gremlin_hide_west_spritesheet_69: -471586058473009062
+      gremlin_hide_west_spritesheet_7: -5705441679528506024
+      gremlin_hide_west_spritesheet_70: -2035550428773763004
+      gremlin_hide_west_spritesheet_71: -2363970914432548400
+      gremlin_hide_west_spritesheet_72: 716316364870068169
+      gremlin_hide_west_spritesheet_73: 4269691233116256356
+      gremlin_hide_west_spritesheet_74: -3718879513827223678
+      gremlin_hide_west_spritesheet_75: 3533627642653685241
+      gremlin_hide_west_spritesheet_76: -2899395966132717876
+      gremlin_hide_west_spritesheet_77: -1680942455338826938
+      gremlin_hide_west_spritesheet_78: -26115760014701224
+      gremlin_hide_west_spritesheet_79: 5595804402325775163
+      gremlin_hide_west_spritesheet_8: -532280047441461536
+      gremlin_hide_west_spritesheet_80: -5915877067983111425
+      gremlin_hide_west_spritesheet_81: 6615232976747533423
+      gremlin_hide_west_spritesheet_82: -3083534918559212726
+      gremlin_hide_west_spritesheet_83: 7956727561030194615
+      gremlin_hide_west_spritesheet_84: 3172782545394388496
+      gremlin_hide_west_spritesheet_85: 3763620418094167745
+      gremlin_hide_west_spritesheet_86: -8066310845173434336
+      gremlin_hide_west_spritesheet_87: -475788426406560441
+      gremlin_hide_west_spritesheet_88: 4942003971419848145
+      gremlin_hide_west_spritesheet_89: -9045559336154491026
+      gremlin_hide_west_spritesheet_9: 4217611474121818762
+      gremlin_hide_west_spritesheet_90: 3838984856671000802
+      gremlin_hide_west_spritesheet_91: 4561322169130556726
+      gremlin_hide_west_spritesheet_92: -4317009797323214852
+      gremlin_hide_west_spritesheet_93: -5660681203005808912
+      gremlin_hide_west_spritesheet_94: 7924300954672254601
+      gremlin_hide_west_spritesheet_95: 8621120761455093813
+      gremlin_hide_west_spritesheet_96: 2535330460798601171
+      gremlin_hide_west_spritesheet_97: -5792929314435818243
+      gremlin_hide_west_spritesheet_98: 3707605699440469963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

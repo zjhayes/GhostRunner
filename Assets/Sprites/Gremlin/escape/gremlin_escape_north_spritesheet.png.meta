@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 6df34d69edacefc4ca3e559a9a03b8f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5663057518408576553
+    second: gremlin_escape_north_spritesheet_0
+  - first:
+      213: -4450985045888202959
+    second: gremlin_escape_north_spritesheet_1
+  - first:
+      213: -5916630189158691925
+    second: gremlin_escape_north_spritesheet_2
+  - first:
+      213: -7051843978395435895
+    second: gremlin_escape_north_spritesheet_3
+  - first:
+      213: 5494204235016547549
+    second: gremlin_escape_north_spritesheet_4
+  - first:
+      213: 7728806030068222777
+    second: gremlin_escape_north_spritesheet_5
+  - first:
+      213: 6435327979804613196
+    second: gremlin_escape_north_spritesheet_6
+  - first:
+      213: 4390657663084440290
+    second: gremlin_escape_north_spritesheet_7
+  - first:
+      213: 9192162684997180341
+    second: gremlin_escape_north_spritesheet_8
+  - first:
+      213: -7851282555105982357
+    second: gremlin_escape_north_spritesheet_9
+  - first:
+      213: -6209220063339517717
+    second: gremlin_escape_north_spritesheet_10
+  - first:
+      213: -1007840998704847946
+    second: gremlin_escape_north_spritesheet_11
+  - first:
+      213: 5992369863767519920
+    second: gremlin_escape_north_spritesheet_12
+  - first:
+      213: -6034044064669956101
+    second: gremlin_escape_north_spritesheet_13
+  - first:
+      213: 2074209806861413504
+    second: gremlin_escape_north_spritesheet_14
+  - first:
+      213: 7880202630224196493
+    second: gremlin_escape_north_spritesheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1736
+        width: 234
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1d6a0f037c861b0800000000000000
+      internalID: -5663057518408576553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1746
+        width: 248
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137024fdeacea32c0800000000000000
+      internalID: -4450985045888202959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1757
+        width: 260
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab08dbc038e3eda0800000000000000
+      internalID: -5916630189158691925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1761
+        width: 274
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c33409341d22e90800000000000000
+      internalID: -7051843978395435895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1249
+        width: 290
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcab9764a55f3c40800000000000000
+      internalID: 5494204235016547549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1250
+        width: 289
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b0d18a22c324b60800000000000000
+      internalID: 7728806030068222777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1251
+        width: 285
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ad269a3b0ee4950800000000000000
+      internalID: 6435327979804613196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1225
+        width: 264
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaae72c1efbeec30800000000000000
+      internalID: 4390657663084440290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 712
+        width: 244
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb9bd4824f119f70800000000000000
+      internalID: 9192162684997180341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 723
+        width: 247
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68cfaf2d14aa0390800000000000000
+      internalID: -7851282555105982357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 721
+        width: 253
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be86b60104b64d9a0800000000000000
+      internalID: -6209220063339517717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 719
+        width: 261
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b36f1293fd6302f0800000000000000
+      internalID: -1007840998704847946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 222
+        width: 282
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b27e9464ac292350800000000000000
+      internalID: 5992369863767519920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 224
+        width: 274
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf70b4694e4c24ca0800000000000000
+      internalID: -6034044064669956101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 227
+        width: 244
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c2b9764d219cc10800000000000000
+      internalID: 2074209806861413504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_north_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 201
+        width: 233
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83bc948a8a1c5d60800000000000000
+      internalID: 7880202630224196493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gremlin_escape_north_spritesheet_0: -5663057518408576553
+      gremlin_escape_north_spritesheet_1: -4450985045888202959
+      gremlin_escape_north_spritesheet_10: -6209220063339517717
+      gremlin_escape_north_spritesheet_11: -1007840998704847946
+      gremlin_escape_north_spritesheet_12: 5992369863767519920
+      gremlin_escape_north_spritesheet_13: -6034044064669956101
+      gremlin_escape_north_spritesheet_14: 2074209806861413504
+      gremlin_escape_north_spritesheet_15: 7880202630224196493
+      gremlin_escape_north_spritesheet_2: -5916630189158691925
+      gremlin_escape_north_spritesheet_3: -7051843978395435895
+      gremlin_escape_north_spritesheet_4: 5494204235016547549
+      gremlin_escape_north_spritesheet_5: 7728806030068222777
+      gremlin_escape_north_spritesheet_6: 6435327979804613196
+      gremlin_escape_north_spritesheet_7: 4390657663084440290
+      gremlin_escape_north_spritesheet_8: 9192162684997180341
+      gremlin_escape_north_spritesheet_9: -7851282555105982357
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

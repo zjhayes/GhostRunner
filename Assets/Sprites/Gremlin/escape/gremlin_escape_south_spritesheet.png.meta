@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1b41d30bb159f2741b9f3123849e18f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4928052479923830051
+    second: gremlin_escape_south_spritesheet_0
+  - first:
+      213: -7847586644773895369
+    second: gremlin_escape_south_spritesheet_1
+  - first:
+      213: -2333859173698249748
+    second: gremlin_escape_south_spritesheet_2
+  - first:
+      213: -7360067036937621442
+    second: gremlin_escape_south_spritesheet_3
+  - first:
+      213: -7958807028883743801
+    second: gremlin_escape_south_spritesheet_4
+  - first:
+      213: -4002091863413166612
+    second: gremlin_escape_south_spritesheet_5
+  - first:
+      213: 5668128201468999309
+    second: gremlin_escape_south_spritesheet_6
+  - first:
+      213: 1442767475252218612
+    second: gremlin_escape_south_spritesheet_7
+  - first:
+      213: 3146565806764658100
+    second: gremlin_escape_south_spritesheet_8
+  - first:
+      213: 4695293305525327763
+    second: gremlin_escape_south_spritesheet_9
+  - first:
+      213: -992401534211398685
+    second: gremlin_escape_south_spritesheet_10
+  - first:
+      213: 5994043443939777392
+    second: gremlin_escape_south_spritesheet_11
+  - first:
+      213: 5274401380454980766
+    second: gremlin_escape_south_spritesheet_12
+  - first:
+      213: 42485188744675236
+    second: gremlin_escape_south_spritesheet_13
+  - first:
+      213: 8411394906064199700
+    second: gremlin_escape_south_spritesheet_14
+  - first:
+      213: -5137060421694932640
+    second: gremlin_escape_south_spritesheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1641
+        width: 235
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd248a3216a0c9bb0800000000000000
+      internalID: -4928052479923830051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1609
+        width: 248
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733072e5685c71390800000000000000
+      internalID: -7847586644773895369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1608
+        width: 258
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebdde362777c9fd0800000000000000
+      internalID: -2333859173698249748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 1614
+        width: 274
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e307544760acbd990800000000000000
+      internalID: -7360067036937621442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1107
+        width: 289
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb908fbc23ac8190800000000000000
+      internalID: -7958807028883743801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1126
+        width: 289
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cede6ca77a6b578c0800000000000000
+      internalID: -4002091863413166612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1161
+        width: 285
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86fee5719c39ae40800000000000000
+      internalID: 5668128201468999309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1162
+        width: 264
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa45e7ef5db50410800000000000000
+      internalID: 1442767475252218612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 614
+        width: 243
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd09961ee8daab20800000000000000
+      internalID: 3146565806764658100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 579
+        width: 247
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3975b187268092140800000000000000
+      internalID: 4695293305525327763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 580
+        width: 254
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3e6c600184a32f0800000000000000
+      internalID: -992401534211398685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 587
+        width: 261
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b1a4421ce1f2350800000000000000
+      internalID: 5994043443939777392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 83
+        width: 282
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c59dc4c10723940800000000000000
+      internalID: 5274401380454980766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 105
+        width: 274
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af7757dd00f69000800000000000000
+      internalID: 42485188744675236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 101
+        width: 243
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410ac710a174bb470800000000000000
+      internalID: 8411394906064199700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_escape_south_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 103
+        width: 234
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069b72783ce75b8b0800000000000000
+      internalID: -5137060421694932640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gremlin_escape_south_spritesheet_0: -4928052479923830051
+      gremlin_escape_south_spritesheet_1: -7847586644773895369
+      gremlin_escape_south_spritesheet_10: -992401534211398685
+      gremlin_escape_south_spritesheet_11: 5994043443939777392
+      gremlin_escape_south_spritesheet_12: 5274401380454980766
+      gremlin_escape_south_spritesheet_13: 42485188744675236
+      gremlin_escape_south_spritesheet_14: 8411394906064199700
+      gremlin_escape_south_spritesheet_15: -5137060421694932640
+      gremlin_escape_south_spritesheet_2: -2333859173698249748
+      gremlin_escape_south_spritesheet_3: -7360067036937621442
+      gremlin_escape_south_spritesheet_4: -7958807028883743801
+      gremlin_escape_south_spritesheet_5: -4002091863413166612
+      gremlin_escape_south_spritesheet_6: 5668128201468999309
+      gremlin_escape_south_spritesheet_7: 1442767475252218612
+      gremlin_escape_south_spritesheet_8: 3146565806764658100
+      gremlin_escape_south_spritesheet_9: 4695293305525327763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

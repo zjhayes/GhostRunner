@@ -8,7 +8,7 @@ public class Ghost : CharacterManager
     public GhostContext Context => context;
     public Transform Target { get; private set; }
 
-    protected void Awake()
+    protected virtual void Awake()
     {
         context.Ghost = this;
     }

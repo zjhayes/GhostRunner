@@ -1,47 +1,44 @@
 using UnityEngine;
 
-[RequireComponent(typeof(GhostHome))]
 [RequireComponent(typeof(GhostScatter))]
 [RequireComponent(typeof(GhostChase))]
-[RequireComponent(typeof(GhostFrightened))]
 public class GhostContext : MonoBehaviour
 {
-    [SerializeField] Transform homeTransform;
-    [SerializeField] Transform exitTransform;
     [SerializeField] GhostBehaviour initialBehaviour;
 
-    public Transform HomeTransform => homeTransform;
-    public Transform ExitTransform => exitTransform;
-    public GhostHome Home { get; private set; }
     public GhostScatter Scatter { get; private set; }
     public GhostChase Chase { get; private set; }
-    public GhostFrightened Frightened { get; private set; }
     public Ghost Ghost { get; set; }
+    public bool SuppressBehaviourTransitions { get; private set; }
 
-
-    private void Awake()
+    protected virtual void Awake()
     {
-        Home = GetComponent<GhostHome>();
         Scatter = GetComponent<GhostScatter>();
         Chase = GetComponent<GhostChase>();
-        Frightened = GetComponent<GhostFrightened>();
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         ResetState();
     }
 
-    public void ResetState()
+    public virtual void ResetState()
     {
-        Frightened.Disable();
-        Chase.Disable();
-        Scatter.Disable();
-        Home.Disable();
+        DisableNormalBehaviours();
 
         if (initialBehaviour != null)
             initialBehaviour.Enable();
         else
             Scatter.Enable();
+    }
+
+    protected void DisableNormalBehaviours()
+    {
+        SuppressBehaviourTransitions = true;
+
+        Chase.Disable();
+        Scatter.Disable();
+
+        SuppressBehaviourTransitions = false;
     }
 }

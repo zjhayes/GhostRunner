@@ -17,6 +17,9 @@ public class GhostScatter : GhostBehaviour
     protected override void OnDisable()
     {
         base.OnDisable();
-        Context.Chase.Enable();
+        if (!Context.SuppressBehaviourTransitions)
+            Context.Chase.Enable();
     }
 }
+
+

@@ -48,6 +48,8 @@ public class LanternController : MonoBehaviour
 
     public Light Light => lanternLight;
     public LanternColor Color => currentColor;
+    public Cardinal FacingDirection { get; private set; }
+    public Vector2 FacingVector => CardinalUtil.ToVector(FacingDirection);
 
     private enum LanternMotionState
     {
@@ -144,6 +146,8 @@ public class LanternController : MonoBehaviour
 
     private void ApplySocket(Cardinal dir)
     {
+        FacingDirection = dir;
+
         Transform socket = dir switch
         {
             Cardinal.East => eastSocket,

@@ -34,6 +34,9 @@ public class GhostChase : GhostBehaviour
     protected override void OnDisable()
     {
         base.OnDisable();
-        Context.Scatter.Enable();
+        if (!Context.SuppressBehaviourTransitions)
+            Context.Scatter.Enable();
     }
 }
+
+

@@ -1,0 +1,2691 @@
+fileFormatVersion: 2
+guid: 1f154b170a97fce4385e2880ccc7646c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4449183777580713413
+    second: gremlin_hide_south_spritesheet_EmissionMap_0
+  - first:
+      213: 3270506938528735146
+    second: gremlin_hide_south_spritesheet_EmissionMap_1
+  - first:
+      213: 999956659612881326
+    second: gremlin_hide_south_spritesheet_EmissionMap_2
+  - first:
+      213: 330049358804680513
+    second: gremlin_hide_south_spritesheet_EmissionMap_3
+  - first:
+      213: 406008972908535234
+    second: gremlin_hide_south_spritesheet_EmissionMap_4
+  - first:
+      213: -7798632015872337730
+    second: gremlin_hide_south_spritesheet_EmissionMap_5
+  - first:
+      213: 2106331774035177983
+    second: gremlin_hide_south_spritesheet_EmissionMap_6
+  - first:
+      213: 6305978745506565880
+    second: gremlin_hide_south_spritesheet_EmissionMap_7
+  - first:
+      213: -2474513614443410336
+    second: gremlin_hide_south_spritesheet_EmissionMap_8
+  - first:
+      213: -4028987891571725533
+    second: gremlin_hide_south_spritesheet_EmissionMap_9
+  - first:
+      213: 260702120219435951
+    second: gremlin_hide_south_spritesheet_EmissionMap_10
+  - first:
+      213: 7147568823057779138
+    second: gremlin_hide_south_spritesheet_EmissionMap_11
+  - first:
+      213: 7357189056791066389
+    second: gremlin_hide_south_spritesheet_EmissionMap_12
+  - first:
+      213: 6925792475324420242
+    second: gremlin_hide_south_spritesheet_EmissionMap_13
+  - first:
+      213: -4137682321996759083
+    second: gremlin_hide_south_spritesheet_EmissionMap_14
+  - first:
+      213: -1737154957134114190
+    second: gremlin_hide_south_spritesheet_EmissionMap_15
+  - first:
+      213: -8609324991148645205
+    second: gremlin_hide_south_spritesheet_EmissionMap_16
+  - first:
+      213: -7872966319844893514
+    second: gremlin_hide_south_spritesheet_EmissionMap_17
+  - first:
+      213: -9156263325352890123
+    second: gremlin_hide_south_spritesheet_EmissionMap_18
+  - first:
+      213: -1867531426278523480
+    second: gremlin_hide_south_spritesheet_EmissionMap_19
+  - first:
+      213: -638652821379576225
+    second: gremlin_hide_south_spritesheet_EmissionMap_20
+  - first:
+      213: -289355578705752722
+    second: gremlin_hide_south_spritesheet_EmissionMap_21
+  - first:
+      213: 2953734750526452801
+    second: gremlin_hide_south_spritesheet_EmissionMap_22
+  - first:
+      213: -2099739570226792362
+    second: gremlin_hide_south_spritesheet_EmissionMap_23
+  - first:
+      213: -8054907652795616887
+    second: gremlin_hide_south_spritesheet_EmissionMap_24
+  - first:
+      213: -1273902742616591096
+    second: gremlin_hide_south_spritesheet_EmissionMap_25
+  - first:
+      213: 3634646554271468160
+    second: gremlin_hide_south_spritesheet_EmissionMap_26
+  - first:
+      213: -3152172308767337081
+    second: gremlin_hide_south_spritesheet_EmissionMap_27
+  - first:
+      213: -1401983155449879186
+    second: gremlin_hide_south_spritesheet_EmissionMap_28
+  - first:
+      213: -1634226234083137707
+    second: gremlin_hide_south_spritesheet_EmissionMap_29
+  - first:
+      213: -4105659074292797351
+    second: gremlin_hide_south_spritesheet_EmissionMap_30
+  - first:
+      213: -2347921157627279768
+    second: gremlin_hide_south_spritesheet_EmissionMap_31
+  - first:
+      213: -1164357819349398474
+    second: gremlin_hide_south_spritesheet_EmissionMap_32
+  - first:
+      213: 2273006747871851004
+    second: gremlin_hide_south_spritesheet_EmissionMap_33
+  - first:
+      213: -5419943061063026638
+    second: gremlin_hide_south_spritesheet_EmissionMap_34
+  - first:
+      213: 5946680804269699296
+    second: gremlin_hide_south_spritesheet_EmissionMap_35
+  - first:
+      213: -8728532087139191595
+    second: gremlin_hide_south_spritesheet_EmissionMap_36
+  - first:
+      213: -1935396118120985202
+    second: gremlin_hide_south_spritesheet_EmissionMap_37
+  - first:
+      213: -3429877889000351686
+    second: gremlin_hide_south_spritesheet_EmissionMap_38
+  - first:
+      213: 9034279875327342037
+    second: gremlin_hide_south_spritesheet_EmissionMap_39
+  - first:
+      213: 6254451362214308482
+    second: gremlin_hide_south_spritesheet_EmissionMap_40
+  - first:
+      213: -1493288995419006484
+    second: gremlin_hide_south_spritesheet_EmissionMap_41
+  - first:
+      213: -2347699032310768497
+    second: gremlin_hide_south_spritesheet_EmissionMap_42
+  - first:
+      213: -1904353806894556724
+    second: gremlin_hide_south_spritesheet_EmissionMap_43
+  - first:
+      213: 2214722272927431906
+    second: gremlin_hide_south_spritesheet_EmissionMap_44
+  - first:
+      213: 1578639947576626573
+    second: gremlin_hide_south_spritesheet_EmissionMap_45
+  - first:
+      213: -321134703709029717
+    second: gremlin_hide_south_spritesheet_EmissionMap_46
+  - first:
+      213: -676532035002144036
+    second: gremlin_hide_south_spritesheet_EmissionMap_47
+  - first:
+      213: -8877293280337274215
+    second: gremlin_hide_south_spritesheet_EmissionMap_48
+  - first:
+      213: -2432234858405356059
+    second: gremlin_hide_south_spritesheet_EmissionMap_49
+  - first:
+      213: 3547325688736189232
+    second: gremlin_hide_south_spritesheet_EmissionMap_50
+  - first:
+      213: 7989561651967679925
+    second: gremlin_hide_south_spritesheet_EmissionMap_51
+  - first:
+      213: 2505089942063309477
+    second: gremlin_hide_south_spritesheet_EmissionMap_52
+  - first:
+      213: 3837387866491721882
+    second: gremlin_hide_south_spritesheet_EmissionMap_53
+  - first:
+      213: -6222086967117730061
+    second: gremlin_hide_south_spritesheet_EmissionMap_54
+  - first:
+      213: -5627999153307172197
+    second: gremlin_hide_south_spritesheet_EmissionMap_55
+  - first:
+      213: 1043220610191849839
+    second: gremlin_hide_south_spritesheet_EmissionMap_56
+  - first:
+      213: -8779981715501846109
+    second: gremlin_hide_south_spritesheet_EmissionMap_57
+  - first:
+      213: -8786798559714327027
+    second: gremlin_hide_south_spritesheet_EmissionMap_58
+  - first:
+      213: -1823302317880075019
+    second: gremlin_hide_south_spritesheet_EmissionMap_59
+  - first:
+      213: 5425003989004147737
+    second: gremlin_hide_south_spritesheet_EmissionMap_60
+  - first:
+      213: 6274756503727789609
+    second: gremlin_hide_south_spritesheet_EmissionMap_61
+  - first:
+      213: -6961324523758030541
+    second: gremlin_hide_south_spritesheet_EmissionMap_62
+  - first:
+      213: -2932896128976567465
+    second: gremlin_hide_south_spritesheet_EmissionMap_63
+  - first:
+      213: -7818320136587221206
+    second: gremlin_hide_south_spritesheet_EmissionMap_64
+  - first:
+      213: 1733987206620707253
+    second: gremlin_hide_south_spritesheet_EmissionMap_65
+  - first:
+      213: 9108631769567697883
+    second: gremlin_hide_south_spritesheet_EmissionMap_66
+  - first:
+      213: 814521376474372675
+    second: gremlin_hide_south_spritesheet_EmissionMap_67
+  - first:
+      213: -9170581530447000016
+    second: gremlin_hide_south_spritesheet_EmissionMap_68
+  - first:
+      213: 1505553761086362805
+    second: gremlin_hide_south_spritesheet_EmissionMap_69
+  - first:
+      213: -1789370368993533964
+    second: gremlin_hide_south_spritesheet_EmissionMap_70
+  - first:
+      213: -86807233989066370
+    second: gremlin_hide_south_spritesheet_EmissionMap_71
+  - first:
+      213: -6862569295838289270
+    second: gremlin_hide_south_spritesheet_EmissionMap_72
+  - first:
+      213: -8459553432136760811
+    second: gremlin_hide_south_spritesheet_EmissionMap_73
+  - first:
+      213: -4617558297003642444
+    second: gremlin_hide_south_spritesheet_EmissionMap_74
+  - first:
+      213: -5577922834239729842
+    second: gremlin_hide_south_spritesheet_EmissionMap_75
+  - first:
+      213: -7646292975638254
+    second: gremlin_hide_south_spritesheet_EmissionMap_76
+  - first:
+      213: -373904887310576421
+    second: gremlin_hide_south_spritesheet_EmissionMap_77
+  - first:
+      213: 4491554692345665183
+    second: gremlin_hide_south_spritesheet_EmissionMap_78
+  - first:
+      213: 4283948091108707759
+    second: gremlin_hide_south_spritesheet_EmissionMap_79
+  - first:
+      213: 5247120354509556025
+    second: gremlin_hide_south_spritesheet_EmissionMap_80
+  - first:
+      213: 5480982821964810038
+    second: gremlin_hide_south_spritesheet_EmissionMap_81
+  - first:
+      213: 1015873896816210885
+    second: gremlin_hide_south_spritesheet_EmissionMap_82
+  - first:
+      213: 1875926851578223397
+    second: gremlin_hide_south_spritesheet_EmissionMap_83
+  - first:
+      213: -5846509344679510483
+    second: gremlin_hide_south_spritesheet_EmissionMap_84
+  - first:
+      213: 4623842076535782720
+    second: gremlin_hide_south_spritesheet_EmissionMap_85
+  - first:
+      213: 5991136571959309089
+    second: gremlin_hide_south_spritesheet_EmissionMap_86
+  - first:
+      213: -4387767974640159621
+    second: gremlin_hide_south_spritesheet_EmissionMap_87
+  - first:
+      213: -8033376213554051658
+    second: gremlin_hide_south_spritesheet_EmissionMap_88
+  - first:
+      213: 2081101808704126274
+    second: gremlin_hide_south_spritesheet_EmissionMap_89
+  - first:
+      213: -2218171147813926393
+    second: gremlin_hide_south_spritesheet_EmissionMap_90
+  - first:
+      213: 1136413978125579482
+    second: gremlin_hide_south_spritesheet_EmissionMap_91
+  - first:
+      213: -7752695477655909661
+    second: gremlin_hide_south_spritesheet_EmissionMap_92
+  - first:
+      213: 8250363885164063864
+    second: gremlin_hide_south_spritesheet_EmissionMap_93
+  - first:
+      213: -2607745761454943032
+    second: gremlin_hide_south_spritesheet_EmissionMap_94
+  - first:
+      213: 216860043681952954
+    second: gremlin_hide_south_spritesheet_EmissionMap_95
+  - first:
+      213: 500554171935582047
+    second: gremlin_hide_south_spritesheet_EmissionMap_96
+  - first:
+      213: 6243662303619178725
+    second: gremlin_hide_south_spritesheet_EmissionMap_97
+  - first:
+      213: 2678659266639883266
+    second: gremlin_hide_south_spritesheet_EmissionMap_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3afed45de25142c0800000000000000
+      internalID: -4449183777580713413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_1
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf94729bbc236d20800000000000000
+      internalID: 3270506938528735146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_2
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1130fa84f80ed00800000000000000
+      internalID: 999956659612881326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_3
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ff5e5a422949400800000000000000
+      internalID: 330049358804680513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_4
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd95dd720f62a500800000000000000
+      internalID: 406008972908535234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_5
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8d0ff1081b5c390800000000000000
+      internalID: -7798632015872337730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_6
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff13c72b6913b3d10800000000000000
+      internalID: 2106331774035177983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_7
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 6237
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe051f2246538750800000000000000
+      internalID: 6305978745506565880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 5725
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c8b3b6af2c8add0800000000000000
+      internalID: -2474513614443410336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_9
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 5725
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b648eebd82618c0800000000000000
+      internalID: -4028987891571725533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_10
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 5725
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3eed372333e9300800000000000000
+      internalID: 260702120219435951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_11
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 5725
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c90402a9f3413360800000000000000
+      internalID: 7147568823057779138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_12
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 5725
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5173c63977cf91660800000000000000
+      internalID: 7357189056791066389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_13
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 5725
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29019c7df8b5d1060800000000000000
+      internalID: 6925792475324420242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_14
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 5725
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df38fbb9dff396c0800000000000000
+      internalID: -4137682321996759083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_15
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 5725
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272563435c264e7e0800000000000000
+      internalID: -1737154957134114190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 5213
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba421b2e888858880800000000000000
+      internalID: -8609324991148645205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_17
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 5213
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcd70948da9db290800000000000000
+      internalID: -7872966319844893514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_18
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 5213
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0776e740b6ee080800000000000000
+      internalID: -9156263325352890123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_19
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 5213
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad3ac9ff023516e0800000000000000
+      internalID: -1867531426278523480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_20
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 5213
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e8ed684ac0327f0800000000000000
+      internalID: -638652821379576225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_21
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 5213
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d477d52a00cfbf0800000000000000
+      internalID: -289355578705752722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_22
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 5213
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1443bd52b16cdf820800000000000000
+      internalID: 2953734750526452801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_23
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 5213
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658fccb5cf93cd2e0800000000000000
+      internalID: -2099739570226792362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_24
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4701
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981ba80aa28373090800000000000000
+      internalID: -8054907652795616887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_25
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 4701
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80531fb7430325ee0800000000000000
+      internalID: -1273902742616591096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_26
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 4701
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ac27fa8cbd07230800000000000000
+      internalID: 3634646554271468160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_27
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 4701
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78599117cfb3144d0800000000000000
+      internalID: -3152172308767337081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_28
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 4701
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6524568fb72b8ce0800000000000000
+      internalID: -1401983155449879186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_29
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 4701
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557a9da06ef0259e0800000000000000
+      internalID: -1634226234083137707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_30
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 4701
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9503beb13d4c507c0800000000000000
+      internalID: -4105659074292797351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_31
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 4701
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866800f95228a6fd0800000000000000
+      internalID: -2347921157627279768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_32
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4189
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c0b3a7bbe57dfe0800000000000000
+      internalID: -1164357819349398474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_33
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 4189
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1b7f228975b8f10800000000000000
+      internalID: 2273006747871851004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_34
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 4189
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238be76808e78c4b0800000000000000
+      internalID: -5419943061063026638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_35
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 4189
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e031234faad68250800000000000000
+      internalID: 5946680804269699296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_36
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 4189
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4387fff460ed680800000000000000
+      internalID: -8728532087139191595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_37
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 4189
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d8ab71c771425e0800000000000000
+      internalID: -1935396118120985202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_38
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 4189
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38da237b30a660d0800000000000000
+      internalID: -3429877889000351686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_39
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 4189
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5b8525ea5306d70800000000000000
+      internalID: 9034279875327342037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28aedbd50664cc650800000000000000
+      internalID: 6254451362214308482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_41
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9dc090295c64be0800000000000000
+      internalID: -1493288995419006484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_42
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c96933b2c4b6fd0800000000000000
+      internalID: -2347699032310768497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_43
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc913656d406295e0800000000000000
+      internalID: -1904353806894556724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_44
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec3cf15c264cbe10800000000000000
+      internalID: 2214722272927431906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_45
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dcb871ba478e510800000000000000
+      internalID: 1578639947576626573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_46
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa7f5c30b91b8bf0800000000000000
+      internalID: -321134703709029717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_47
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 3677
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda6686d2b97c96f0800000000000000
+      internalID: -676532035002144036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_48
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ad882abc48dc480800000000000000
+      internalID: -8877293280337274215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_49
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed1d666847fe3ed0800000000000000
+      internalID: -2432234858405356059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_50
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b0dbb5be1aa3130800000000000000
+      internalID: 3547325688736189232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_51
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bddd90fdff90ee60800000000000000
+      internalID: 7989561651967679925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_52
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2661f970ed3c220800000000000000
+      internalID: 2505089942063309477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_53
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9812a7eee3214530800000000000000
+      internalID: 3837387866491721882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_54
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe2c539ed4b6a9a0800000000000000
+      internalID: -6222086967117730061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_55
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 3165
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b924de6a69455e1b0800000000000000
+      internalID: -5627999153307172197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_56
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2653
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69f9d42e934a7e00800000000000000
+      internalID: 1043220610191849839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_57
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2653
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a17619e52d372680800000000000000
+      internalID: -8779981715501846109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_58
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2653
+        width: 228
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06405fa3450f0680800000000000000
+      internalID: -8786798559714327027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_59
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 2653
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc9c90c33452b6e0800000000000000
+      internalID: -1823302317880075019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_60
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 2653
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c5ba5926c794b40800000000000000
+      internalID: 5425003989004147737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_61
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 2653
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92654c88bc9641750800000000000000
+      internalID: 6274756503727789609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_62
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 2653
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331ff237a38646f90800000000000000
+      internalID: -6961324523758030541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_63
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 2653
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753cb3582824c47d0800000000000000
+      internalID: -2932896128976567465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_64
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2141
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a276f6e424fbf7390800000000000000
+      internalID: -7818320136587221206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_65
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2141
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9f2b76d2c501810800000000000000
+      internalID: 1733987206620707253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_66
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2141
+        width: 228
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb9be6b55c586e70800000000000000
+      internalID: 9108631769567697883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_67
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 2141
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a97ba50e2cd4b00800000000000000
+      internalID: 814521376474372675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_68
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 2141
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ec2f59fac8bb080800000000000000
+      internalID: -9170581530447000016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_69
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 2141
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b45ecf3b2dc4e410800000000000000
+      internalID: 1505553761086362805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_70
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 2141
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffd7804121ea27e0800000000000000
+      internalID: -1789370368993533964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_71
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 2141
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71c526d7499bcef0800000000000000
+      internalID: -86807233989066370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_72
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1629
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a826e0bb59143c0a0800000000000000
+      internalID: -6862569295838289270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_73
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1629
+        width: 228
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5124d0f59f0a99a80800000000000000
+      internalID: -8459553432136760811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_74
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1629
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b07991332befb0800000000000000
+      internalID: -4617558297003642444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_75
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1629
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fc9904cbc3792b0800000000000000
+      internalID: -5577922834239729842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_76
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1629
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219a65facb5d4eff0800000000000000
+      internalID: -7646292975638254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_77
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1629
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4121c6c7f9fcaf0800000000000000
+      internalID: -373904887310576421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_78
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 1629
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9690860235355e30800000000000000
+      internalID: 4491554692345665183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_79
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 1629
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad4fbe6714a37b30800000000000000
+      internalID: 4283948091108707759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_80
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1117
+        width: 228
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9398348792481d840800000000000000
+      internalID: 5247120354509556025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_81
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1117
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6370b3b46dc501c40800000000000000
+      internalID: 5480982821964810038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_82
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1117
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c372544deb191e00800000000000000
+      internalID: 1015873896816210885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_83
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1117
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bdfec4881a80a10800000000000000
+      internalID: 1875926851578223397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_84
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1117
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e30662ab60ddea0800000000000000
+      internalID: -5846509344679510483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_85
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1117
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d7b65dedf2b2040800000000000000
+      internalID: 4623842076535782720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_86
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 1117
+        width: 228
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1237c7448fac42350800000000000000
+      internalID: 5991136571959309089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_87
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 1117
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74fcb246448b13c0800000000000000
+      internalID: -4387767974640159621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_88
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5c90c75e6b38090800000000000000
+      internalID: -8033376213554051658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_89
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d7b31a11f81ec10800000000000000
+      internalID: 2081101808704126274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_90
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ac78be7197731e0800000000000000
+      internalID: -2218171147813926393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_91
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4b6fbfd7a55cf00800000000000000
+      internalID: 1136413978125579482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_92
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaca82e984e86490800000000000000
+      internalID: -7752695477655909661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_93
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c6ae2cd3e2f7270800000000000000
+      internalID: 8250363885164063864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_94
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c492ffdb0d6fcbd0800000000000000
+      internalID: -2607745761454943032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_95
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 605
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab473ad8f01720300800000000000000
+      internalID: 216860043681952954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_96
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 93
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f576f090e5352f600800000000000000
+      internalID: 500554171935582047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_97
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 93
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0e7b8e8c1f5a650800000000000000
+      internalID: 6243662303619178725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_hide_south_spritesheet_EmissionMap_98
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 93
+        width: 228
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ce06e29628c2520800000000000000
+      internalID: 2678659266639883266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gremlin_hide_south_spritesheet_EmissionMap_0: -4449183777580713413
+      gremlin_hide_south_spritesheet_EmissionMap_1: 3270506938528735146
+      gremlin_hide_south_spritesheet_EmissionMap_10: 260702120219435951
+      gremlin_hide_south_spritesheet_EmissionMap_11: 7147568823057779138
+      gremlin_hide_south_spritesheet_EmissionMap_12: 7357189056791066389
+      gremlin_hide_south_spritesheet_EmissionMap_13: 6925792475324420242
+      gremlin_hide_south_spritesheet_EmissionMap_14: -4137682321996759083
+      gremlin_hide_south_spritesheet_EmissionMap_15: -1737154957134114190
+      gremlin_hide_south_spritesheet_EmissionMap_16: -8609324991148645205
+      gremlin_hide_south_spritesheet_EmissionMap_17: -7872966319844893514
+      gremlin_hide_south_spritesheet_EmissionMap_18: -9156263325352890123
+      gremlin_hide_south_spritesheet_EmissionMap_19: -1867531426278523480
+      gremlin_hide_south_spritesheet_EmissionMap_2: 999956659612881326
+      gremlin_hide_south_spritesheet_EmissionMap_20: -638652821379576225
+      gremlin_hide_south_spritesheet_EmissionMap_21: -289355578705752722
+      gremlin_hide_south_spritesheet_EmissionMap_22: 2953734750526452801
+      gremlin_hide_south_spritesheet_EmissionMap_23: -2099739570226792362
+      gremlin_hide_south_spritesheet_EmissionMap_24: -8054907652795616887
+      gremlin_hide_south_spritesheet_EmissionMap_25: -1273902742616591096
+      gremlin_hide_south_spritesheet_EmissionMap_26: 3634646554271468160
+      gremlin_hide_south_spritesheet_EmissionMap_27: -3152172308767337081
+      gremlin_hide_south_spritesheet_EmissionMap_28: -1401983155449879186
+      gremlin_hide_south_spritesheet_EmissionMap_29: -1634226234083137707
+      gremlin_hide_south_spritesheet_EmissionMap_3: 330049358804680513
+      gremlin_hide_south_spritesheet_EmissionMap_30: -4105659074292797351
+      gremlin_hide_south_spritesheet_EmissionMap_31: -2347921157627279768
+      gremlin_hide_south_spritesheet_EmissionMap_32: -1164357819349398474
+      gremlin_hide_south_spritesheet_EmissionMap_33: 2273006747871851004
+      gremlin_hide_south_spritesheet_EmissionMap_34: -5419943061063026638
+      gremlin_hide_south_spritesheet_EmissionMap_35: 5946680804269699296
+      gremlin_hide_south_spritesheet_EmissionMap_36: -8728532087139191595
+      gremlin_hide_south_spritesheet_EmissionMap_37: -1935396118120985202
+      gremlin_hide_south_spritesheet_EmissionMap_38: -3429877889000351686
+      gremlin_hide_south_spritesheet_EmissionMap_39: 9034279875327342037
+      gremlin_hide_south_spritesheet_EmissionMap_4: 406008972908535234
+      gremlin_hide_south_spritesheet_EmissionMap_40: 6254451362214308482
+      gremlin_hide_south_spritesheet_EmissionMap_41: -1493288995419006484
+      gremlin_hide_south_spritesheet_EmissionMap_42: -2347699032310768497
+      gremlin_hide_south_spritesheet_EmissionMap_43: -1904353806894556724
+      gremlin_hide_south_spritesheet_EmissionMap_44: 2214722272927431906
+      gremlin_hide_south_spritesheet_EmissionMap_45: 1578639947576626573
+      gremlin_hide_south_spritesheet_EmissionMap_46: -321134703709029717
+      gremlin_hide_south_spritesheet_EmissionMap_47: -676532035002144036
+      gremlin_hide_south_spritesheet_EmissionMap_48: -8877293280337274215
+      gremlin_hide_south_spritesheet_EmissionMap_49: -2432234858405356059
+      gremlin_hide_south_spritesheet_EmissionMap_5: -7798632015872337730
+      gremlin_hide_south_spritesheet_EmissionMap_50: 3547325688736189232
+      gremlin_hide_south_spritesheet_EmissionMap_51: 7989561651967679925
+      gremlin_hide_south_spritesheet_EmissionMap_52: 2505089942063309477
+      gremlin_hide_south_spritesheet_EmissionMap_53: 3837387866491721882
+      gremlin_hide_south_spritesheet_EmissionMap_54: -6222086967117730061
+      gremlin_hide_south_spritesheet_EmissionMap_55: -5627999153307172197
+      gremlin_hide_south_spritesheet_EmissionMap_56: 1043220610191849839
+      gremlin_hide_south_spritesheet_EmissionMap_57: -8779981715501846109
+      gremlin_hide_south_spritesheet_EmissionMap_58: -8786798559714327027
+      gremlin_hide_south_spritesheet_EmissionMap_59: -1823302317880075019
+      gremlin_hide_south_spritesheet_EmissionMap_6: 2106331774035177983
+      gremlin_hide_south_spritesheet_EmissionMap_60: 5425003989004147737
+      gremlin_hide_south_spritesheet_EmissionMap_61: 6274756503727789609
+      gremlin_hide_south_spritesheet_EmissionMap_62: -6961324523758030541
+      gremlin_hide_south_spritesheet_EmissionMap_63: -2932896128976567465
+      gremlin_hide_south_spritesheet_EmissionMap_64: -7818320136587221206
+      gremlin_hide_south_spritesheet_EmissionMap_65: 1733987206620707253
+      gremlin_hide_south_spritesheet_EmissionMap_66: 9108631769567697883
+      gremlin_hide_south_spritesheet_EmissionMap_67: 814521376474372675
+      gremlin_hide_south_spritesheet_EmissionMap_68: -9170581530447000016
+      gremlin_hide_south_spritesheet_EmissionMap_69: 1505553761086362805
+      gremlin_hide_south_spritesheet_EmissionMap_7: 6305978745506565880
+      gremlin_hide_south_spritesheet_EmissionMap_70: -1789370368993533964
+      gremlin_hide_south_spritesheet_EmissionMap_71: -86807233989066370
+      gremlin_hide_south_spritesheet_EmissionMap_72: -6862569295838289270
+      gremlin_hide_south_spritesheet_EmissionMap_73: -8459553432136760811
+      gremlin_hide_south_spritesheet_EmissionMap_74: -4617558297003642444
+      gremlin_hide_south_spritesheet_EmissionMap_75: -5577922834239729842
+      gremlin_hide_south_spritesheet_EmissionMap_76: -7646292975638254
+      gremlin_hide_south_spritesheet_EmissionMap_77: -373904887310576421
+      gremlin_hide_south_spritesheet_EmissionMap_78: 4491554692345665183
+      gremlin_hide_south_spritesheet_EmissionMap_79: 4283948091108707759
+      gremlin_hide_south_spritesheet_EmissionMap_8: -2474513614443410336
+      gremlin_hide_south_spritesheet_EmissionMap_80: 5247120354509556025
+      gremlin_hide_south_spritesheet_EmissionMap_81: 5480982821964810038
+      gremlin_hide_south_spritesheet_EmissionMap_82: 1015873896816210885
+      gremlin_hide_south_spritesheet_EmissionMap_83: 1875926851578223397
+      gremlin_hide_south_spritesheet_EmissionMap_84: -5846509344679510483
+      gremlin_hide_south_spritesheet_EmissionMap_85: 4623842076535782720
+      gremlin_hide_south_spritesheet_EmissionMap_86: 5991136571959309089
+      gremlin_hide_south_spritesheet_EmissionMap_87: -4387767974640159621
+      gremlin_hide_south_spritesheet_EmissionMap_88: -8033376213554051658
+      gremlin_hide_south_spritesheet_EmissionMap_89: 2081101808704126274
+      gremlin_hide_south_spritesheet_EmissionMap_9: -4028987891571725533
+      gremlin_hide_south_spritesheet_EmissionMap_90: -2218171147813926393
+      gremlin_hide_south_spritesheet_EmissionMap_91: 1136413978125579482
+      gremlin_hide_south_spritesheet_EmissionMap_92: -7752695477655909661
+      gremlin_hide_south_spritesheet_EmissionMap_93: 8250363885164063864
+      gremlin_hide_south_spritesheet_EmissionMap_94: -2607745761454943032
+      gremlin_hide_south_spritesheet_EmissionMap_95: 216860043681952954
+      gremlin_hide_south_spritesheet_EmissionMap_96: 500554171935582047
+      gremlin_hide_south_spritesheet_EmissionMap_97: 6243662303619178725
+      gremlin_hide_south_spritesheet_EmissionMap_98: 2678659266639883266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
