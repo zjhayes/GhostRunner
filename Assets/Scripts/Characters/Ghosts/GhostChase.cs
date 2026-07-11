@@ -6,9 +6,10 @@ public class GhostChase : GhostBehaviour
     protected override bool TryPickDirection(Node node, IReadOnlyList<Cardinal> candidates, out Cardinal chosen)
     {
         chosen = default;
-        if (candidates.Count == 0)
+        if (candidates.Count == 0 || Context.Ghost.Target == null)
             return false;
 
+        Vector3 targetPosition = Context.Ghost.Target.position;
         bool hasBest = false;
         float minDistance = float.MaxValue;
 
@@ -19,7 +20,7 @@ public class GhostChase : GhostBehaviour
             // Predict the next tile/step in that direction.
             Vector3 newPosition = node.transform.position + new Vector3(step.x, step.y, 0f);
 
-            float distance = (Context.Ghost.Target.position - newPosition).sqrMagnitude;
+            float distance = (targetPosition - newPosition).sqrMagnitude;
             if (distance < minDistance)
             {
                 minDistance = distance;

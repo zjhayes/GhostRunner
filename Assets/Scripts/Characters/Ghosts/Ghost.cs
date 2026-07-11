@@ -16,8 +16,8 @@ public class Ghost : CharacterManager
     protected override void Start()
     {
         base.Start();
-        ResetState();
         Target = GameManager.Player.transform;
+        ResetState();
     }
 
     protected override void HandleCollision(Collision2D other)
@@ -28,8 +28,11 @@ public class Ghost : CharacterManager
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
         {
-            // Reverse direction on ghost/ghost bump.
-            Movement.SetDirection(CardinalUtil.Opposite(Movement.Direction));
+            Ghost otherGhost = other.gameObject.GetComponent<Ghost>()
+                ?? other.gameObject.GetComponentInParent<Ghost>();
+
+            if (otherGhost != null)
+                ScatterFrom(otherGhost);
         }
 
         base.HandleCollision(other);
@@ -39,5 +42,24 @@ public class Ghost : CharacterManager
     {
         Cardinal newDirection = CardinalUtil.Opposite(Movement.Direction);
         Movement.SetDirection(newDirection);
+    }
+
+    private void ScatterFrom(Ghost otherGhost)
+    {
+        Context.EnterScatter();
+        otherGhost.Context.EnterScatter();
+
+        Vector2 separation = (Vector2)transform.position - (Vector2)otherGhost.transform.position;
+        Cardinal away;
+
+        if (Mathf.Abs(separation.x) > Mathf.Abs(separation.y))
+            away = separation.x < 0f ? Cardinal.West : Cardinal.East;
+        else if (Mathf.Abs(separation.y) > 0f)
+            away = separation.y < 0f ? Cardinal.South : Cardinal.North;
+        else
+            away = GetInstanceID() < otherGhost.GetInstanceID() ? Cardinal.West : Cardinal.East;
+
+        Movement.ApplyDirection(away);
+        otherGhost.Movement.ApplyDirection(CardinalUtil.Opposite(away));
     }
 }

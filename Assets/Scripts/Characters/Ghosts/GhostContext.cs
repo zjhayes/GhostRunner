@@ -32,6 +32,12 @@ public class GhostContext : MonoBehaviour
             Scatter.Enable();
     }
 
+    public virtual void EnterScatter()
+    {
+        DisableNormalBehaviours();
+        Scatter.Enable();
+    }
+
     protected void DisableNormalBehaviours()
     {
         SuppressBehaviourTransitions = true;

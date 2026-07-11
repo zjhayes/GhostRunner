@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Renderer))]
@@ -7,6 +8,10 @@ public class FlipbookAnimator : MonoBehaviour
     private Renderer rend;
     private MaterialPropertyBlock block;
     private float timeOffset;
+    private bool loop = true;
+    private bool completionRaised;
+
+    public event Action AnimationCompleted;
 
     private static readonly int BaseMapID = Shader.PropertyToID("_BaseMap");
     private static readonly int NormalMapID = Shader.PropertyToID("_NormalMap");
@@ -21,6 +26,7 @@ public class FlipbookAnimator : MonoBehaviour
         set
         {
             flipbookAnimation = value;
+            loop = true;
 
             if (rend == null)
             {
@@ -48,15 +54,23 @@ public class FlipbookAnimator : MonoBehaviour
         if (flipbookAnimation.frameCount <= 0) { return; }
         if (flipbookAnimation.framesPerSecond <= 0f) { return; }
 
-        int localFrame = Mathf.FloorToInt(
-            (Time.time + timeOffset) * flipbookAnimation.framesPerSecond
-        ) % flipbookAnimation.frameCount;
+        float elapsedTime = Mathf.Max(0f, Time.time + timeOffset);
+        int elapsedFrames = Mathf.FloorToInt(elapsedTime * flipbookAnimation.framesPerSecond);
+        int localFrame = loop
+            ? elapsedFrames % flipbookAnimation.frameCount
+            : Mathf.Min(elapsedFrames, flipbookAnimation.frameCount - 1);
 
         int frame = flipbookAnimation.startFrame + localFrame;
 
         rend.GetPropertyBlock(block);
         block.SetFloat(FrameIndexID, frame);
         rend.SetPropertyBlock(block);
+
+        if (!loop && !completionRaised && elapsedFrames >= flipbookAnimation.frameCount - 1)
+        {
+            completionRaised = true;
+            AnimationCompleted?.Invoke();
+        }
     }
 
     private void ApplyStaticProperties()
@@ -88,6 +102,11 @@ public class FlipbookAnimator : MonoBehaviour
 
     public void Play(FlipbookAnimation newAnimation)
     {
+        Play(newAnimation, true);
+    }
+
+    public void Play(FlipbookAnimation newAnimation, bool loopAnimation)
+    {
         if (newAnimation == null)
         {
             Debug.LogWarning($"{nameof(FlipbookAnimator)} tried to play a null animation.", this);
@@ -95,12 +114,15 @@ public class FlipbookAnimator : MonoBehaviour
         }
 
         flipbookAnimation = newAnimation;
-        timeOffset = 0f;
+        loop = loopAnimation;
+        timeOffset = -Time.time;
+        completionRaised = false;
         ApplyStaticProperties();
     }
 
     public void Restart()
     {
         timeOffset = -Time.time;
+        completionRaised = false;
     }
 }

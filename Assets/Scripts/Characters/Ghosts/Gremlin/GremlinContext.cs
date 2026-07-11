@@ -7,12 +7,14 @@ public class GremlinContext : GhostContext
     public enum GremlinState
     {
         Walking,
+        Running,
         Frightened,
         Hiding
     }
 
     [Header("Animation Groups")]
     [SerializeField] private AnimationGroup walkingAnimations;
+    [SerializeField] private AnimationGroup runningAnimations;
     [SerializeField] private AnimationGroup escapingAnimations;
     [SerializeField] private AnimationGroup hidingAnimations;
 
@@ -22,11 +24,13 @@ public class GremlinContext : GhostContext
     public GremlinFrightened Frightened => frightened;
 
     public AnimationGroup WalkingAnimations => walkingAnimations;
+    public AnimationGroup RunningAnimations => runningAnimations;
     public AnimationGroup EscapingAnimations => escapingAnimations;
     public AnimationGroup HidingAnimations => hidingAnimations;
 
     public AnimationGroup CurrentAnimationGroup => state switch
     {
+        GremlinState.Running => runningAnimations != null ? runningAnimations : walkingAnimations,
         GremlinState.Frightened => escapingAnimations,
         GremlinState.Hiding => hidingAnimations != null ? hidingAnimations : escapingAnimations,
         _ => walkingAnimations
@@ -35,6 +39,7 @@ public class GremlinContext : GhostContext
     public GremlinState State => state;
     public bool IsFrightened => state == GremlinState.Frightened;
     public bool IsHiding => state == GremlinState.Hiding;
+    public bool IsRunning => state == GremlinState.Running;
 
     public event Action OnFrightened;
     public event Action OnCalmed;
@@ -58,6 +63,20 @@ public class GremlinContext : GhostContext
         if (frightened != null)
             frightened.Disable();
 
+        OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
+    }
+
+    public override void EnterScatter()
+    {
+        CancelInvoke(nameof(Calm));
+
+        if (frightened != null)
+            frightened.Disable();
+
+        state = GremlinState.Walking;
+        base.EnterScatter();
+
+        OnCalmed?.Invoke();
         OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
     }
 
@@ -101,6 +120,19 @@ public class GremlinContext : GhostContext
             Ghost.Movement.Stop();
 
         OnHiding?.Invoke();
+        OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
+    }
+
+    public void SetRunning(bool running)
+    {
+        if (IsFrightened || IsHiding)
+            return;
+
+        GremlinState nextState = running ? GremlinState.Running : GremlinState.Walking;
+        if (state == nextState)
+            return;
+
+        state = nextState;
         OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
     }
 

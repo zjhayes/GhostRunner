@@ -1,5 +1,137 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &366784032001043760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 792026472406535750}
+  - component: {fileID: 7058539124160039500}
+  - component: {fileID: 7811219134436112606}
+  - component: {fileID: 883169415784750537}
+  - component: {fileID: 6653733096077481763}
+  - component: {fileID: 8402215965170633000}
+  m_Layer: 0
+  m_Name: RunAnimation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &792026472406535750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366784032001043760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7156508547897986335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7058539124160039500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366784032001043760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cda322d3796bdd42b88e89accd6e392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationGroup
+  south: {fileID: 7811219134436112606}
+  east: {fileID: 883169415784750537}
+  north: {fileID: 6653733096077481763}
+  west: {fileID: 8402215965170633000}
+--- !u!114 &7811219134436112606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366784032001043760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: 17476445e5ff5f647a7019ba0590f733, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: c9e04ceb0aca06e448e22afc427e72fb, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: fbdbb3be4252dc14e83cfa7337bc86a1, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 34
+--- !u!114 &883169415784750537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366784032001043760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: 922ea1ddcd25ef64384ca7da33ac865b, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: 2b06436973e61ee4a84e29f6365d5264, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: 74fda0dd6b4e65449a220602c4c79e30, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 34
+--- !u!114 &6653733096077481763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366784032001043760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: e73d70c5b5b431749b1c26d06cada60b, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: b016cb2b804c9c04d90c4a972de42ee3, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: d65ed81abb7500641a41ca82571302f2, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 34
+--- !u!114 &8402215965170633000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366784032001043760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: c4655ec292afd6c43a50d1d3c4d960a9, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: 7f963ee4afc40d9478a1ad9b05f46c87, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: 364920d6511d0974f834172f3fbe3e38, type: 3}
+  columns: 6
+  rows: 4
+  startFrame: 0
+  frameCount: 24
+  framesPerSecond: 34
 --- !u!1 &601325691767762175
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +427,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5745952156888885993}
+  - {fileID: 792026472406535750}
   - {fileID: 3858553189901243256}
   - {fileID: 5350732554786932726}
   m_Father: {fileID: 7061851816723464548}
@@ -488,6 +621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GremlinContext
   initialBehaviour: {fileID: 725074745669117835}
   walkingAnimations: {fileID: 1836169656960541755}
+  runningAnimations: {fileID: 7058539124160039500}
   escapingAnimations: {fileID: 3737608409282304178}
   hidingAnimations: {fileID: 763110656267230560}
 --- !u!114 &725074745669117835
@@ -644,6 +778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Gremlin
   movement: {fileID: 3874072177646290681}
   context: {fileID: 7515428671927340671}
+  chaseDistance: 3
+  scatterDistance: 6
 --- !u!114 &3874072177646290681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -672,8 +808,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GremlinLanternFear
   gremlin: {fileID: 5604137542805576700}
-  frightenedDistance: 2
-  frightenedDuration: 6
+  frightenedDistance: 2.5
+  frightenedDuration: 1
 --- !u!1 &6369120381082285411
 GameObject:
   m_ObjectHideFlags: 0

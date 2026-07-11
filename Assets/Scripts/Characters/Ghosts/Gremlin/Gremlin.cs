@@ -4,10 +4,17 @@ using UnityEngine;
 [RequireComponent(typeof(GremlinLanternFear))]
 public class Gremlin : Ghost
 {
+    [Header("Player Proximity Chase")]
+    [SerializeField, Min(0f)] private float chaseDistance = 6f;
+    [SerializeField, Min(0f)] private float scatterDistance = 9f;
+
     public GremlinContext GremlinContext { get; private set; }
+
+    private bool isPlayerClose;
 
     public bool IsFrightened => GremlinContext != null && GremlinContext.IsFrightened;
     public bool IsHiding => GremlinContext != null && GremlinContext.IsHiding;
+    public bool IsRunning => GremlinContext != null && GremlinContext.IsRunning;
 
     public AnimationGroup CurrentAnimationGroup =>
         GremlinContext != null ? GremlinContext.CurrentAnimationGroup : null;
@@ -46,6 +53,11 @@ public class Gremlin : Ghost
         GremlinContext.OnAnimationGroupChanged -= HandleAnimationGroupChanged;
     }
 
+    private void Update()
+    {
+        UpdatePlayerProximity();
+    }
+
     public void Frighten()
     {
         Frighten(0f);
@@ -72,7 +84,63 @@ public class Gremlin : Ghost
         if (GremlinContext == null)
             return;
 
+        if (GremlinContext.IsFrightened || GremlinContext.IsHiding)
+            GremlinContext.Calm();
+    }
+
+    public void Chase()
+    {
+        if (GremlinContext == null)
+            return;
+
         GremlinContext.Calm();
+
+        if (GremlinContext.Scatter != null && GremlinContext.Scatter.enabled)
+        {
+            GremlinContext.Scatter.Disable();
+            return;
+        }
+
+        if (GremlinContext.Chase != null && !GremlinContext.Chase.enabled)
+            GremlinContext.Chase.Enable();
+    }
+
+    public void Scatter()
+    {
+        if (GremlinContext == null || IsFrightened || IsHiding || IsRunning)
+            return;
+
+        if (GremlinContext.Chase != null && GremlinContext.Chase.enabled)
+        {
+            GremlinContext.Chase.Disable();
+            return;
+        }
+
+        if (GremlinContext.Scatter != null && !GremlinContext.Scatter.enabled)
+            GremlinContext.Scatter.Enable();
+    }
+
+    public void Run()
+    {
+        if (GremlinContext == null || IsFrightened || IsHiding)
+            return;
+
+        if (!GremlinContext.IsRunning)
+            GremlinContext.SetRunning(true);
+
+        movement.SpeedMultiplier = 2f;
+    }
+
+    public void StopRunning()
+    {
+        if (GremlinContext == null)
+            return;
+
+        if (!GremlinContext.IsRunning)
+            return;
+
+        GremlinContext.SetRunning(false);
+        movement.SpeedMultiplier = 1f;
     }
 
     private void HandleFrightened()
@@ -94,5 +162,33 @@ public class Gremlin : Ghost
     private void HandleAnimationGroupChanged(AnimationGroup group)
     {
         OnAnimationGroupChanged?.Invoke(group);
+    }
+
+    private void UpdatePlayerProximity()
+    {
+        if (Target == null || GremlinContext == null)
+            return;
+
+        float distanceSquared = ((Vector2)Target.position - (Vector2)transform.position).sqrMagnitude;
+
+        if (!isPlayerClose && distanceSquared <= chaseDistance * chaseDistance)
+            isPlayerClose = true;
+        else if (isPlayerClose && distanceSquared >= scatterDistance * scatterDistance)
+        {
+            isPlayerClose = false;
+            StopRunning();
+            Scatter();
+        }
+
+        if (isPlayerClose && !IsFrightened && !IsHiding)
+        {
+            Chase();
+            Run();
+        }
+    }
+
+    private void OnValidate()
+    {
+        scatterDistance = Mathf.Max(scatterDistance, chaseDistance);
     }
 }

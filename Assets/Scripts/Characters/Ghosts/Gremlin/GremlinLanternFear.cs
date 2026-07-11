@@ -6,7 +6,7 @@ public class GremlinLanternFear : GameBehaviour
     [SerializeField] private Gremlin gremlin;
 
     [Header("Frighten Detection")]
-    [SerializeField] private float frightenedDistance = 4f;
+    [SerializeField, Min(0f)] private float frightenedDistance = 2f;
     [SerializeField] private float frightenedDuration = 3f;
 
     private void Awake()
@@ -17,29 +17,40 @@ public class GremlinLanternFear : GameBehaviour
 
     private void Update()
     {
-        if (IsNearPlayerLantern())
-            gremlin.Frighten(frightenedDuration);
+        if (!TryGetActivePlayerLantern(out LanternController lantern))
+            return;
+
+        if (lantern.Color == LanternColor.DEFAULT)
+        {
+            if (IsNearLantern(lantern))
+                gremlin.Frighten(frightenedDuration);
+        }
     }
 
-    private bool IsNearPlayerLantern()
+    private bool TryGetActivePlayerLantern(out LanternController lantern)
     {
+        lantern = null;
+
         if (GameManager.Player == null)
             return false;
 
-        LanternController lantern = GameManager.Player.Lantern;
+        lantern = GameManager.Player.Lantern;
 
         if (lantern == null || lantern.Light == null)
             return false;
 
         Light light = lantern.Light;
+        return light.enabled && light.intensity > 0f;
+    }
 
-        if (!light.enabled || light.intensity <= 0f)
-            return false;
+    private bool IsNearLantern(LanternController lantern)
+    {
+        Light light = lantern.Light;
 
         Vector2 lightPosition = light.transform.position;
         Vector2 gremlinPosition = transform.position;
 
-        float distance = frightenedDistance > 0f ? frightenedDistance : light.range;
-        return (gremlinPosition - lightPosition).sqrMagnitude <= distance * distance;
+        return (gremlinPosition - lightPosition).sqrMagnitude
+            <= frightenedDistance * frightenedDistance;
     }
 }

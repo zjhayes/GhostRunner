@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(PlayerInput))]
+[RequireComponent(typeof(PlayerFear))]
 public class PlayerManager : CharacterManager
 {
     [SerializeField] LanternController lanternController;
@@ -15,10 +16,17 @@ public class PlayerManager : CharacterManager
     private bool isRunning = true;
 
     public LanternController Lantern => lanternController;
+    public PlayerFear Fear { get; private set; }
 
     protected void Awake()
     {
         playerInput = GetComponent<PlayerInput>();
+        Fear = GetComponent<PlayerFear>();
+
+        // RequireComponent does not repair PlayerManager instances that already
+        // existed before PlayerFear became a dependency.
+        if (Fear == null)
+            Fear = gameObject.AddComponent<PlayerFear>();
     }
 
     protected override void Start()
@@ -51,7 +59,7 @@ public class PlayerManager : CharacterManager
 
     public void PlayerFrightened()
     {
-        Debug.Log("Player Frightened");
+        Fear.SetFear(PlayerFear.MaxFear);
     }
 
     private void OnEnable()
@@ -81,6 +89,7 @@ public class PlayerManager : CharacterManager
     public override void ResetState()
     {
         base.ResetState();
+        Fear.ResetFear();
         SetRun();
     }
 }

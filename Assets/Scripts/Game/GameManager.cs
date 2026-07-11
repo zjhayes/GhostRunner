@@ -1,16 +1,17 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour, IGameManager
 {
+    private const string GameOverScene = "GameOver";
+
     [SerializeField] Ghost[] ghosts;
     [SerializeField] PlayerManager player;
     [SerializeField] NodeManager nodeManager;
-    [SerializeField] Transform collectables;
 
     public Ghost[] Ghosts {  get { return ghosts; } }
     public PlayerManager Player { get { return player; } }
     public NodeManager NodeManager { get { return nodeManager; } }
-    public Transform Collectables { get { return collectables; } }
 
     void Awake()
     {
@@ -20,47 +21,20 @@ public class GameManager : MonoBehaviour, IGameManager
 
     private void Start()
     {
-        NewGame();
-    }
-
-    /*private void Update()
-    {
-        if (Lives < 0 && Input.anyKeyDown)
-        {
-            NewGame();
-        }
-    }*/
-
-    private void NewGame()
-    {
-        NewScene();
-    }
-
-    private void NewScene()
-    {
-        ResetCollectables();
-        NewRound();
-    }
-
-    private void NewRound()
-    {
+        Player.Fear.OnFrightened += GameOver;
         ResetGhosts();
         Player.ResetState();
     }
 
-    private void GameOver()
+    private void OnDestroy()
     {
-        DisableGhosts();
-        Player.Active(false);
-        ResetCollectables();
+        if (Player?.Fear != null)
+            Player.Fear.OnFrightened -= GameOver;
     }
 
-    private void ResetCollectables()
+    private void GameOver()
     {
-        /*foreach (Transform collectable in Collectables)
-        {
-            collectable.gameObject.SetActive(true);
-        }*/
+        SceneManager.LoadScene(GameOverScene);
     }
 
     private void ResetGhosts()
@@ -71,31 +45,8 @@ public class GameManager : MonoBehaviour, IGameManager
         }
     }
 
-    private void DisableGhosts()
-    {
-        for (int i = 0; i < Ghosts.Length; i++)
-        {
-            Ghosts[i].Active(false);
-        }
-    }
-
     public void OnCollect(Collectable collectable)
     {
         collectable.gameObject.SetActive(false);
-
-        if (!HasRemainingCollectables())
-        {
-            Player.Active(false);
-            Invoke(nameof(NewScene), 3.0f);
-        }
-    }
-
-    private bool HasRemainingCollectables()
-    {
-        foreach (Transform collectable in Collectables)
-        {
-            if (collectable.gameObject.activeSelf) return true;
-        }
-        return false;
     }
 }
