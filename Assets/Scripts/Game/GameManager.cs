@@ -1,17 +1,21 @@
+using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour, IGameManager
 {
-    private const string GameOverScene = "GameOver";
-
     [SerializeField] Ghost[] ghosts;
     [SerializeField] PlayerManager player;
     [SerializeField] NodeManager nodeManager;
+    [SerializeField] UIManager uiManager;
+    [SerializeField] SceneController sceneController;
 
     public Ghost[] Ghosts {  get { return ghosts; } }
     public PlayerManager Player { get { return player; } }
     public NodeManager NodeManager { get { return nodeManager; } }
+    public UIManager UI { get { return uiManager; } }
+    public SceneController Scene { get { return sceneController; } }
+
+    public event Action OnGameOver;
 
     void Awake()
     {
@@ -34,7 +38,7 @@ public class GameManager : MonoBehaviour, IGameManager
 
     private void GameOver()
     {
-        SceneManager.LoadScene(GameOverScene);
+        OnGameOver?.Invoke();
     }
 
     private void ResetGhosts()

@@ -31,6 +31,23 @@ public class CanvasGroupFade : MonoBehaviour
         FadeTo(0f);
     }
 
+    public void SetAlpha(float alpha)
+    {
+        if (canvasGroup == null)
+        {
+            Debug.LogWarning($"{nameof(CanvasGroupFade)} needs a canvas group.", this);
+            return;
+        }
+
+        if (fadeRoutine != null)
+        {
+            StopCoroutine(fadeRoutine);
+            fadeRoutine = null;
+        }
+
+        canvasGroup.alpha = Mathf.Clamp01(alpha);
+    }
+
     public void FadeTo(float targetAlpha)
     {
         if (canvasGroup == null)

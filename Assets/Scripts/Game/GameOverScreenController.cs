@@ -10,6 +10,8 @@ public class GameOverScreenController : MonoBehaviour
     [SerializeField] private FlipbookAnimator flipbookAnimator;
     [SerializeField] private FlipbookAnimation gameOverAnimation;
     [SerializeField] private CanvasGroupFade canvasGroupFade;
+    [SerializeField] private MusicManager musicManager;
+    [SerializeField] private Light lanternLight;
     [SerializeField] private Button restartButton;
     [SerializeField] private Transform movingObject;
     [SerializeField] private float startZ = 20f;
@@ -23,6 +25,9 @@ public class GameOverScreenController : MonoBehaviour
         {
             flipbookAnimator = GetComponentInChildren<FlipbookAnimator>();
         }
+
+        if (lanternLight != null)
+            lanternLight.color = SceneController.GameOverLanternColor.ToColor();
     }
 
     private void OnEnable()
@@ -85,6 +90,7 @@ public class GameOverScreenController : MonoBehaviour
     {
         SetMovingObjectZ(endZ);
         canvasGroupFade?.FadeIn();
+        musicManager?.Play();
     }
 
     public void RestartGame()
