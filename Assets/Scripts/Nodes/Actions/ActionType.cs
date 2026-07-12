@@ -5,5 +5,5 @@ public enum ActionType
     BLOCKED,
     TELEPORT,
     TORCH,
-    CHECKPOINT
+    CHANGE_MUSIC
 }

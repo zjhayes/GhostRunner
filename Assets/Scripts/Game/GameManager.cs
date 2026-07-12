@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour, IGameManager
     [SerializeField] PlayerManager player;
     [SerializeField] NodeManager nodeManager;
     [SerializeField] Checkpoint checkpoint;
+    [SerializeField] MusicManager music;
     [SerializeField] UIManager uiManager;
     [SerializeField] SceneController sceneController;
 
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour, IGameManager
     public PlayerManager Player { get { return player; } }
     public NodeManager NodeManager { get { return nodeManager; } }
     public Checkpoint Checkpoint { get { return checkpoint; } }
+    public MusicManager Music { get { return music; } }
     public UIManager UI { get { return uiManager; } }
     public SceneController Scene { get { return sceneController; } }
 

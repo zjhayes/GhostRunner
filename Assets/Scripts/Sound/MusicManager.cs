@@ -52,6 +52,21 @@ public class MusicManager : MonoBehaviour
         playbackCoroutine = StartCoroutine(PlayTrack(clip, Mathf.Max(0f, fadeTime)));
     }
 
+    public void ChangeTrack(AudioClip clip)
+    {
+        if (clip == null)
+        {
+            Debug.LogWarning($"{nameof(MusicManager)} cannot change to a null track.", this);
+            return;
+        }
+
+        if (track == clip && IsPlaying)
+            return;
+
+        track = clip;
+        Play(initialFadeTime);
+    }
+
     public void Stop()
     {
         if (playbackCoroutine != null)
