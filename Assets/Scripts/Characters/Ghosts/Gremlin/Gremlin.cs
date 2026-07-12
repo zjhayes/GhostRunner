@@ -93,15 +93,13 @@ public class Gremlin : Ghost
         if (GremlinContext == null)
             return;
 
-        GremlinContext.Calm();
+        if (IsFrightened || IsHiding)
+            GremlinContext.Calm();
 
         if (GremlinContext.Scatter != null && GremlinContext.Scatter.enabled)
-        {
             GremlinContext.Scatter.Disable();
-            return;
-        }
 
-        if (GremlinContext.Chase != null && !GremlinContext.Chase.enabled)
+        if (GremlinContext.Chase != null)
             GremlinContext.Chase.Enable();
     }
 
@@ -143,6 +141,16 @@ public class Gremlin : Ghost
         movement.SpeedMultiplier = 1f;
     }
 
+    public bool IsFacing(Transform target)
+    {
+        if (target == null)
+            return false;
+
+        Vector2 toTarget = (Vector2)target.position - (Vector2)transform.position;
+        Cardinal targetDirection = CardinalUtil.FromVector(toTarget, movement.Direction);
+        return movement.Direction == targetDirection;
+    }
+
     private void HandleFrightened()
     {
         OnFrightened?.Invoke();
@@ -180,7 +188,7 @@ public class Gremlin : Ghost
             Scatter();
         }
 
-        if (isPlayerClose && !IsFrightened && !IsHiding)
+        if (isPlayerClose && IsFacing(Target) && !IsFrightened && !IsHiding)
         {
             Chase();
             Run();

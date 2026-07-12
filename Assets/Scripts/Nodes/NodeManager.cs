@@ -13,7 +13,7 @@ public class NodeManager : MonoBehaviour
     public Dictionary<Vector3Int, Node> Nodes => nodeTiles;
     public Dictionary<Vector3Int, EdgeNode> Edges => edgeTiles;
 
-    void Awake()
+    private void Awake()
     {
         NodeUtil.GetAllNodes(nodeTilemap, out nodeTiles, out edgeTiles);
     }

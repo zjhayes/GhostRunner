@@ -1003,6 +1003,7 @@ MonoBehaviour:
   canvasGroupFade: {fileID: 1857529419}
   musicManager: {fileID: 973374359}
   lanternLight: {fileID: 124974479}
+  ambientLight: {fileID: 1388713701}
   restartButton: {fileID: 506738663}
   movingObject: {fileID: 124974480}
   startZ: 20

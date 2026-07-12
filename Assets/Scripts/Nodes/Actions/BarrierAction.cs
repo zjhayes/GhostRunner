@@ -54,17 +54,6 @@ public class BarrierAction : NodeAction
 
     protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
     {
-        /**Cardinal[] exclude = { direction };
-
-        if (ghost.Movement.TryResolveDirection(node, out var chosen, exclude))
-        {
-            node.ResolveEdge(ghost, chosen);
-        }
-        else
-        {
-            // No valid alternatives; pick your fallback.
-            ghost.Movement.Stop();
-        }*/
         ghost.TurnAround();
     }
 

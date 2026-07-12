@@ -6,12 +6,14 @@ public class GameManager : MonoBehaviour, IGameManager
     [SerializeField] Ghost[] ghosts;
     [SerializeField] PlayerManager player;
     [SerializeField] NodeManager nodeManager;
+    [SerializeField] Checkpoint checkpoint;
     [SerializeField] UIManager uiManager;
     [SerializeField] SceneController sceneController;
 
     public Ghost[] Ghosts {  get { return ghosts; } }
     public PlayerManager Player { get { return player; } }
     public NodeManager NodeManager { get { return nodeManager; } }
+    public Checkpoint Checkpoint { get { return checkpoint; } }
     public UIManager UI { get { return uiManager; } }
     public SceneController Scene { get { return sceneController; } }
 
@@ -28,6 +30,7 @@ public class GameManager : MonoBehaviour, IGameManager
         Player.Fear.OnFrightened += GameOver;
         ResetGhosts();
         Player.ResetState();
+        checkpoint?.Restore(Player);
     }
 
     private void OnDestroy()

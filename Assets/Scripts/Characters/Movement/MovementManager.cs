@@ -73,11 +73,6 @@ public class MovementManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        ResetState();
-    }
-
     private void FixedUpdate()
     {
         float stepRemaining = speed * speedMultiplier * Time.fixedDeltaTime;
@@ -280,14 +275,19 @@ public class MovementManager : MonoBehaviour
 
     public void ResetState()
     {
+        ResetState(StartingPosition, initialDirection);
+    }
+
+    public void ResetState(Vector2 position, Cardinal startDirection)
+    {
         SpeedMultiplier = 1f;
 
-        Direction = initialDirection;
+        Direction = startDirection;
         DirectionVector = CardinalUtil.ToVector(Direction);
 
         NextDirection = null;
 
-        Rigidbody.position = StartingPosition;
+        Rigidbody.position = position;
         lastPosition = Rigidbody.position;
 
         currentNode = null;

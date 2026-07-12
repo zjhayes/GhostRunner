@@ -12,12 +12,14 @@ public class GameOverScreenController : MonoBehaviour
     [SerializeField] private CanvasGroupFade canvasGroupFade;
     [SerializeField] private MusicManager musicManager;
     [SerializeField] private Light lanternLight;
+    [SerializeField] private Light ambientLight;
     [SerializeField] private Button restartButton;
     [SerializeField] private Transform movingObject;
     [SerializeField] private float startZ = 20f;
     [SerializeField] private float endZ = 4f;
 
     private float animationDuration;
+    private Color lanternColor;
 
     private void Awake()
     {
@@ -26,8 +28,13 @@ public class GameOverScreenController : MonoBehaviour
             flipbookAnimator = GetComponentInChildren<FlipbookAnimator>();
         }
 
+        lanternColor = SceneController.GameOverLanternColor.ToColor();
+
         if (lanternLight != null)
-            lanternLight.color = SceneController.GameOverLanternColor.ToColor();
+            lanternLight.color = lanternColor;
+
+        if (ambientLight != null)
+            ambientLight.color = Color.white;
     }
 
     private void OnEnable()
@@ -67,11 +74,6 @@ public class GameOverScreenController : MonoBehaviour
 
     private IEnumerator MoveObjectRoutine()
     {
-        if (movingObject == null)
-        {
-            yield break;
-        }
-
         float elapsedTime = 0f;
         while (elapsedTime < animationDuration)
         {
@@ -80,10 +82,17 @@ public class GameOverScreenController : MonoBehaviour
                 ? Mathf.Clamp01(elapsedTime / animationDuration)
                 : 1f;
             SetMovingObjectZ(Mathf.Lerp(startZ, endZ, progress));
+
+            if (ambientLight != null)
+                ambientLight.color = Color.Lerp(Color.white, lanternColor, progress);
+
             yield return null;
         }
 
         SetMovingObjectZ(endZ);
+
+        if (ambientLight != null)
+            ambientLight.color = lanternColor;
     }
 
     private void HandleAnimationCompleted()

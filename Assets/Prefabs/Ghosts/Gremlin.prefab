@@ -809,7 +809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GremlinLanternFear
   gremlin: {fileID: 5604137542805576700}
   frightenedDistance: 2.5
-  frightenedDuration: 1
+  frightenedDuration: 3
 --- !u!1 &6369120381082285411
 GameObject:
   m_ObjectHideFlags: 0

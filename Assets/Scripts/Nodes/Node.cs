@@ -14,8 +14,6 @@ public class Node : Cell
     public void ResolveEdge(CharacterManager character, Cardinal direction)
     {
         if (Edges.TryGetValue(direction, out var edge))
-        {
             edge.Resolve(character, direction, this);
-        }
     }
 }

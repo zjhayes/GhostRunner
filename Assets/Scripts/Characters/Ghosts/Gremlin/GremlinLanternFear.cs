@@ -22,7 +22,7 @@ public class GremlinLanternFear : GameBehaviour
 
         if (lantern.Color == LanternColor.DEFAULT)
         {
-            if (IsNearLantern(lantern))
+            if (IsNearLantern(lantern) && gremlin.IsFacing(GameManager.Player.transform))
                 gremlin.Frighten(frightenedDuration);
         }
     }

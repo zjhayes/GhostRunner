@@ -1,6 +1,7 @@
+using System.Collections;
 using UnityEngine;
 
-public class Gate : MonoBehaviour
+public class Gate : MonoBehaviour, ICheckpointState
 {
     [Header("Gates")]
     [SerializeField] private Transform gate1;
@@ -23,33 +24,13 @@ public class Gate : MonoBehaviour
     public event System.Action OnGateOpened;
 
     private bool isOpening;
+    private Coroutine openRoutine;
+
+    private string CheckpointKey => CheckpointSnapshot.GetKey(this);
 
     private void Awake()
     {
         SetGateRotation(closed: true);
-    }
-
-    private void Update() // TODO: Move to coroutine
-    {
-        if (!isOpening)
-            return;
-
-        bool gate1Done = RotateGate(
-            gate1,
-            gate1OpenAngle
-        );
-
-        bool gate2Done = RotateGate(
-            gate2,
-            gate2OpenAngle
-        );
-
-        if (gate1Done && gate2Done)
-        {
-            isOpening = false;
-            IsOpen = true;
-            OnGateOpened?.Invoke();
-        }
     }
 
     public void Open()
@@ -58,6 +39,28 @@ public class Gate : MonoBehaviour
             return;
 
         isOpening = true;
+        openRoutine = StartCoroutine(OpenRoutine());
+    }
+
+    private IEnumerator OpenRoutine()
+    {
+        bool gate1Done;
+        bool gate2Done;
+
+        do
+        {
+            gate1Done = RotateGate(gate1, gate1OpenAngle);
+            gate2Done = RotateGate(gate2, gate2OpenAngle);
+
+            if (!gate1Done || !gate2Done)
+                yield return null;
+        }
+        while (!gate1Done || !gate2Done);
+
+        openRoutine = null;
+        isOpening = false;
+        IsOpen = true;
+        OnGateOpened?.Invoke();
     }
 
     private bool RotateGate(Transform gate, float targetAngle)
@@ -83,6 +86,36 @@ public class Gate : MonoBehaviour
 
         IsOpen = !closed;
         isOpening = false;
+    }
+
+    private void OnDisable()
+    {
+        if (openRoutine != null)
+        {
+            StopCoroutine(openRoutine);
+            openRoutine = null;
+        }
+
+        isOpening = false;
+    }
+
+    public void CaptureCheckpointState(CheckpointSnapshot snapshot)
+    {
+        snapshot.SetBool(CheckpointKey, IsOpen || isOpening);
+    }
+
+    public void RestoreCheckpointState(CheckpointSnapshot snapshot)
+    {
+        if (!snapshot.TryGetBool(CheckpointKey, out bool wasOpen))
+            return;
+
+        if (openRoutine != null)
+        {
+            StopCoroutine(openRoutine);
+            openRoutine = null;
+        }
+
+        SetGateRotation(closed: !wasOpen);
     }
 
     private void SetGateAngle(Transform gate, float angle)
