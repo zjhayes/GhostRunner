@@ -43,6 +43,12 @@ public class GameManager : MonoBehaviour, IGameManager
 
     private void GameOver()
     {
+        Player.Movement.Stop();
+        Player.enabled = false;
+
+        for (int i = 0; i < Ghosts.Length; i++)
+            Ghosts[i].Context.EnterIdle();
+
         OnGameOver?.Invoke();
     }
 

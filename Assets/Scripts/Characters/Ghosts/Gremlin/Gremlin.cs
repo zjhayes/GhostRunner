@@ -174,7 +174,7 @@ public class Gremlin : Ghost
 
     private void UpdatePlayerProximity()
     {
-        if (Target == null || GremlinContext == null)
+        if (Target == null || GremlinContext == null || GremlinContext.IsIdle)
             return;
 
         float distanceSquared = ((Vector2)Target.position - (Vector2)transform.position).sqrMagnitude;

@@ -5,6 +5,8 @@ public class Ghost : CharacterManager
 {
     [SerializeField] private GhostContext context;
 
+    private bool hasPlayerContact;
+
     public GhostContext Context => context;
     public Transform Target { get; private set; }
 
@@ -20,10 +22,17 @@ public class Ghost : CharacterManager
         ResetState();
     }
 
+    public override void ResetState()
+    {
+        hasPlayerContact = false;
+        base.ResetState();
+    }
+
     protected override void HandleCollision(Collision2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer(Layer.PLAYER))
         {
+            StopAndFacePlayer(other.transform, "collision");
             GameManager.Player.PlayerFrightened();
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
@@ -36,6 +45,32 @@ public class Ghost : CharacterManager
         }
 
         base.HandleCollision(other);
+    }
+
+    protected override void HandleTrigger(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer(Layer.PLAYER))
+        {
+            StopAndFacePlayer(other.transform, "trigger");
+            GameManager.Player.PlayerFrightened();
+        }
+
+        base.HandleTrigger(other);
+    }
+
+    public void StopAndFacePlayer(Transform contactTransform, string contactType)
+    {
+        if (hasPlayerContact)
+            return;
+
+        hasPlayerContact = true;
+
+        Transform player = Target != null ? Target : contactTransform;
+        Vector2 toPlayer = (Vector2)player.position - (Vector2)transform.position;
+        Cardinal facingDirection = CardinalUtil.FromVector(toPlayer, Movement.Direction);
+
+        Movement.ApplyDirection(facingDirection);
+        Context.EnterIdle();
     }
 
     public void TurnAround()

@@ -49,7 +49,12 @@ public class PlayerFear : MonoBehaviour
 
             ColliderDistance2D separation = playerCollider.Distance(ghostCollider);
             if (separation.isOverlapped)
+            {
+                Ghost ghost = ghostCollider.GetComponent<Ghost>()
+                    ?? ghostCollider.GetComponentInParent<Ghost>();
+                ghost?.StopAndFacePlayer(transform, "overlap query");
                 return MaxFear;
+            }
 
             closestDistance = Mathf.Min(closestDistance, separation.distance);
         }

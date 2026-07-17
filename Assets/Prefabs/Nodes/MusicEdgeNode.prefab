@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8956124802672132758}
   - component: {fileID: 3317548278575455823}
+  - component: {fileID: 7113361334851158191}
   m_Layer: 10
   m_Name: MusicEdgeNode
   m_TagString: Untagged
@@ -45,3 +46,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActionEdge
   actionType: 4
+--- !u!114 &7113361334851158191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392584600400654761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a66a596134233429f005c2ea898202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TraversalEdge

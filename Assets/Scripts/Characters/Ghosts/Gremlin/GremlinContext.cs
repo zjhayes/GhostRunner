@@ -9,7 +9,8 @@ public class GremlinContext : GhostContext
         Walking,
         Running,
         Frightened,
-        Hiding
+        Hiding,
+        Idle
     }
 
     [Header("Animation Groups")]
@@ -17,6 +18,7 @@ public class GremlinContext : GhostContext
     [SerializeField] private AnimationGroup runningAnimations;
     [SerializeField] private AnimationGroup escapingAnimations;
     [SerializeField] private AnimationGroup hidingAnimations;
+    [SerializeField] private AnimationGroup idleAnimations;
 
     private GremlinFrightened frightened;
     private GremlinState state = GremlinState.Walking;
@@ -33,6 +35,7 @@ public class GremlinContext : GhostContext
         GremlinState.Running => runningAnimations != null ? runningAnimations : walkingAnimations,
         GremlinState.Frightened => escapingAnimations,
         GremlinState.Hiding => hidingAnimations != null ? hidingAnimations : escapingAnimations,
+        GremlinState.Idle => idleAnimations != null ? idleAnimations : walkingAnimations,
         _ => walkingAnimations
     };
 
@@ -87,6 +90,9 @@ public class GremlinContext : GhostContext
 
     public void Frighten(float duration)
     {
+        if (IsIdle)
+            return;
+
         ResetFearTimer(duration);
 
         if (IsHiding)
@@ -125,7 +131,7 @@ public class GremlinContext : GhostContext
 
     public void SetRunning(bool running)
     {
-        if (IsFrightened || IsHiding)
+        if (IsIdle || IsFrightened || IsHiding)
             return;
 
         GremlinState nextState = running ? GremlinState.Running : GremlinState.Walking;
@@ -138,6 +144,9 @@ public class GremlinContext : GhostContext
 
     public void Calm()
     {
+        if (IsIdle)
+            return;
+
         CancelInvoke(nameof(Calm));
 
         if (state == GremlinState.Walking)
@@ -154,6 +163,21 @@ public class GremlinContext : GhostContext
             Ghost.Movement.SetDirection(CardinalUtil.Opposite(Ghost.Movement.Direction));
 
         OnCalmed?.Invoke();
+        OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
+    }
+
+    public override void EnterIdle()
+    {
+        if (IsIdle)
+            return;
+
+        CancelInvoke(nameof(Calm));
+
+        if (frightened != null)
+            frightened.Disable();
+
+        state = GremlinState.Idle;
+        base.EnterIdle();
         OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
     }
 

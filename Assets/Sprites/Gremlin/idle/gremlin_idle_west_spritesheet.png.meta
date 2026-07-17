@@ -1,0 +1,2691 @@
+fileFormatVersion: 2
+guid: 6096985a753324e47bd2126d957e49b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8100834310026723280
+    second: gremlin_idle_west_spritesheet_0
+  - first:
+      213: 2748536626597358532
+    second: gremlin_idle_west_spritesheet_1
+  - first:
+      213: 4160329357015992745
+    second: gremlin_idle_west_spritesheet_2
+  - first:
+      213: 2748468781882945322
+    second: gremlin_idle_west_spritesheet_3
+  - first:
+      213: -4076991808325878876
+    second: gremlin_idle_west_spritesheet_4
+  - first:
+      213: 2355537126836947737
+    second: gremlin_idle_west_spritesheet_5
+  - first:
+      213: -1054286398920032121
+    second: gremlin_idle_west_spritesheet_6
+  - first:
+      213: -7408295998552859717
+    second: gremlin_idle_west_spritesheet_7
+  - first:
+      213: 3255897956328268810
+    second: gremlin_idle_west_spritesheet_8
+  - first:
+      213: 6009450002645333181
+    second: gremlin_idle_west_spritesheet_9
+  - first:
+      213: 364549540121774950
+    second: gremlin_idle_west_spritesheet_10
+  - first:
+      213: -4743488295894266833
+    second: gremlin_idle_west_spritesheet_11
+  - first:
+      213: -3119518807119084151
+    second: gremlin_idle_west_spritesheet_12
+  - first:
+      213: -3478469755114390575
+    second: gremlin_idle_west_spritesheet_13
+  - first:
+      213: 833302385628355660
+    second: gremlin_idle_west_spritesheet_14
+  - first:
+      213: 6195253767052389118
+    second: gremlin_idle_west_spritesheet_15
+  - first:
+      213: 2772866345325832768
+    second: gremlin_idle_west_spritesheet_16
+  - first:
+      213: -8016130616777800273
+    second: gremlin_idle_west_spritesheet_17
+  - first:
+      213: -8009487720974282904
+    second: gremlin_idle_west_spritesheet_18
+  - first:
+      213: -7393545561859834310
+    second: gremlin_idle_west_spritesheet_19
+  - first:
+      213: -6702196431253561042
+    second: gremlin_idle_west_spritesheet_20
+  - first:
+      213: 4551455754616059883
+    second: gremlin_idle_west_spritesheet_21
+  - first:
+      213: 6315124694344747432
+    second: gremlin_idle_west_spritesheet_22
+  - first:
+      213: -4289209754429689704
+    second: gremlin_idle_west_spritesheet_23
+  - first:
+      213: 7476293132046037886
+    second: gremlin_idle_west_spritesheet_24
+  - first:
+      213: -8562267011366584741
+    second: gremlin_idle_west_spritesheet_25
+  - first:
+      213: 6140746216425716439
+    second: gremlin_idle_west_spritesheet_26
+  - first:
+      213: 3233754346767103682
+    second: gremlin_idle_west_spritesheet_27
+  - first:
+      213: -4644200295445159947
+    second: gremlin_idle_west_spritesheet_28
+  - first:
+      213: -2408153096225498481
+    second: gremlin_idle_west_spritesheet_29
+  - first:
+      213: 928852044072367503
+    second: gremlin_idle_west_spritesheet_30
+  - first:
+      213: 5777048021016028905
+    second: gremlin_idle_west_spritesheet_31
+  - first:
+      213: -511309782538995869
+    second: gremlin_idle_west_spritesheet_32
+  - first:
+      213: -9221475382028598592
+    second: gremlin_idle_west_spritesheet_33
+  - first:
+      213: -706541729113336171
+    second: gremlin_idle_west_spritesheet_34
+  - first:
+      213: 4638499636604349262
+    second: gremlin_idle_west_spritesheet_35
+  - first:
+      213: -6658271802227574931
+    second: gremlin_idle_west_spritesheet_36
+  - first:
+      213: 516538803832329492
+    second: gremlin_idle_west_spritesheet_37
+  - first:
+      213: -1004747573091998118
+    second: gremlin_idle_west_spritesheet_38
+  - first:
+      213: 2262379105060709433
+    second: gremlin_idle_west_spritesheet_39
+  - first:
+      213: 4490282922533637877
+    second: gremlin_idle_west_spritesheet_40
+  - first:
+      213: -7918976760819508488
+    second: gremlin_idle_west_spritesheet_41
+  - first:
+      213: 1878570073437970001
+    second: gremlin_idle_west_spritesheet_42
+  - first:
+      213: 7878709793221900828
+    second: gremlin_idle_west_spritesheet_43
+  - first:
+      213: 465207219748430679
+    second: gremlin_idle_west_spritesheet_44
+  - first:
+      213: 9147565710485869854
+    second: gremlin_idle_west_spritesheet_45
+  - first:
+      213: 3355715026191742246
+    second: gremlin_idle_west_spritesheet_46
+  - first:
+      213: 6875051465526080062
+    second: gremlin_idle_west_spritesheet_47
+  - first:
+      213: 4529137362560755286
+    second: gremlin_idle_west_spritesheet_48
+  - first:
+      213: -1433815637217837086
+    second: gremlin_idle_west_spritesheet_49
+  - first:
+      213: 5530401625155531406
+    second: gremlin_idle_west_spritesheet_50
+  - first:
+      213: -7556044743778588371
+    second: gremlin_idle_west_spritesheet_51
+  - first:
+      213: -2030304144157969445
+    second: gremlin_idle_west_spritesheet_52
+  - first:
+      213: 612326949049999989
+    second: gremlin_idle_west_spritesheet_53
+  - first:
+      213: 2950356114813561925
+    second: gremlin_idle_west_spritesheet_54
+  - first:
+      213: -7749430216115540051
+    second: gremlin_idle_west_spritesheet_55
+  - first:
+      213: -5162140946417889157
+    second: gremlin_idle_west_spritesheet_56
+  - first:
+      213: 3556979461331969841
+    second: gremlin_idle_west_spritesheet_57
+  - first:
+      213: -5079503140061278889
+    second: gremlin_idle_west_spritesheet_58
+  - first:
+      213: 8577548070179152863
+    second: gremlin_idle_west_spritesheet_59
+  - first:
+      213: -3623984811542810317
+    second: gremlin_idle_west_spritesheet_60
+  - first:
+      213: -6694123622842236202
+    second: gremlin_idle_west_spritesheet_61
+  - first:
+      213: 2929697218675537472
+    second: gremlin_idle_west_spritesheet_62
+  - first:
+      213: -3254967908815716528
+    second: gremlin_idle_west_spritesheet_63
+  - first:
+      213: 9032317738660180156
+    second: gremlin_idle_west_spritesheet_64
+  - first:
+      213: -8021683286238591377
+    second: gremlin_idle_west_spritesheet_65
+  - first:
+      213: 6606686814426362462
+    second: gremlin_idle_west_spritesheet_66
+  - first:
+      213: -6001950233386985744
+    second: gremlin_idle_west_spritesheet_67
+  - first:
+      213: 3793568678628296082
+    second: gremlin_idle_west_spritesheet_68
+  - first:
+      213: -1722586451577934730
+    second: gremlin_idle_west_spritesheet_69
+  - first:
+      213: 1713830449477246650
+    second: gremlin_idle_west_spritesheet_70
+  - first:
+      213: -4005569808498932274
+    second: gremlin_idle_west_spritesheet_71
+  - first:
+      213: 7588489262644883597
+    second: gremlin_idle_west_spritesheet_72
+  - first:
+      213: 3338767812393995520
+    second: gremlin_idle_west_spritesheet_73
+  - first:
+      213: 4842516272066294059
+    second: gremlin_idle_west_spritesheet_74
+  - first:
+      213: 4525166009645401315
+    second: gremlin_idle_west_spritesheet_75
+  - first:
+      213: 8051640738612573014
+    second: gremlin_idle_west_spritesheet_76
+  - first:
+      213: -1596186546271179659
+    second: gremlin_idle_west_spritesheet_77
+  - first:
+      213: 68036028825135632
+    second: gremlin_idle_west_spritesheet_78
+  - first:
+      213: 6302511738232864668
+    second: gremlin_idle_west_spritesheet_79
+  - first:
+      213: -6248136532259310361
+    second: gremlin_idle_west_spritesheet_80
+  - first:
+      213: -2667290625452474897
+    second: gremlin_idle_west_spritesheet_81
+  - first:
+      213: 8785608326286735789
+    second: gremlin_idle_west_spritesheet_82
+  - first:
+      213: -1089155840061353006
+    second: gremlin_idle_west_spritesheet_83
+  - first:
+      213: 629846704954214299
+    second: gremlin_idle_west_spritesheet_84
+  - first:
+      213: -871351600076046693
+    second: gremlin_idle_west_spritesheet_85
+  - first:
+      213: -5538586415225300134
+    second: gremlin_idle_west_spritesheet_86
+  - first:
+      213: -7076881582432961041
+    second: gremlin_idle_west_spritesheet_87
+  - first:
+      213: 8961997306107793933
+    second: gremlin_idle_west_spritesheet_88
+  - first:
+      213: -3916579047843806349
+    second: gremlin_idle_west_spritesheet_89
+  - first:
+      213: -9047887664125808221
+    second: gremlin_idle_west_spritesheet_90
+  - first:
+      213: -5373603316204129888
+    second: gremlin_idle_west_spritesheet_91
+  - first:
+      213: -982401599084417911
+    second: gremlin_idle_west_spritesheet_92
+  - first:
+      213: 1107496113808983402
+    second: gremlin_idle_west_spritesheet_93
+  - first:
+      213: 282741261856250739
+    second: gremlin_idle_west_spritesheet_94
+  - first:
+      213: 2528795103210649157
+    second: gremlin_idle_west_spritesheet_95
+  - first:
+      213: 1319605844606991906
+    second: gremlin_idle_west_spritesheet_96
+  - first:
+      213: 696874955879790892
+    second: gremlin_idle_west_spritesheet_97
+  - first:
+      213: 260513277742188852
+    second: gremlin_idle_west_spritesheet_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 6276
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df707982e1fb6070800000000000000
+      internalID: 8100834310026723280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 6276
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb6c70ef73c42620800000000000000
+      internalID: 2748536626597358532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 6276
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9419102857cb930800000000000000
+      internalID: 4160329357015992745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 6276
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f226c8bc5842620800000000000000
+      internalID: 2748468781882945322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 6276
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abfe881d8d9b67c0800000000000000
+      internalID: -4076991808325878876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 6276
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b4c54698c80b020800000000000000
+      internalID: 2355537126836947737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 6276
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78088d42b1c6e51f0800000000000000
+      internalID: -1054286398920032121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 6276
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb1f474a02703990800000000000000
+      internalID: -7408295998552859717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5764
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04edd7d0f54f2d20800000000000000
+      internalID: 3255897956328268810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 5764
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4352f10fad56350800000000000000
+      internalID: 6009450002645333181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 5764
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b8df110e32f0500800000000000000
+      internalID: 364549540121774950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 5764
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ccff6e68ebb2eb0800000000000000
+      internalID: -4743488295894266833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 5764
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985448f3c2e35b4d0800000000000000
+      internalID: -3119518807119084151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 5764
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db777cff2ef9bfc0800000000000000
+      internalID: -3478469755114390575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 5764
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c1dddca1c709b00800000000000000
+      internalID: 833302385628355660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 5764
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efaee8e2a76f9f550800000000000000
+      internalID: 6195253767052389118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5252
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a28c2ff333b7620800000000000000
+      internalID: 2772866345325832768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 5252
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa583d1ecabf0c090800000000000000
+      internalID: -8016130616777800273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 5252
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f89769a5598d090800000000000000
+      internalID: -8009487720974282904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 5252
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ebda2fb79d46990800000000000000
+      internalID: -7393545561859834310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 5252
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21ad340bd30df2a0800000000000000
+      internalID: -6702196431253561042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 5252
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be73cc8e4e40a2f30800000000000000
+      internalID: 4551455754616059883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 5252
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a947b65374d3a750800000000000000
+      internalID: 6315124694344747432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 5252
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890f31c147aa974c0800000000000000
+      internalID: -4289209754429689704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4740
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73fb441ef021c760800000000000000
+      internalID: 7476293132046037886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 4740
+        width: 383
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ef27b9487bc2980800000000000000
+      internalID: -8562267011366584741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 4740
+        width: 383
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7daf0e51620583550800000000000000
+      internalID: 6140746216425716439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 4740
+        width: 383
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6bde9f17a90ec20800000000000000
+      internalID: 3233754346767103682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 4740
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff1a34ff6c7c8fb0800000000000000
+      internalID: -4644200295445159947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 4740
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ad8b69485849ed0800000000000000
+      internalID: -2408153096225498481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 4740
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8534d74302f3ec00800000000000000
+      internalID: 928852044072367503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 4740
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6a80721923c2050800000000000000
+      internalID: 5777048021016028905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4228
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367b499367677e8f0800000000000000
+      internalID: -511309782538995869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 4228
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c20d2d5ffcb60080800000000000000
+      internalID: -9221475382028598592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 4228
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59695317a0cd136f0800000000000000
+      internalID: -706541729113336171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 4228
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ba49af7d24f5040800000000000000
+      internalID: 4638499636604349262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 4228
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67b93aa2111993a0800000000000000
+      internalID: -6658271802227574931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 4228
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415912b2e4d1b2700800000000000000
+      internalID: 516538803832329492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 4228
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a566ae8d76b6e02f0800000000000000
+      internalID: -1004747573091998118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 4228
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934e8683fc5956f10800000000000000
+      internalID: 2262379105060709433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fece9a0780b05e30800000000000000
+      internalID: 4490282922533637877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa97c2b7942a1290800000000000000
+      internalID: -7918976760819508488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e13f85785021a10800000000000000
+      internalID: 1878570073437970001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1af16150dcc65d60800000000000000
+      internalID: 7878709793221900828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7536d08608fb47600800000000000000
+      internalID: 465207219748430679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15dd0d3c8ea2fe70800000000000000
+      internalID: 9147565710485869854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62579977905e19e20800000000000000
+      internalID: 3355715026191742246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 3716
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32f53fd1e6196f50800000000000000
+      internalID: 6875051465526080062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3203
+        width: 383
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65622625f6abade30800000000000000
+      internalID: 4529137362560755286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 3203
+        width: 383
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2effa3e46401a1ce0800000000000000
+      internalID: -1433815637217837086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 3203
+        width: 383
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8273ac0afeefbc40800000000000000
+      internalID: 5530401625155531406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3203
+        width: 383
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29ae14d659832790800000000000000
+      internalID: -7556044743778588371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 3203
+        width: 383
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3f57d4329e2d3e0800000000000000
+      internalID: -2030304144157969445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 3204
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572268cad1c6f7800800000000000000
+      internalID: 612326949049999989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 3204
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c2d583145c1f820800000000000000
+      internalID: 2950356114813561925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 3204
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf21c4d64e747490800000000000000
+      internalID: -7749430216115540051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2692
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b705340d8246c58b0800000000000000
+      internalID: -5162140946417889157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2692
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1376d0279fdec5130800000000000000
+      internalID: 3556979461331969841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 2692
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d8a257ecaf189b0800000000000000
+      internalID: -5079503140061278889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2692
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3add62682990770800000000000000
+      internalID: 8577548070179152863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2692
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331749cb30505bdc0800000000000000
+      internalID: -3623984811542810317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 2692
+        width: 383
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d200f13802b913a0800000000000000
+      internalID: -6694123622842236202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 2692
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046fa92291068a820800000000000000
+      internalID: 2929697218675537472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 2692
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f3eb7bee704d2d0800000000000000
+      internalID: -3254967908815716528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2180
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0bc47c02d395d70800000000000000
+      internalID: 9032317738660180156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2180
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f668f074d814da090800000000000000
+      internalID: -8021683286238591377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 2180
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52f32c67aaafab50800000000000000
+      internalID: 6606686814426362462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2180
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6556bff0ac4bca0800000000000000
+      internalID: -6001950233386985744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2180
+        width: 383
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29500b03d9675a430800000000000000
+      internalID: 3793568678628296082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 2180
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cebcabfb42818e0800000000000000
+      internalID: -1722586451577934730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 2180
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abed65aa6bfb8c710800000000000000
+      internalID: 1713830449477246650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 2180
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec544694b7b5968c0800000000000000
+      internalID: -4005569808498932274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1668
+        width: 383
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8070d167cabf4960800000000000000
+      internalID: 7588489262644883597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1668
+        width: 383
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d8045c2afa55e20800000000000000
+      internalID: 3338767812393995520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1668
+        width: 383
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b217f8784e2143340800000000000000
+      internalID: 4842516272066294059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1668
+        width: 383
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4069aa28e9cce30800000000000000
+      internalID: 4525166009645401315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1668
+        width: 383
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653f014a79c2dbf60800000000000000
+      internalID: 8051640738612573014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 1668
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57caf3a0bc439d9e0800000000000000
+      internalID: -1596186546271179659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 1668
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aec026866b1f000800000000000000
+      internalID: 68036028825135632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 1668
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f7916a805077750800000000000000
+      internalID: 6302511738232864668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1156
+        width: 383
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4fa8e8de82a49a0800000000000000
+      internalID: -6248136532259310361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1156
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedfc2dde41ebfad0800000000000000
+      internalID: -2667290625452474897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1156
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9f8008930cce970800000000000000
+      internalID: 8785608326286735789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1156
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3d918b88a82e0f0800000000000000
+      internalID: -1089155840061353006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1156
+        width: 383
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b970fb7bd3aadb800800000000000000
+      internalID: 629846704954214299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 1156
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ebffa165658e3f0800000000000000
+      internalID: -871351600076046693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 1156
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b11b2000df223b0800000000000000
+      internalID: -5538586415225300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 1156
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed349912bdd9cd90800000000000000
+      internalID: -7076881582432961041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 644
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02109431196f5c70800000000000000
+      internalID: 8961997306107793933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 644
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373488e5b1485a9c0800000000000000
+      internalID: -3916579047843806349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 644
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a174247b127f6280800000000000000
+      internalID: -9047887664125808221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 644
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1bac521402d65b0800000000000000
+      internalID: -5373603316204129888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 644
+        width: 383
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c2ccb53fecd52f0800000000000000
+      internalID: -982401599084417911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 644
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65c5b509dd9e5f00800000000000000
+      internalID: 1107496113808983402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 644
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b994cfdaf7ce300800000000000000
+      internalID: 282741261856250739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 644
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5463e9c8fb5181320800000000000000
+      internalID: 2528795103210649157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 132
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e345b268e205210800000000000000
+      internalID: 1319605844606991906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 132
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29b416841ccba900800000000000000
+      internalID: 696874955879790892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gremlin_idle_west_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 132
+        width: 383
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439881322778d9300800000000000000
+      internalID: 260513277742188852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gremlin_idle_west_spritesheet_0: 8100834310026723280
+      gremlin_idle_west_spritesheet_1: 2748536626597358532
+      gremlin_idle_west_spritesheet_10: 364549540121774950
+      gremlin_idle_west_spritesheet_11: -4743488295894266833
+      gremlin_idle_west_spritesheet_12: -3119518807119084151
+      gremlin_idle_west_spritesheet_13: -3478469755114390575
+      gremlin_idle_west_spritesheet_14: 833302385628355660
+      gremlin_idle_west_spritesheet_15: 6195253767052389118
+      gremlin_idle_west_spritesheet_16: 2772866345325832768
+      gremlin_idle_west_spritesheet_17: -8016130616777800273
+      gremlin_idle_west_spritesheet_18: -8009487720974282904
+      gremlin_idle_west_spritesheet_19: -7393545561859834310
+      gremlin_idle_west_spritesheet_2: 4160329357015992745
+      gremlin_idle_west_spritesheet_20: -6702196431253561042
+      gremlin_idle_west_spritesheet_21: 4551455754616059883
+      gremlin_idle_west_spritesheet_22: 6315124694344747432
+      gremlin_idle_west_spritesheet_23: -4289209754429689704
+      gremlin_idle_west_spritesheet_24: 7476293132046037886
+      gremlin_idle_west_spritesheet_25: -8562267011366584741
+      gremlin_idle_west_spritesheet_26: 6140746216425716439
+      gremlin_idle_west_spritesheet_27: 3233754346767103682
+      gremlin_idle_west_spritesheet_28: -4644200295445159947
+      gremlin_idle_west_spritesheet_29: -2408153096225498481
+      gremlin_idle_west_spritesheet_3: 2748468781882945322
+      gremlin_idle_west_spritesheet_30: 928852044072367503
+      gremlin_idle_west_spritesheet_31: 5777048021016028905
+      gremlin_idle_west_spritesheet_32: -511309782538995869
+      gremlin_idle_west_spritesheet_33: -9221475382028598592
+      gremlin_idle_west_spritesheet_34: -706541729113336171
+      gremlin_idle_west_spritesheet_35: 4638499636604349262
+      gremlin_idle_west_spritesheet_36: -6658271802227574931
+      gremlin_idle_west_spritesheet_37: 516538803832329492
+      gremlin_idle_west_spritesheet_38: -1004747573091998118
+      gremlin_idle_west_spritesheet_39: 2262379105060709433
+      gremlin_idle_west_spritesheet_4: -4076991808325878876
+      gremlin_idle_west_spritesheet_40: 4490282922533637877
+      gremlin_idle_west_spritesheet_41: -7918976760819508488
+      gremlin_idle_west_spritesheet_42: 1878570073437970001
+      gremlin_idle_west_spritesheet_43: 7878709793221900828
+      gremlin_idle_west_spritesheet_44: 465207219748430679
+      gremlin_idle_west_spritesheet_45: 9147565710485869854
+      gremlin_idle_west_spritesheet_46: 3355715026191742246
+      gremlin_idle_west_spritesheet_47: 6875051465526080062
+      gremlin_idle_west_spritesheet_48: 4529137362560755286
+      gremlin_idle_west_spritesheet_49: -1433815637217837086
+      gremlin_idle_west_spritesheet_5: 2355537126836947737
+      gremlin_idle_west_spritesheet_50: 5530401625155531406
+      gremlin_idle_west_spritesheet_51: -7556044743778588371
+      gremlin_idle_west_spritesheet_52: -2030304144157969445
+      gremlin_idle_west_spritesheet_53: 612326949049999989
+      gremlin_idle_west_spritesheet_54: 2950356114813561925
+      gremlin_idle_west_spritesheet_55: -7749430216115540051
+      gremlin_idle_west_spritesheet_56: -5162140946417889157
+      gremlin_idle_west_spritesheet_57: 3556979461331969841
+      gremlin_idle_west_spritesheet_58: -5079503140061278889
+      gremlin_idle_west_spritesheet_59: 8577548070179152863
+      gremlin_idle_west_spritesheet_6: -1054286398920032121
+      gremlin_idle_west_spritesheet_60: -3623984811542810317
+      gremlin_idle_west_spritesheet_61: -6694123622842236202
+      gremlin_idle_west_spritesheet_62: 2929697218675537472
+      gremlin_idle_west_spritesheet_63: -3254967908815716528
+      gremlin_idle_west_spritesheet_64: 9032317738660180156
+      gremlin_idle_west_spritesheet_65: -8021683286238591377
+      gremlin_idle_west_spritesheet_66: 6606686814426362462
+      gremlin_idle_west_spritesheet_67: -6001950233386985744
+      gremlin_idle_west_spritesheet_68: 3793568678628296082
+      gremlin_idle_west_spritesheet_69: -1722586451577934730
+      gremlin_idle_west_spritesheet_7: -7408295998552859717
+      gremlin_idle_west_spritesheet_70: 1713830449477246650
+      gremlin_idle_west_spritesheet_71: -4005569808498932274
+      gremlin_idle_west_spritesheet_72: 7588489262644883597
+      gremlin_idle_west_spritesheet_73: 3338767812393995520
+      gremlin_idle_west_spritesheet_74: 4842516272066294059
+      gremlin_idle_west_spritesheet_75: 4525166009645401315
+      gremlin_idle_west_spritesheet_76: 8051640738612573014
+      gremlin_idle_west_spritesheet_77: -1596186546271179659
+      gremlin_idle_west_spritesheet_78: 68036028825135632
+      gremlin_idle_west_spritesheet_79: 6302511738232864668
+      gremlin_idle_west_spritesheet_8: 3255897956328268810
+      gremlin_idle_west_spritesheet_80: -6248136532259310361
+      gremlin_idle_west_spritesheet_81: -2667290625452474897
+      gremlin_idle_west_spritesheet_82: 8785608326286735789
+      gremlin_idle_west_spritesheet_83: -1089155840061353006
+      gremlin_idle_west_spritesheet_84: 629846704954214299
+      gremlin_idle_west_spritesheet_85: -871351600076046693
+      gremlin_idle_west_spritesheet_86: -5538586415225300134
+      gremlin_idle_west_spritesheet_87: -7076881582432961041
+      gremlin_idle_west_spritesheet_88: 8961997306107793933
+      gremlin_idle_west_spritesheet_89: -3916579047843806349
+      gremlin_idle_west_spritesheet_9: 6009450002645333181
+      gremlin_idle_west_spritesheet_90: -9047887664125808221
+      gremlin_idle_west_spritesheet_91: -5373603316204129888
+      gremlin_idle_west_spritesheet_92: -982401599084417911
+      gremlin_idle_west_spritesheet_93: 1107496113808983402
+      gremlin_idle_west_spritesheet_94: 282741261856250739
+      gremlin_idle_west_spritesheet_95: 2528795103210649157
+      gremlin_idle_west_spritesheet_96: 1319605844606991906
+      gremlin_idle_west_spritesheet_97: 696874955879790892
+      gremlin_idle_west_spritesheet_98: 260513277742188852
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

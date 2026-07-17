@@ -396,6 +396,138 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 16
   framesPerSecond: 12
+--- !u!1 &2155962516054354716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5483630649547491743}
+  - component: {fileID: 8356842048614308947}
+  - component: {fileID: 386515946041105738}
+  - component: {fileID: 393195717641512374}
+  - component: {fileID: 4561113967076611435}
+  - component: {fileID: 507753612084227613}
+  m_Layer: 0
+  m_Name: IdleAnimation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5483630649547491743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155962516054354716}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7156508547897986335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8356842048614308947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155962516054354716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cda322d3796bdd42b88e89accd6e392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationGroup
+  south: {fileID: 386515946041105738}
+  east: {fileID: 393195717641512374}
+  north: {fileID: 4561113967076611435}
+  west: {fileID: 507753612084227613}
+--- !u!114 &386515946041105738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155962516054354716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: 307f8a47f2f24da4eb198637c71606f3, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: 1af4c8b293a1eea47bd72821b67cb01c, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: c888cdee32e461b4ba0c62bd8ba911ea, type: 3}
+  columns: 8
+  rows: 13
+  startFrame: 0
+  frameCount: 99
+  framesPerSecond: 12
+--- !u!114 &393195717641512374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155962516054354716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: 4589e1a5df6df1b4ca33b3ab1a902339, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: d22f1f090f9c3b3468c72c407bb74e81, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: f60e50d4ab589034b9aaf2a597ec2223, type: 3}
+  columns: 8
+  rows: 13
+  startFrame: 0
+  frameCount: 99
+  framesPerSecond: 12
+--- !u!114 &4561113967076611435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155962516054354716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: b70e84d447501824aa318499aafaa04b, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: 4562af067097aa74ead61033256bc329, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: 5c1c1f23a511ad3448fd0173ddaac337, type: 3}
+  columns: 8
+  rows: 13
+  startFrame: 0
+  frameCount: 99
+  framesPerSecond: 12
+--- !u!114 &507753612084227613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2155962516054354716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8613992da732a4d8fc6839e6316230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimation
+  baseSpritesheet: {fileID: 2800000, guid: 6096985a753324e47bd2126d957e49b8, type: 3}
+  normalSpritesheet: {fileID: 2800000, guid: 34bdff35100a0204aae04b2546994486, type: 3}
+  emissionsSpritesheet: {fileID: 2800000, guid: ecbb23eef5a053a489075d55954b49d8, type: 3}
+  columns: 8
+  rows: 13
+  startFrame: 0
+  frameCount: 99
+  framesPerSecond: 12
 --- !u!1 &2458369581986400781
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,6 +562,7 @@ Transform:
   - {fileID: 792026472406535750}
   - {fileID: 3858553189901243256}
   - {fileID: 5350732554786932726}
+  - {fileID: 5483630649547491743}
   m_Father: {fileID: 7061851816723464548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2115087568239474520
@@ -585,6 +718,7 @@ GameObject:
   - component: {fileID: 725074745669117835}
   - component: {fileID: 9102548399461854839}
   - component: {fileID: 4614179717991674997}
+  - component: {fileID: 6247831904276354810}
   m_Layer: 7
   m_Name: GhostStates
   m_TagString: Untagged
@@ -624,6 +758,7 @@ MonoBehaviour:
   runningAnimations: {fileID: 7058539124160039500}
   escapingAnimations: {fileID: 3737608409282304178}
   hidingAnimations: {fileID: 763110656267230560}
+  idleAnimations: {fileID: 8356842048614308947}
 --- !u!114 &725074745669117835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,6 +798,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GremlinFrightened
   duration: 12
+--- !u!114 &6247831904276354810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376302308385466420}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c115c810d8449dc4ba24076d05a7ebc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GhostIdle
+  duration: 0
 --- !u!1 &4408589904904907292
 GameObject:
   m_ObjectHideFlags: 0
