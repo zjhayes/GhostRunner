@@ -18,12 +18,14 @@ public class GateAction : NodeAction
         {
             player.Movement.ApplyDirection(direction); // Face gate.
             player.Movement.Stop();
-            return;
         }
     }
 
     protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
     {
-        ghost.TurnAround();
+        if (edge.ActionType == ActionType.BLOCKED || edge.ActionType == ActionType.GATE_OPEN)
+        {
+            ghost.TurnAround();
+        }
     }
 }

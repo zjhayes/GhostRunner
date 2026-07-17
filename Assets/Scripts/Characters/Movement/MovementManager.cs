@@ -147,15 +147,7 @@ public class MovementManager : MonoBehaviour
         // Allow reversal.
         if (DirectionVector != Vector2.zero && CardinalUtil.IsOpposite(Direction, requested))
         {
-            ApplyDirection(requested);
-            NextDirection = null;
-
-            // If we're still inside a node trigger, re-center to that node once.
-            if (currentNode != null)
-                targetNode = currentNode;
-            else
-                targetNode = null; // between nodes: reverse cleanly without forcing centering
-
+            ReverseDirection();
             return;
         }
 
@@ -184,6 +176,26 @@ public class MovementManager : MonoBehaviour
         // Keep Direction as the last facing direction, but stop movement by zeroing vector.
         DirectionVector = Vector2.zero;
         NextDirection = null;
+    }
+
+    public void ReverseDirection()
+    {
+        ApplyDirection(CardinalUtil.Opposite(Direction));
+        NextDirection = null;
+        targetNode = currentNode;
+    }
+
+    public void ReverseAfterCollision()
+    {
+        Cardinal reverse = CardinalUtil.Opposite(Direction);
+        bool reverseEdgeIsValid = currentNode == null || currentNode.Edges.ContainsKey(reverse);
+
+        ApplyDirection(reverse);
+        NextDirection = null;
+
+        // Leave immediately along the corridor we came from when possible. At a
+        // corner, return to the node so its resolver chooses a valid exit.
+        targetNode = reverseEdgeIsValid ? null : currentNode;
     }
 
     public void ApplyDirection(Cardinal dir)

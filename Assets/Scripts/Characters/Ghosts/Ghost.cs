@@ -97,7 +97,7 @@ public class Ghost : CharacterManager
     {
         Vector2 forward = CardinalUtil.ToVector(movement.Direction);
         if (Vector2.Dot(forward, away) < 0f)
-            movement.SetDirection(CardinalUtil.Opposite(movement.Direction));
+            movement.ReverseAfterCollision();
     }
 
     private void HandleGhostContact(GameObject other)
