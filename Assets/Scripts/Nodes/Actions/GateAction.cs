@@ -24,7 +24,6 @@ public class GateAction : NodeAction
 
     protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
     {
-        // Ghosts can pass through gates.
-        ghost.Movement.ApplyDirection(direction);
+        ghost.TurnAround();
     }
 }

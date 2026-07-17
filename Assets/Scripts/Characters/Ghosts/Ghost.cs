@@ -18,6 +18,7 @@ public class Ghost : CharacterManager
     protected override void Start()
     {
         base.Start();
+        Movement.Rigidbody.useFullKinematicContacts = true;
         Target = GameManager.Player.transform;
         ResetState();
     }
@@ -37,11 +38,7 @@ public class Ghost : CharacterManager
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
         {
-            Ghost otherGhost = other.gameObject.GetComponent<Ghost>()
-                ?? other.gameObject.GetComponentInParent<Ghost>();
-
-            if (otherGhost != null)
-                ScatterFrom(otherGhost);
+            HandleGhostContact(other.gameObject);
         }
 
         base.HandleCollision(other);
@@ -53,6 +50,10 @@ public class Ghost : CharacterManager
         {
             StopAndFacePlayer(other.transform, "trigger");
             GameManager.Player.PlayerFrightened();
+        }
+        else if (other.gameObject.layer == LayerMask.NameToLayer(Layer.GHOSTS))
+        {
+            HandleGhostContact(other.gameObject);
         }
 
         base.HandleTrigger(other);
@@ -81,20 +82,30 @@ public class Ghost : CharacterManager
 
     private void ScatterFrom(Ghost otherGhost)
     {
+        if (Context.IsIdle || otherGhost.Context.IsIdle)
+            return;
+
         Context.EnterScatter();
         otherGhost.Context.EnterScatter();
 
         Vector2 separation = (Vector2)transform.position - (Vector2)otherGhost.transform.position;
-        Cardinal away;
+        TurnAwayFrom(Movement, separation);
+        TurnAwayFrom(otherGhost.Movement, -separation);
+    }
 
-        if (Mathf.Abs(separation.x) > Mathf.Abs(separation.y))
-            away = separation.x < 0f ? Cardinal.West : Cardinal.East;
-        else if (Mathf.Abs(separation.y) > 0f)
-            away = separation.y < 0f ? Cardinal.South : Cardinal.North;
-        else
-            away = GetInstanceID() < otherGhost.GetInstanceID() ? Cardinal.West : Cardinal.East;
+    private static void TurnAwayFrom(MovementManager movement, Vector2 away)
+    {
+        Vector2 forward = CardinalUtil.ToVector(movement.Direction);
+        if (Vector2.Dot(forward, away) < 0f)
+            movement.SetDirection(CardinalUtil.Opposite(movement.Direction));
+    }
 
-        Movement.ApplyDirection(away);
-        otherGhost.Movement.ApplyDirection(CardinalUtil.Opposite(away));
+    private void HandleGhostContact(GameObject other)
+    {
+        Ghost otherGhost = other.GetComponent<Ghost>()
+            ?? other.GetComponentInParent<Ghost>();
+
+        if (otherGhost != null && otherGhost != this)
+            ScatterFrom(otherGhost);
     }
 }
