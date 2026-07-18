@@ -17,7 +17,12 @@ public class Gate : MonoBehaviour, ICheckpointState
     [SerializeField] private float gate2OpenAngle;
 
     [Header("Animation")]
-    [SerializeField] private float openSpeed = 90f; // degrees per second
+    [SerializeField] private float openSpeed = 90f; // Initial degrees per second
+    [SerializeField] private float fastOpenDegrees = 45f;
+    [SerializeField] private float finishingOpenSpeed = 50f;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource openAudioSource;
 
     public bool IsOpen { get; private set; }
 
@@ -39,6 +44,7 @@ public class Gate : MonoBehaviour, ICheckpointState
             return;
 
         isOpening = true;
+        openAudioSource.Play();
         openRoutine = StartCoroutine(OpenRoutine());
     }
 
@@ -49,8 +55,8 @@ public class Gate : MonoBehaviour, ICheckpointState
 
         do
         {
-            gate1Done = RotateGate(gate1, gate1OpenAngle);
-            gate2Done = RotateGate(gate2, gate2OpenAngle);
+            gate1Done = RotateGate(gate1, gate1ClosedAngle, gate1OpenAngle);
+            gate2Done = RotateGate(gate2, gate2ClosedAngle, gate2OpenAngle);
 
             if (!gate1Done || !gate2Done)
                 yield return null;
@@ -63,14 +69,19 @@ public class Gate : MonoBehaviour, ICheckpointState
         OnGateOpened?.Invoke();
     }
 
-    private bool RotateGate(Transform gate, float targetAngle)
+    private bool RotateGate(Transform gate, float closedAngle, float targetAngle)
     {
         Vector3 euler = gate.localEulerAngles;
         float current = GetAxisValue(euler);
+        float distanceOpened = Mathf.Abs(Mathf.DeltaAngle(closedAngle, current));
+        float currentSpeed = distanceOpened < fastOpenDegrees
+            ? openSpeed
+            : finishingOpenSpeed;
+
         float next = Mathf.MoveTowardsAngle(
             current,
             targetAngle,
-            openSpeed * Time.deltaTime
+            currentSpeed * Time.deltaTime
         );
 
         SetAxisValue(ref euler, next);
