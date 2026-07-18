@@ -14,25 +14,53 @@ public abstract class NodeAction : GameBehaviour
         SubscribeToEdges();
     }
 
-    public void Resolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
+    public EdgeTraversalResult GetTraversalResult(
+        CharacterManager character,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
     {
-        if (allowedActions.Contains(edge.ActionType))
+        if (!IsActionAllowed(edge))
+            return EdgeTraversalResult.Pass;
+
+        return character switch
         {
-            OnResolve(character, direction, node, edge);
-        }
+            PlayerManager player => GetPlayerTraversalResult(player, direction, node, edge),
+            Ghost ghost => GetGhostTraversalResult(ghost, direction, node, edge),
+            _ => EdgeTraversalResult.Pass
+        };
     }
 
-    public void OnResolve(CharacterManager character, Cardinal direction, Node node, ActionEdge edge)
+    public EdgeTraversalResult Resolve(
+        CharacterManager character,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
     {
+        EdgeTraversalResult result = GetTraversalResult(character, direction, node, edge);
+
+        if (!IsActionAllowed(edge))
+            return result;
+
         if (character is PlayerManager player)
-        {
             OnResolvePlayer(player, direction, node, edge);
-        }
         else if (character is Ghost ghost)
-        {
             OnResolveGhost(ghost, direction, node, edge);
-        }
+
+        return result;
     }
+
+    protected abstract EdgeTraversalResult GetPlayerTraversalResult(
+        PlayerManager player,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge);
+
+    protected abstract EdgeTraversalResult GetGhostTraversalResult(
+        Ghost ghost,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge);
 
     protected abstract void OnResolvePlayer(PlayerManager player, Cardinal direction, Node node, ActionEdge edge);
 

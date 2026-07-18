@@ -1,10 +1,15 @@
 public class CheckpointEdge : TraversalEdge
 {
-    public override void Resolve(CharacterManager character, Cardinal direction, Node node)
+    public override EdgeTraversalResult Resolve(
+        CharacterManager character,
+        Cardinal direction,
+        Node node)
     {
-        base.Resolve(character, direction, node);
+        EdgeTraversalResult result = base.Resolve(character, direction, node);
 
         if (character is PlayerManager)
             GameManager.Checkpoint?.Activate(node, direction);
+
+        return result;
     }
 }

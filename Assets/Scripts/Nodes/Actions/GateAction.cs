@@ -4,6 +4,27 @@ public class GateAction : NodeAction
 {
     [SerializeField] private Gate gate;
 
+    protected override EdgeTraversalResult GetPlayerTraversalResult(
+        PlayerManager player,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
+    {
+        if (gate.IsOpen || edge.ActionType == ActionType.GATE_OPEN)
+            return EdgeTraversalResult.Pass;
+
+        return EdgeTraversalResult.Blocked;
+    }
+
+    protected override EdgeTraversalResult GetGhostTraversalResult(
+        Ghost ghost,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
+    {
+        return EdgeTraversalResult.Blocked;
+    }
+
     protected override void OnResolvePlayer(PlayerManager player, Cardinal direction, Node node, ActionEdge edge)
     {
         if (gate.IsOpen)
@@ -16,16 +37,11 @@ public class GateAction : NodeAction
         }
         else if(edge.ActionType == ActionType.BLOCKED)
         {
-            player.Movement.ApplyDirection(direction); // Face gate.
-            player.Movement.Stop();
+            return;
         }
     }
 
     protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
     {
-        if (edge.ActionType == ActionType.BLOCKED || edge.ActionType == ActionType.GATE_OPEN)
-        {
-            ghost.TurnAround();
-        }
     }
 }

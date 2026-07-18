@@ -4,6 +4,24 @@ public class ChangeMusicAction : NodeAction
 {
     [SerializeField] private AudioClip track;
 
+    protected override EdgeTraversalResult GetPlayerTraversalResult(
+        PlayerManager player,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
+    {
+        return EdgeTraversalResult.Pass;
+    }
+
+    protected override EdgeTraversalResult GetGhostTraversalResult(
+        Ghost ghost,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
+    {
+        return EdgeTraversalResult.Pass;
+    }
+
     protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
     {
         // Ghosts do not change the music.

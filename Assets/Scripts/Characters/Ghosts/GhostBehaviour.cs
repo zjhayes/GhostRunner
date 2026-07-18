@@ -76,12 +76,22 @@ public abstract class GhostBehaviour : MonoBehaviour
         out Cardinal chosen)
     {
         List<Cardinal> candidates = new();
-        foreach (Cardinal available in node.Edges.Keys)
+        foreach (var pair in node.Edges)
         {
+            Cardinal available = pair.Key;
+
             if (avoidReverse && available == opposite)
                 continue;
 
             if (exclude != null && System.Array.IndexOf(exclude, available) >= 0)
+                continue;
+
+            EdgeTraversalResult traversal = pair.Value.GetTraversalResult(
+                Context.Ghost,
+                available,
+                node);
+            if (traversal == EdgeTraversalResult.Blocked ||
+                traversal == EdgeTraversalResult.Interact)
                 continue;
 
             candidates.Add(available);

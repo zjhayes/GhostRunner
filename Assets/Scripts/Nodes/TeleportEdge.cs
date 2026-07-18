@@ -13,15 +13,29 @@ public class TeleportEdge : EdgeNode
         //targetNode = NodeUtil.FindNodeByTeleportId(this, teleportId);
     }
 
-    public override void Resolve(CharacterManager character, Cardinal direction, Node node)
+    public override EdgeTraversalResult GetTraversalResult(
+        CharacterManager character,
+        Cardinal direction,
+        Node node)
+    {
+        return targetNode == null
+            ? EdgeTraversalResult.Blocked
+            : EdgeTraversalResult.Teleport;
+    }
+
+    public override EdgeTraversalResult Resolve(
+        CharacterManager character,
+        Cardinal direction,
+        Node node)
     {
         if (targetNode == null)
         {
             Debug.LogError($"TeleportEdge {name} not bound!");
-            return;
+            return EdgeTraversalResult.Blocked;
         }
 
         //movement.TeleportToNode(targetNode);
+        return EdgeTraversalResult.Teleport;
     }
 }
 

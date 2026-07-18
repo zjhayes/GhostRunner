@@ -20,6 +20,23 @@ public class BarrierAction : NodeAction
 
     public bool IsPassable => isPassable;
 
+    protected override EdgeTraversalResult GetPlayerTraversalResult(
+        PlayerManager player,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
+    {
+        return IsPassable ? EdgeTraversalResult.Pass : EdgeTraversalResult.Blocked;
+    }
+
+    protected override EdgeTraversalResult GetGhostTraversalResult(
+        Ghost ghost,
+        Cardinal direction,
+        Node node,
+        ActionEdge edge)
+    {
+        return EdgeTraversalResult.Blocked;
+    }
 
     private void Awake()
     {
@@ -44,17 +61,10 @@ public class BarrierAction : NodeAction
 
     protected override void OnResolvePlayer(PlayerManager player, Cardinal direction, Node node, ActionEdge edge)
     {
-        player.Movement.ApplyDirection(direction);
-
-        if (!IsPassable)
-        {
-            player.Movement.Stop();
-        }
     }
 
     protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
     {
-        ghost.TurnAround();
     }
 
 

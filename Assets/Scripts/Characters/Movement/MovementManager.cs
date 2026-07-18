@@ -19,6 +19,7 @@ public class MovementManager : MonoBehaviour
     private Node lastEnteredNode; // used to prevent re-locking same node while overlapping
 
     private int nodesLayer;
+    private CharacterManager character;
 
     public Rigidbody2D Rigidbody { get; private set; }
     public Vector3 StartingPosition { get; private set; }
@@ -29,7 +30,7 @@ public class MovementManager : MonoBehaviour
 
     public Vector2 DirectionVector { get; private set; } = Vector2.right;
 
-    public event Action<Node, Cardinal> OnResolveEdge;
+    public Func<Node, Cardinal, EdgeTraversalResult> EdgeResolver { get; set; }
 
     public bool IsMoving
     {
@@ -61,6 +62,7 @@ public class MovementManager : MonoBehaviour
     private void Awake()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
+        character = GetComponent<CharacterManager>();
         StartingPosition = Rigidbody.position;
         lastPosition = Rigidbody.position;
 
@@ -106,8 +108,14 @@ public class MovementManager : MonoBehaviour
                     }
 
                     // Done centering.
-                    ResolveEdge(targetNode, chosen.Value);
+                    bool canContinue = ResolveEdge(targetNode, chosen.Value);
                     targetNode = null;
+
+                    if (!canContinue)
+                    {
+                        stepRemaining = 0f;
+                        break;
+                    }
 
                     // Continue consuming remaining step outward to keep transition smooth.
                     continue;
@@ -154,7 +162,7 @@ public class MovementManager : MonoBehaviour
         // If we're stopped on a node, allow immediate start if valid.
         if (DirectionVector == Vector2.zero && currentNode != null)
         {
-            if (forced || currentNode.Edges.ContainsKey(requested))
+            if (forced || IsDirectionAvailable(currentNode, requested))
             {
                 ResolveEdge(currentNode, requested);
                 NextDirection = null;
@@ -188,7 +196,7 @@ public class MovementManager : MonoBehaviour
     public void ReverseAfterCollision()
     {
         Cardinal reverse = CardinalUtil.Opposite(Direction);
-        bool reverseEdgeIsValid = currentNode == null || currentNode.Edges.ContainsKey(reverse);
+        bool reverseEdgeIsValid = currentNode == null || IsDirectionAvailable(currentNode, reverse);
 
         ApplyDirection(reverse);
         NextDirection = null;
@@ -208,9 +216,31 @@ public class MovementManager : MonoBehaviour
         OnDirectionChanged?.Invoke(Direction);
     }
 
-    private void ResolveEdge(Node node, Cardinal direction)
+    private bool ResolveEdge(Node node, Cardinal direction)
     {
-        OnResolveEdge?.Invoke(node, direction);
+        EdgeTraversalResult result = EdgeResolver != null
+            ? EdgeResolver(node, direction)
+            : EdgeTraversalResult.Blocked;
+
+        switch (result)
+        {
+            case EdgeTraversalResult.Pass:
+                ApplyDirection(direction);
+                return true;
+
+            case EdgeTraversalResult.Blocked:
+            case EdgeTraversalResult.Interact:
+                ApplyDirection(direction);
+                Stop();
+                return false;
+
+            case EdgeTraversalResult.Teleport:
+                return false;
+
+            default:
+                Stop();
+                return false;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -263,11 +293,11 @@ public class MovementManager : MonoBehaviour
             Cardinal? resolved = DirectionResolver(node, exclude);
             if (resolved.HasValue &&
                 (exclude == null || Array.IndexOf(exclude, resolved.Value) < 0) &&
-                node.Edges.ContainsKey(resolved.Value))
+                IsDirectionAvailable(node, resolved.Value))
                 return resolved.Value;
         }
 
-        if (NextDirection.HasValue && node.Edges.ContainsKey(NextDirection.Value))
+        if (NextDirection.HasValue && IsDirectionAvailable(node, NextDirection.Value))
         {
             Cardinal chosen = NextDirection.Value;
             NextDirection = null;
@@ -277,12 +307,24 @@ public class MovementManager : MonoBehaviour
         // Continue forward if possible.
         if (DirectionVector != Vector2.zero &&
             (exclude == null || Array.IndexOf(exclude, Direction) < 0) &&
-            node.Edges.ContainsKey(Direction))
+            IsDirectionAvailable(node, Direction))
         {
             return Direction;
         }
 
         return null;
+    }
+
+    private bool IsDirectionAvailable(Node node, Cardinal direction)
+    {
+        if (node == null || !node.Edges.ContainsKey(direction))
+            return false;
+
+        if (character is not Ghost)
+            return true;
+
+        EdgeTraversalResult result = node.GetTraversalResult(character, direction);
+        return result == EdgeTraversalResult.Pass || result == EdgeTraversalResult.Teleport;
     }
 
     public void ResetState()

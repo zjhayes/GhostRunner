@@ -24,7 +24,7 @@ public class GremlinFrightened : GhostBehaviour
 
         Cardinal current = Context.Ghost.Movement.Direction;
 
-        if (!node.Edges.ContainsKey(current))
+        if (!IsTraversable(node, current))
         {
             GremlinContext?.Hide();
             return null;
@@ -34,6 +34,9 @@ public class GremlinFrightened : GhostBehaviour
         foreach (Cardinal available in node.Edges.Keys)
         {
             if (exclude != null && System.Array.IndexOf(exclude, available) >= 0)
+                continue;
+
+            if (!IsTraversable(node, available))
                 continue;
 
             candidates.Add(available);
@@ -48,6 +51,15 @@ public class GremlinFrightened : GhostBehaviour
         return TryPickDirection(node, candidates, out Cardinal chosen)
             ? chosen
             : null;
+    }
+
+    private bool IsTraversable(Node node, Cardinal direction)
+    {
+        if (!node.Edges.TryGetValue(direction, out EdgeNode edge))
+            return false;
+
+        EdgeTraversalResult result = edge.GetTraversalResult(Context.Ghost, direction, node);
+        return result == EdgeTraversalResult.Pass || result == EdgeTraversalResult.Teleport;
     }
 
     protected override bool TryPickDirection(

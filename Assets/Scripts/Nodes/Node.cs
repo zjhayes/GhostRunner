@@ -11,9 +11,19 @@ public class Node : Cell
         Edges = NodeUtil.BuildEdgeMap(this, GameManager.NodeManager);
     }
 
-    public void ResolveEdge(CharacterManager character, Cardinal direction)
+    public EdgeTraversalResult ResolveEdge(CharacterManager character, Cardinal direction)
     {
         if (Edges.TryGetValue(direction, out var edge))
-            edge.Resolve(character, direction, this);
+            return edge.Resolve(character, direction, this);
+
+        return EdgeTraversalResult.Blocked;
+    }
+
+    public EdgeTraversalResult GetTraversalResult(CharacterManager character, Cardinal direction)
+    {
+        if (Edges.TryGetValue(direction, out var edge))
+            return edge.GetTraversalResult(character, direction, this);
+
+        return EdgeTraversalResult.Blocked;
     }
 }

@@ -10,7 +10,7 @@ public abstract class CharacterManager : GameBehaviour
 
     protected virtual void Start()
     {
-        Movement.OnResolveEdge += HandleResolveEdge;
+        Movement.EdgeResolver = HandleResolveEdge;
     }
 
     public virtual void ResetState()
@@ -24,9 +24,9 @@ public abstract class CharacterManager : GameBehaviour
         gameObject.SetActive(enabled);
     }
 
-    protected virtual void HandleResolveEdge(Node node, Cardinal direction)
+    protected virtual EdgeTraversalResult HandleResolveEdge(Node node, Cardinal direction)
     {
-        node.ResolveEdge(this, direction);
+        return node.ResolveEdge(this, direction);
     }
 
     protected virtual void HandleCollision(Collision2D other)
