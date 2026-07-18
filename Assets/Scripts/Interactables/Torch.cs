@@ -7,6 +7,8 @@ public class Torch : MonoBehaviour
     [SerializeField] private VisualEffect flameVfx;
     [SerializeField] private ParticleSystem flameParticles;
 
+    private Light flameLight;
+
     [Header("Flame Settings")]
     [ColorUsage(true, true)]
     [SerializeField] private Color flameColor = Color.white;
@@ -18,6 +20,9 @@ public class Torch : MonoBehaviour
 
     private void Awake()
     {
+        if (flameParticles != null)
+            flameLight = flameParticles.GetComponent<Light>();
+
         ApplyFlameColor(flameColor);
         ApplyParticleColor(lightColor);
     }
@@ -48,7 +53,11 @@ public class Torch : MonoBehaviour
             return;
 
         var main = flameParticles.main;
-        main.startColor = LanternColorUtil.ToColor(color);
+        Color resolvedColor = LanternColorUtil.ToColor(color);
+        main.startColor = resolvedColor;
+
+        if (flameLight != null)
+            flameLight.color = resolvedColor;
     }
 
     public void Light()
@@ -58,6 +67,9 @@ public class Torch : MonoBehaviour
 
         if (flameParticles != null)
             flameParticles.Play();
+
+        if (flameLight != null)
+            flameLight.enabled = true;
     }
 
     public void Extinguish()
@@ -67,5 +79,8 @@ public class Torch : MonoBehaviour
 
         if (flameParticles != null)
             flameParticles.Stop();
+
+        if (flameLight != null)
+            flameLight.enabled = false;
     }
 }

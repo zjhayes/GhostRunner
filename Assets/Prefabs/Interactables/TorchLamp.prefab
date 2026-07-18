@@ -50,7 +50,7 @@ MonoBehaviour:
   flameVfx: {fileID: 4574486047380857463}
   flameParticles: {fileID: 8160406928918359731}
   flameColor: {r: 67.79354, g: 9.830065, b: 3.3896778, a: 1}
-  lightColor: {r: 1, g: 1, b: 1, a: 1}
+  lightColor: 1
 --- !u!114 &2446342510979369077
 MonoBehaviour:
   m_ObjectHideFlags: 0

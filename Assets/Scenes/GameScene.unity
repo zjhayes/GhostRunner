@@ -37774,18 +37774,6 @@ PrefabInstance:
       propertyPath: directions
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 2506696195450736471, guid: 731202a2682560b479bfd72181ab2f2a, type: 3}
-      propertyPath: lightColor.b
-      value: 0.09803922
-      objectReference: {fileID: 0}
-    - target: {fileID: 2506696195450736471, guid: 731202a2682560b479bfd72181ab2f2a, type: 3}
-      propertyPath: lightColor.g
-      value: 0.3647059
-      objectReference: {fileID: 0}
-    - target: {fileID: 2506696195450736471, guid: 731202a2682560b479bfd72181ab2f2a, type: 3}
-      propertyPath: lightColor.r
-      value: 0.972549
-      objectReference: {fileID: 0}
     - target: {fileID: 4905725912968626591, guid: 731202a2682560b479bfd72181ab2f2a, type: 3}
       propertyPath: m_Name
       value: TorchLamp_Orange_OuterWestGarden
