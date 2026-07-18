@@ -10,7 +10,7 @@ public class GateAction : NodeAction
         Node node,
         ActionEdge edge)
     {
-        if (gate.IsOpen || edge.ActionType == ActionType.GATE_OPEN)
+        if (gate.IsPassable || edge.ActionType == ActionType.GATE_OPEN)
             return EdgeTraversalResult.Pass;
 
         return EdgeTraversalResult.Blocked;
@@ -27,7 +27,7 @@ public class GateAction : NodeAction
 
     protected override void OnResolvePlayer(PlayerManager player, Cardinal direction, Node node, ActionEdge edge)
     {
-        if (gate.IsOpen)
+        if (gate.IsPassable)
         {
             return;
         }

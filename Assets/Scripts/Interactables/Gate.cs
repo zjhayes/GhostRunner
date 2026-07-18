@@ -26,6 +26,7 @@ public class Gate : MonoBehaviour, ICheckpointState
     [SerializeField] private AudioSource lockedAudioSource;
 
     public bool IsOpen { get; private set; }
+    public bool IsPassable => IsOpen || isOpening;
 
     public event System.Action OnGateOpened;
 

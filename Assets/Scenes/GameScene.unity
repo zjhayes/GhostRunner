@@ -2989,7 +2989,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3b7188bee4e43374da39d932e077ff59, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.75
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -10817,6 +10817,10 @@ PrefabInstance:
     - target: {fileID: 6988307654636466187, guid: 642122a84e6626846946a57d1d3822ce, type: 3}
       propertyPath: gate2ClosedAngle
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988307654636466187, guid: 642122a84e6626846946a57d1d3822ce, type: 3}
+      propertyPath: finishingOpenSpeed
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7277454768900355624, guid: 642122a84e6626846946a57d1d3822ce, type: 3}
       propertyPath: m_LocalPosition.x
