@@ -35,9 +35,9 @@ public class GateAction : NodeAction
         {
             gate.Open();
         }
-        else if(edge.ActionType == ActionType.BLOCKED)
+        else if (edge.ActionType == ActionType.BLOCKED)
         {
-            return;
+            gate.PlayLockedSound();
         }
     }
 

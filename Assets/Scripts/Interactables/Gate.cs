@@ -23,6 +23,7 @@ public class Gate : MonoBehaviour, ICheckpointState
 
     [Header("Audio")]
     [SerializeField] private AudioSource openAudioSource;
+    [SerializeField] private AudioSource lockedAudioSource;
 
     public bool IsOpen { get; private set; }
 
@@ -46,6 +47,11 @@ public class Gate : MonoBehaviour, ICheckpointState
         isOpening = true;
         openAudioSource.Play();
         openRoutine = StartCoroutine(OpenRoutine());
+    }
+
+    public void PlayLockedSound()
+    {
+        lockedAudioSource.Play();
     }
 
     private IEnumerator OpenRoutine()

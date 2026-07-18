@@ -37645,6 +37645,10 @@ PrefabInstance:
       propertyPath: gate2ClosedAngle
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 6988307654636466187, guid: 642122a84e6626846946a57d1d3822ce, type: 3}
+      propertyPath: finishingOpenSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7277454768900355624, guid: 642122a84e6626846946a57d1d3822ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.25
