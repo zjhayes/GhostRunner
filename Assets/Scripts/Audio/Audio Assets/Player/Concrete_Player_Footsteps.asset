@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64dc92148f84424e9a2d87ae19a31cd, type: 3}
+  m_Name: Concrete_Player_Footsteps
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurface
+  walkClips:
+  - {fileID: 8300000, guid: 6eb81f60c0a485f4bb1b8db1e1f7f143, type: 3}
+  - {fileID: 8300000, guid: 6d1b582d76b538e479ba137467a3df01, type: 3}
+  - {fileID: 8300000, guid: 251030fdc9fe18345934e37b2cb13230, type: 3}
+  - {fileID: 8300000, guid: 12d15d55afdc02242a79d77ea4d66852, type: 3}
+  - {fileID: 8300000, guid: 2f38d0ebefa0a534ca7fb459e3083de3, type: 3}
+  - {fileID: 8300000, guid: a2e42df16c4625d4bb71e9f4baf07f1a, type: 3}
+  - {fileID: 8300000, guid: 64e98d25f3b2fc14e8c7cc12dea4e8e3, type: 3}
+  - {fileID: 8300000, guid: c4500a1e8a5c0414f90ea8cc05f69da2, type: 3}
+  runClips:
+  - {fileID: 8300000, guid: e5ae7f8d956526c48ae3c6053b71a371, type: 3}
+  - {fileID: 8300000, guid: e5cc20eeff65c854abe9dd7c9ecf65d4, type: 3}
+  - {fileID: 8300000, guid: 41c43dc5bf608fc40884aa53a56fb0e2, type: 3}
+  - {fileID: 8300000, guid: c3521410a5b41fe42a04426c6634acc4, type: 3}
+  - {fileID: 8300000, guid: a60bc2a79c37e624785dd60eab154874, type: 3}
+  - {fileID: 8300000, guid: 8f0a1369768e1494d810a7b994a1b220, type: 3}
+  - {fileID: 8300000, guid: c6fed8c3892fda144a0c20917ca46a3b, type: 3}
+  - {fileID: 8300000, guid: 909a4e37327135c4d935c33f8cb1e3d3, type: 3}
+  walkVolume: 0.6
+  runVolume: 0.1
+  volumeVariation: 0.08
+  pitchRange: {x: 0.94, y: 1.06}

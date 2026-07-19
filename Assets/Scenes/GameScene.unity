@@ -2985,7 +2985,7 @@ AudioSource:
   m_GameObject: {fileID: 129033710}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -9164288516497654617, guid: 8268afa806e5f56448ac89f3487ee208, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3b7188bee4e43374da39d932e077ff59, type: 3}
   m_PlayOnAwake: 1
@@ -10291,6 +10291,8 @@ GameObject:
   - component: {fileID: 618268881}
   - component: {fileID: 618268883}
   - component: {fileID: 618268882}
+  - component: {fileID: 618268884}
+  - component: {fileID: 618268885}
   m_Layer: 0
   m_Name: Cobblestone (4)
   m_TagString: Untagged
@@ -10369,6 +10371,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618268880}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &618268884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618268880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &618268885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618268880}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &622173915 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d1073db4fa0e6af43a3eb2e35a6ef9c7, type: 3}
@@ -12790,6 +12826,8 @@ GameObject:
   - component: {fileID: 776947016}
   - component: {fileID: 776947017}
   - component: {fileID: 776947018}
+  - component: {fileID: 776947020}
+  - component: {fileID: 776947019}
   m_Layer: 6
   m_Name: PlayerSprite
   m_TagString: Untagged
@@ -12906,6 +12944,124 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   movementManager: {fileID: 862798099}
+--- !u!82 &776947019
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776947013}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -8858655731019285524, guid: 8268afa806e5f56448ac89f3487ee208, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &776947020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776947013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f915cabccb5d3954488dcd3800796cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterFootsteps
+  surfaceCheckPoint: {fileID: 0}
+  surfaceLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  surfaceDirection: {x: 0, y: 0, z: 1}
+  surfaceCheckDistance: 1
+  surfaceCheckOffset: 0.1
+  defaultSurface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  movementManager: {fileID: 0}
 --- !u!1001 &778430040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13932,6 +14088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   speed: 1
   initialDirection: 2
+  runningSpeedMultiplierThreshold: 1.5
   centerEpsilon: 0.01
 --- !u!114 &862798100
 MonoBehaviour:
@@ -14562,7 +14719,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 960747178}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 25c790d30f4059a4a99c27b898f06ac8, type: 3}
       propertyPath: m_LocalScale.x
@@ -14598,11 +14755,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 25c790d30f4059a4a99c27b898f06ac8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 25c790d30f4059a4a99c27b898f06ac8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 25c790d30f4059a4a99c27b898f06ac8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14637,6 +14794,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25c790d30f4059a4a99c27b898f06ac8, type: 3}
+--- !u!4 &884167659 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 25c790d30f4059a4a99c27b898f06ac8, type: 3}
+  m_PrefabInstance: {fileID: 884167658}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &888287781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15470,6 +15632,7 @@ Transform:
   m_Children:
   - {fileID: 796048668}
   - {fileID: 1712616403}
+  - {fileID: 884167659}
   m_Father: {fileID: 2142581364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &963358448
@@ -19984,7 +20147,7 @@ AudioSource:
   m_GameObject: {fileID: 1296133039}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 966109769358737524, guid: 8268afa806e5f56448ac89f3487ee208, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -23673,6 +23836,8 @@ GameObject:
   - component: {fileID: 1553134142}
   - component: {fileID: 1553134144}
   - component: {fileID: 1553134143}
+  - component: {fileID: 1553134145}
+  - component: {fileID: 1553134146}
   m_Layer: 0
   m_Name: Cobblestone (2)
   m_TagString: Untagged
@@ -23751,6 +23916,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553134141}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1553134145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553134141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &1553134146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553134141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1556414921
 GameObject:
   m_ObjectHideFlags: 0
@@ -30567,6 +30766,8 @@ GameObject:
   - component: {fileID: 1679371702}
   - component: {fileID: 1679371704}
   - component: {fileID: 1679371703}
+  - component: {fileID: 1679371705}
+  - component: {fileID: 1679371706}
   m_Layer: 0
   m_Name: Cobblestone (3)
   m_TagString: Untagged
@@ -30645,6 +30846,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679371701}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1679371705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679371701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &1679371706
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679371701}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1679671956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31365,6 +31600,8 @@ GameObject:
   - component: {fileID: 1712135746}
   - component: {fileID: 1712135748}
   - component: {fileID: 1712135747}
+  - component: {fileID: 1712135749}
+  - component: {fileID: 1712135750}
   m_Layer: 0
   m_Name: Cobblestone (1)
   m_TagString: Untagged
@@ -31443,6 +31680,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712135745}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1712135749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712135745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &1712135750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712135745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1712616402
 GameObject:
   m_ObjectHideFlags: 0
@@ -31709,6 +31980,8 @@ GameObject:
   - component: {fileID: 1725995018}
   - component: {fileID: 1725995020}
   - component: {fileID: 1725995019}
+  - component: {fileID: 1725995022}
+  - component: {fileID: 1725995021}
   m_Layer: 0
   m_Name: Cobblestone
   m_TagString: Untagged
@@ -31787,6 +32060,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725995017}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1725995021
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725995017}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1725995022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725995017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
 --- !u!1 &1727930949
 GameObject:
   m_ObjectHideFlags: 0
@@ -33103,6 +33410,8 @@ GameObject:
   - component: {fileID: 1831760133}
   - component: {fileID: 1831760135}
   - component: {fileID: 1831760134}
+  - component: {fileID: 1831760136}
+  - component: {fileID: 1831760137}
   m_Layer: 0
   m_Name: Cobblestone Entrance
   m_TagString: Untagged
@@ -33181,6 +33490,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831760132}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1831760136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831760132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &1831760137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831760132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1839137785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34337,6 +34680,8 @@ GameObject:
   - component: {fileID: 1921279483}
   - component: {fileID: 1921279485}
   - component: {fileID: 1921279484}
+  - component: {fileID: 1921279486}
+  - component: {fileID: 1921279487}
   m_Layer: 0
   m_Name: Cobblestone Exit (1)
   m_TagString: Untagged
@@ -34415,6 +34760,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921279482}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1921279486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921279482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &1921279487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921279482}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1925120719
 GameObject:
   m_ObjectHideFlags: 0
@@ -38006,4 +38385,3 @@ SceneRoots:
   - {fileID: 222467379}
   - {fileID: 879181294}
   - {fileID: 1111381700}
-  - {fileID: 884167658}

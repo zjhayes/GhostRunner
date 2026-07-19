@@ -117,7 +117,7 @@ public class LanternController : MonoBehaviour
         if (!movement.IsMoving)
             return LanternMotionState.Idle;
 
-        if (movement.SpeedMultiplier <= 1.5f)
+        if (!movement.IsRunning)
             return LanternMotionState.Walk;
 
         return LanternMotionState.Run;

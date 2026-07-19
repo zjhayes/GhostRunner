@@ -6,7 +6,6 @@ public class CharacterAnimationController : MonoBehaviour
     [SerializeField] private MovementManager movementManager;
 
     private Animator animator;
-    private float runSpeedThreshold = 1.5f;
 
     private static readonly int DirX = Animator.StringToHash(AnimatorProperty.DIRECTION_X);
     private static readonly int DirY = Animator.StringToHash(AnimatorProperty.DIRECTION_Y);
@@ -25,11 +24,11 @@ public class CharacterAnimationController : MonoBehaviour
         
         movementManager.OnDirectionChanged += UpdateDirection;
         movementManager.OnMovingChanged += UpdateMoving;
-        movementManager.OnSpeedChanged += isRunning => UpdateRunning(isRunning > runSpeedThreshold);
+        movementManager.OnSpeedChanged += UpdateRunning;
 
         UpdateMoving(movementManager.IsMoving);
         UpdateDirection(movementManager.Direction);
-        UpdateRunning(movementManager.SpeedMultiplier > runSpeedThreshold);
+        UpdateRunning(movementManager.SpeedMultiplier);
     }
 
     private void OnDisable()
@@ -38,7 +37,7 @@ public class CharacterAnimationController : MonoBehaviour
 
         movementManager.OnDirectionChanged -= UpdateDirection;
         movementManager.OnMovingChanged -= UpdateMoving;
-        movementManager.OnSpeedChanged -= isRunning => UpdateRunning(isRunning > runSpeedThreshold);
+        movementManager.OnSpeedChanged -= UpdateRunning;
     }
 
     private void UpdateDirection(Cardinal dir)
@@ -53,8 +52,8 @@ public class CharacterAnimationController : MonoBehaviour
         animator.SetBool(Moving, isMoving);
     }
 
-    private void UpdateRunning(bool isRunning)
+    private void UpdateRunning(float _)
     {
-        animator.SetBool(Running, isRunning);
+        animator.SetBool(Running, movementManager.IsRunning);
     }
 }

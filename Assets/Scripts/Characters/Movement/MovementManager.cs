@@ -7,6 +7,10 @@ public class MovementManager : MonoBehaviour
     [SerializeField] private float speed = 8.0f;
     [SerializeField] private Cardinal initialDirection = Cardinal.East;
 
+    [Header("Movement State")]
+    [Min(0f)]
+    [SerializeField] private float runningSpeedMultiplierThreshold = 1.5f;
+
     [Header("Node Centering")]
     [SerializeField] private float centerEpsilon = 0.01f;
 
@@ -27,6 +31,7 @@ public class MovementManager : MonoBehaviour
     public Cardinal? NextDirection { get; private set; }
 
     public bool IsStopped => DirectionVector == Vector2.zero;
+    public bool IsRunning => speedMultiplier > runningSpeedMultiplierThreshold;
 
     public Vector2 DirectionVector { get; private set; } = Vector2.right;
 
