@@ -17,8 +17,8 @@ TagManager:
   - Obstacles
   - Nodes
   - Interior
-  - 
-  - 
+  - InteriorPath
+  - ExteriorPath
   - 
   - 
   - 

@@ -30,7 +30,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8f0a1369768e1494d810a7b994a1b220, type: 3}
   - {fileID: 8300000, guid: c6fed8c3892fda144a0c20917ca46a3b, type: 3}
   - {fileID: 8300000, guid: 909a4e37327135c4d935c33f8cb1e3d3, type: 3}
-  walkVolume: 0.6
+  walkVolume: 0.8
   runVolume: 0.1
   volumeVariation: 0.08
   pitchRange: {x: 0.94, y: 1.06}

@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 53646213}
   - component: {fileID: 53646215}
   - component: {fileID: 53646214}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Grass (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1913,7 +1913,7 @@ GameObject:
   - component: {fileID: 90049249}
   - component: {fileID: 90049251}
   - component: {fileID: 90049250}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Grass (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2298,7 +2298,7 @@ GameObject:
   - component: {fileID: 100016054}
   - component: {fileID: 100016056}
   - component: {fileID: 100016055}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3807,7 +3807,7 @@ GameObject:
   - component: {fileID: 195717596}
   - component: {fileID: 195717598}
   - component: {fileID: 195717597}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3985,7 +3985,9 @@ GameObject:
   - component: {fileID: 209410023}
   - component: {fileID: 209410025}
   - component: {fileID: 209410024}
-  m_Layer: 0
+  - component: {fileID: 209410027}
+  - component: {fileID: 209410026}
+  m_Layer: 13
   m_Name: Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4063,6 +4065,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209410022}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &209410026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209410022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &209410027
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209410022}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.000001, y: 2.2204466e-16, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &215132627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5084,7 +5120,9 @@ GameObject:
   - component: {fileID: 298772797}
   - component: {fileID: 298772799}
   - component: {fileID: 298772798}
-  m_Layer: 0
+  - component: {fileID: 298772801}
+  - component: {fileID: 298772800}
+  m_Layer: 13
   m_Name: Cobblestone (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5162,6 +5200,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298772796}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &298772800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298772796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &298772801
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298772796}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.000005, y: 0.0000069141383, z: 10.000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &299114912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5974,7 +6046,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 2039
+    m_Bits: 10231
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -6360,7 +6432,9 @@ GameObject:
   - component: {fileID: 387585467}
   - component: {fileID: 387585469}
   - component: {fileID: 387585468}
-  m_Layer: 0
+  - component: {fileID: 387585471}
+  - component: {fileID: 387585470}
+  m_Layer: 13
   m_Name: Cobblestone (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6438,6 +6512,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387585466}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &387585470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387585466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &387585471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387585466}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 10.000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &398228735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6719,7 +6827,7 @@ GameObject:
   - component: {fileID: 424320904}
   - component: {fileID: 424320906}
   - component: {fileID: 424320905}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8730,7 +8838,7 @@ GameObject:
   - component: {fileID: 547997642}
   - component: {fileID: 547997644}
   - component: {fileID: 547997643}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Carpet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8897,7 +9005,9 @@ GameObject:
   - component: {fileID: 557634536}
   - component: {fileID: 557634538}
   - component: {fileID: 557634537}
-  m_Layer: 0
+  - component: {fileID: 557634540}
+  - component: {fileID: 557634539}
+  m_Layer: 13
   m_Name: Cobblestone (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8975,6 +9085,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557634535}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &557634539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557634535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &557634540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557634535}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &559313209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9679,7 +9823,7 @@ GameObject:
   - component: {fileID: 564321191}
   - component: {fileID: 564321193}
   - component: {fileID: 564321192}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10293,7 +10437,7 @@ GameObject:
   - component: {fileID: 618268882}
   - component: {fileID: 618268884}
   - component: {fileID: 618268885}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10403,7 +10547,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &622173915 stripped
 Transform:
@@ -11185,7 +11329,9 @@ GameObject:
   - component: {fileID: 669156816}
   - component: {fileID: 669156818}
   - component: {fileID: 669156817}
-  m_Layer: 0
+  - component: {fileID: 669156820}
+  - component: {fileID: 669156819}
+  m_Layer: 13
   m_Name: Cobblestone (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11263,6 +11409,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669156815}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &669156819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669156815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &669156820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669156815}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.999998, y: 0.0000034570692, z: 9.999998}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &674403140
 GameObject:
   m_ObjectHideFlags: 0
@@ -12378,7 +12558,7 @@ GameObject:
   - component: {fileID: 740452181}
   - component: {fileID: 740452183}
   - component: {fileID: 740452182}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Grass (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12573,7 +12753,9 @@ GameObject:
   - component: {fileID: 761183788}
   - component: {fileID: 761183790}
   - component: {fileID: 761183789}
-  m_Layer: 0
+  - component: {fileID: 761183792}
+  - component: {fileID: 761183791}
+  m_Layer: 13
   m_Name: FrontRoad (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12651,6 +12833,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761183787}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &761183791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761183787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &761183792
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761183787}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.000005, y: 0.000002384186, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &770578686
 GameObject:
   m_ObjectHideFlags: 0
@@ -12662,7 +12878,9 @@ GameObject:
   - component: {fileID: 770578687}
   - component: {fileID: 770578689}
   - component: {fileID: 770578688}
-  m_Layer: 0
+  - component: {fileID: 770578691}
+  - component: {fileID: 770578690}
+  m_Layer: 13
   m_Name: FrontRoad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12740,6 +12958,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770578686}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &770578690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770578686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &770578691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770578686}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.000005, y: 0.000002384186, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &776175778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12953,7 +13205,7 @@ AudioSource:
   m_GameObject: {fileID: 776947013}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -8858655731019285524, guid: 8268afa806e5f56448ac89f3487ee208, type: 2}
+  OutputAudioMixerGroup: {fileID: 8032871316979429562, guid: 8268afa806e5f56448ac89f3487ee208, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -13053,15 +13305,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f915cabccb5d3954488dcd3800796cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterFootsteps
-  surfaceCheckPoint: {fileID: 0}
+  surfaceCheckPoint: {fileID: 776947014}
   surfaceLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 12288
   surfaceDirection: {x: 0, y: 0, z: 1}
-  surfaceCheckDistance: 1
+  surfaceCheckDistance: 2
   surfaceCheckOffset: 0.1
   defaultSurface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
-  movementManager: {fileID: 0}
+  movementManager: {fileID: 862798099}
 --- !u!1001 &778430040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13726,7 +13978,7 @@ GameObject:
   - component: {fileID: 844212618}
   - component: {fileID: 844212620}
   - component: {fileID: 844212619}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13894,7 +14146,9 @@ GameObject:
   - component: {fileID: 859518205}
   - component: {fileID: 859518207}
   - component: {fileID: 859518206}
-  m_Layer: 11
+  - component: {fileID: 859518209}
+  - component: {fileID: 859518208}
+  m_Layer: 13
   m_Name: Lawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13972,6 +14226,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859518204}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &859518208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859518204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 42f92c3ead9ec9a499c35c70cc4d4f3d, type: 2}
+--- !u!65 &859518209
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859518204}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &862798093
 GameObject:
   m_ObjectHideFlags: 0
@@ -14236,7 +14524,9 @@ GameObject:
   - component: {fileID: 867334174}
   - component: {fileID: 867334176}
   - component: {fileID: 867334175}
-  m_Layer: 0
+  - component: {fileID: 867334178}
+  - component: {fileID: 867334177}
+  m_Layer: 13
   m_Name: FrontRoad (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14314,6 +14604,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867334173}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &867334177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867334173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &867334178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867334173}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &869126669
 GameObject:
   m_ObjectHideFlags: 0
@@ -14356,7 +14680,9 @@ GameObject:
   - component: {fileID: 870113238}
   - component: {fileID: 870113240}
   - component: {fileID: 870113239}
-  m_Layer: 0
+  - component: {fileID: 870113242}
+  - component: {fileID: 870113241}
+  m_Layer: 13
   m_Name: Cobblestone (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14434,6 +14760,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870113237}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &870113241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870113237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &870113242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870113237}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 9.999999}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &875059899
 GameObject:
   m_ObjectHideFlags: 0
@@ -15146,7 +15506,7 @@ GameObject:
   - component: {fileID: 903167165}
   - component: {fileID: 903167167}
   - component: {fileID: 903167166}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16143,7 +16503,7 @@ GameObject:
   - component: {fileID: 995171922}
   - component: {fileID: 995171924}
   - component: {fileID: 995171923}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Carpet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16465,7 +16825,7 @@ GameObject:
   - component: {fileID: 1008321847}
   - component: {fileID: 1008321849}
   - component: {fileID: 1008321848}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17419,7 +17779,7 @@ GameObject:
   - component: {fileID: 1072330446}
   - component: {fileID: 1072330449}
   - component: {fileID: 1072330448}
-  m_Layer: 11
+  m_Layer: 12
   m_Name: Carpet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18912,7 +19272,9 @@ GameObject:
   - component: {fileID: 1192714526}
   - component: {fileID: 1192714528}
   - component: {fileID: 1192714527}
-  m_Layer: 0
+  - component: {fileID: 1192714530}
+  - component: {fileID: 1192714529}
+  m_Layer: 13
   m_Name: Cobblestone (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18990,6 +19352,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192714525}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1192714529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192714525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+--- !u!65 &1192714530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192714525}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 9.999999}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1196711758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19433,7 +19829,7 @@ GameObject:
   - component: {fileID: 1219898390}
   - component: {fileID: 1219898392}
   - component: {fileID: 1219898391}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20246,7 +20642,7 @@ GameObject:
   - component: {fileID: 1298361758}
   - component: {fileID: 1298361760}
   - component: {fileID: 1298361759}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20757,7 +21153,7 @@ GameObject:
   - component: {fileID: 1321434846}
   - component: {fileID: 1321434848}
   - component: {fileID: 1321434847}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Grass (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20965,7 +21361,7 @@ GameObject:
   - component: {fileID: 1332940276}
   - component: {fileID: 1332940278}
   - component: {fileID: 1332940277}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Grass (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21087,7 +21483,7 @@ GameObject:
   - component: {fileID: 1349428753}
   - component: {fileID: 1349428755}
   - component: {fileID: 1349428754}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23838,7 +24234,7 @@ GameObject:
   - component: {fileID: 1553134143}
   - component: {fileID: 1553134145}
   - component: {fileID: 1553134146}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23948,7 +24344,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1556414921
 GameObject:
@@ -24150,7 +24546,7 @@ GameObject:
   - component: {fileID: 1558227488}
   - component: {fileID: 1558227490}
   - component: {fileID: 1558227489}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Grass (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28743,7 +29139,7 @@ GameObject:
   - component: {fileID: 1574271202}
   - component: {fileID: 1574271204}
   - component: {fileID: 1574271203}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29234,7 +29630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1597385175
 Transform:
   m_ObjectHideFlags: 0
@@ -29859,7 +30255,9 @@ GameObject:
   - component: {fileID: 1625128680}
   - component: {fileID: 1625128682}
   - component: {fileID: 1625128681}
-  m_Layer: 11
+  - component: {fileID: 1625128684}
+  - component: {fileID: 1625128683}
+  m_Layer: 13
   m_Name: Lawn (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29937,6 +30335,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625128679}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1625128683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625128679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 42f92c3ead9ec9a499c35c70cc4d4f3d, type: 2}
+--- !u!65 &1625128684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625128679}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1629981684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30768,7 +31200,7 @@ GameObject:
   - component: {fileID: 1679371703}
   - component: {fileID: 1679371705}
   - component: {fileID: 1679371706}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30878,7 +31310,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1679671956
 PrefabInstance:
@@ -31511,7 +31943,7 @@ GameObject:
   - component: {fileID: 1711865833}
   - component: {fileID: 1711865835}
   - component: {fileID: 1711865834}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Grass (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31602,7 +32034,7 @@ GameObject:
   - component: {fileID: 1712135747}
   - component: {fileID: 1712135749}
   - component: {fileID: 1712135750}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31712,7 +32144,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1712616402
 GameObject:
@@ -31982,7 +32414,7 @@ GameObject:
   - component: {fileID: 1725995019}
   - component: {fileID: 1725995022}
   - component: {fileID: 1725995021}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33412,7 +33844,7 @@ GameObject:
   - component: {fileID: 1831760134}
   - component: {fileID: 1831760136}
   - component: {fileID: 1831760137}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone Entrance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33522,7 +33954,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1839137785
 PrefabInstance:
@@ -33741,7 +34173,9 @@ GameObject:
   - component: {fileID: 1844014957}
   - component: {fileID: 1844014959}
   - component: {fileID: 1844014958}
-  m_Layer: 11
+  - component: {fileID: 1844014961}
+  - component: {fileID: 1844014960}
+  m_Layer: 13
   m_Name: Lawn (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33819,6 +34253,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844014956}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1844014960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844014956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surface: {fileID: 11400000, guid: 42f92c3ead9ec9a499c35c70cc4d4f3d, type: 2}
+--- !u!65 &1844014961
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844014956}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1845103304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34682,7 +35150,7 @@ GameObject:
   - component: {fileID: 1921279484}
   - component: {fileID: 1921279486}
   - component: {fileID: 1921279487}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cobblestone Exit (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34792,7 +35260,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1925120719
 GameObject:
@@ -35113,7 +35581,7 @@ GameObject:
   - component: {fileID: 1954849219}
   - component: {fileID: 1954849221}
   - component: {fileID: 1954849220}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: LawnPath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35450,7 +35918,7 @@ GameObject:
   - component: {fileID: 1976316514}
   - component: {fileID: 1976316516}
   - component: {fileID: 1976316515}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37516,7 +37984,7 @@ GameObject:
   - component: {fileID: 2132220068}
   - component: {fileID: 2132220070}
   - component: {fileID: 2132220069}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Lawn (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
