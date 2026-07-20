@@ -72,6 +72,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 34
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &883169415784750537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +125,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 34
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &6653733096077481763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,6 +178,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 34
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &8402215965170633000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +231,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 34
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &601325691767762175
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,6 +336,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!114 &2479137091043530325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,6 +357,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!114 &7086994236409855070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +378,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!114 &1537937920200679137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,6 +399,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!1 &1351473654449136348
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +472,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 16
   framesPerSecond: 12
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 12
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &129415235088371151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,6 +525,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 16
   framesPerSecond: 12
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 12
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &1633117109750872738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,6 +578,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 16
   framesPerSecond: 12
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 12
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &6943922837270556044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,6 +631,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 16
   framesPerSecond: 12
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 12
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2155962516054354716
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +736,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!114 &393195717641512374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -488,6 +757,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!114 &4561113967076611435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,6 +778,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!114 &507753612084227613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,6 +799,7 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 99
   framesPerSecond: 12
+  frameEvents: []
 --- !u!1 &2458369581986400781
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +864,8 @@ GameObject:
   - component: {fileID: 1754094092238523847}
   - component: {fileID: 8301049773353894824}
   - component: {fileID: 6017738780052332995}
+  - component: {fileID: 8675839901311584422}
+  - component: {fileID: 4339811971861155618}
   m_Layer: 0
   m_Name: GremlinSprite
   m_TagString: Untagged
@@ -705,6 +979,133 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b892f2d2e569a4ea4026ea9a1e0fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlipbookAnimator
+--- !u!114 &8675839901311584422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377063592273687563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f915cabccb5d3954488dcd3800796cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterFootsteps
+  surfaceCheckPoint: {fileID: 7061851816723464548}
+  surfaceLayer:
+    serializedVersion: 2
+    m_Bits: 12288
+  surfaceDirection: {x: 0, y: 0, z: 1}
+  surfaceCheckDistance: 1
+  surfaceCheckOffset: 0.1
+  audioProfile: {fileID: 11400000, guid: 07b8c9d0e1f24d34e6abcdef78901234, type: 2}
+  movementManager: {fileID: 3874072177646290681}
+--- !u!82 &4339811971861155618
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377063592273687563}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 8032871316979429562, guid: 8268afa806e5f56448ac89f3487ee208, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 12
+  MaxDistance: 20
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: -5.0019917
+      outSlope: -5.0019917
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.4
+      value: 0.5
+      inSlope: -1.2504979
+      outSlope: -1.2504979
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.20007975
+      outSlope: -0.20007975
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4376302308385466420
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +1343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MovementManager
   speed: 1
   initialDirection: 3
+  runningSpeedMultiplierThreshold: 1.5
   centerEpsilon: 0.01
 --- !u!114 &1466259690575869533
 MonoBehaviour:
@@ -1030,6 +1432,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 17
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &3444902972150076297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1050,6 +1485,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 17
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &9122496275297032596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,6 +1538,39 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 17
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &507081511170518107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,3 +1591,36 @@ MonoBehaviour:
   startFrame: 0
   frameCount: 24
   framesPerSecond: 17
+  frameEvents:
+  - frame: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - frame: 15
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8675839901311584422}
+          m_TargetAssemblyTypeName: CharacterFootsteps, Assembly-CSharp
+          m_MethodName: PlayFootstep
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

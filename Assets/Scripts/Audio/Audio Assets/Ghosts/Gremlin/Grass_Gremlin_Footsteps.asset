@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64dc92148f84424e9a2d87ae19a31cd, type: 3}
+  m_Name: Grass_Gremlin_Footsteps
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurface
+  walkClips:
+  - {fileID: 8300000, guid: 2fa2d8ac4a6b9e0419e67ae238718a13, type: 3}
+  - {fileID: 8300000, guid: 8b0a8f7d49770a04582b9dd286fe7cb3, type: 3}
+  - {fileID: 8300000, guid: 0100b54cda2db734799571c96b502efa, type: 3}
+  - {fileID: 8300000, guid: 823309df86cb7254f995e4da1364866e, type: 3}
+  - {fileID: 8300000, guid: d871fad38fca1364c85b153e30a26ea6, type: 3}
+  - {fileID: 8300000, guid: dfc44e5b43f2364448d9ad187b12fa8d, type: 3}
+  - {fileID: 8300000, guid: cf50dd41d86e0e74fba7c23b849c58dd, type: 3}
+  - {fileID: 8300000, guid: 7f3b5bd9933caf74db61d0a0d9fd6587, type: 3}
+  runClips:
+  - {fileID: 8300000, guid: 337dea2601b34e942863a0ca0f45e754, type: 3}
+  - {fileID: 8300000, guid: c0ec0d8773d194144b6c82107354c078, type: 3}
+  - {fileID: 8300000, guid: 06c54d81da082f74f937f1af4571e2ec, type: 3}
+  - {fileID: 8300000, guid: 192f2c9a4cb1b7643ae6ce37c938fa1c, type: 3}
+  - {fileID: 8300000, guid: b96681b945b482046a715dbc21c80251, type: 3}
+  - {fileID: 8300000, guid: 908c9da7a167b6e4fab5b40a4a3f6e5c, type: 3}
+  - {fileID: 8300000, guid: 0b59cffce07dea344962d347f1bd14f8, type: 3}
+  - {fileID: 8300000, guid: 00d72049f45e5a54492ec2eade03823c, type: 3}
+  walkVolume: 0.5
+  runVolume: 0.7
+  volumeVariation: 0.08
+  pitchRange: {x: 0.94, y: 1.06}

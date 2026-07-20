@@ -10,6 +10,7 @@ public class FlipbookAnimator : MonoBehaviour
     private float timeOffset;
     private bool loop = true;
     private bool completionRaised;
+    private int previousElapsedFrame = -1;
 
     public event Action AnimationCompleted;
 
@@ -27,6 +28,7 @@ public class FlipbookAnimator : MonoBehaviour
         {
             flipbookAnimation = value;
             loop = true;
+            previousElapsedFrame = -1;
 
             if (rend == null)
             {
@@ -66,6 +68,8 @@ public class FlipbookAnimator : MonoBehaviour
         block.SetFloat(FrameIndexID, frame);
         rend.SetPropertyBlock(block);
 
+        InvokeFrameEvents(elapsedFrames);
+
         if (!loop && !completionRaised && elapsedFrames >= flipbookAnimation.frameCount - 1)
         {
             completionRaised = true;
@@ -100,6 +104,36 @@ public class FlipbookAnimator : MonoBehaviour
         rend.SetPropertyBlock(block);
     }
 
+    private void InvokeFrameEvents(int elapsedFrames)
+    {
+        int firstElapsedFrame = previousElapsedFrame < 0
+            ? elapsedFrames
+            : previousElapsedFrame + 1;
+
+        // A restart or a long suspension should not replay stale events in a burst.
+        if (elapsedFrames < previousElapsedFrame ||
+            elapsedFrames - firstElapsedFrame >= flipbookAnimation.frameCount)
+        {
+            firstElapsedFrame = elapsedFrames;
+        }
+
+        for (int elapsedFrame = firstElapsedFrame;
+             elapsedFrame <= elapsedFrames;
+             elapsedFrame++)
+        {
+            if (!loop && elapsedFrame >= flipbookAnimation.frameCount)
+                break;
+
+            int localFrame = loop
+                ? elapsedFrame % flipbookAnimation.frameCount
+                : elapsedFrame;
+
+            flipbookAnimation.InvokeFrameEvents(localFrame);
+        }
+
+        previousElapsedFrame = elapsedFrames;
+    }
+
     public void Play(FlipbookAnimation newAnimation)
     {
         Play(newAnimation, true);
@@ -117,6 +151,7 @@ public class FlipbookAnimator : MonoBehaviour
         loop = loopAnimation;
         timeOffset = -Time.time;
         completionRaised = false;
+        previousElapsedFrame = -1;
         ApplyStaticProperties();
     }
 
@@ -124,5 +159,6 @@ public class FlipbookAnimator : MonoBehaviour
     {
         timeOffset = -Time.time;
         completionRaised = false;
+        previousElapsedFrame = -1;
     }
 }

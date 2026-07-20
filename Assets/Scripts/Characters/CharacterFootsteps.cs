@@ -16,8 +16,8 @@ public class CharacterFootsteps : MonoBehaviour
     [Min(0f)]
     [SerializeField] private float surfaceCheckOffset = 0.1f;
 
-    [Header("Fallback")]
-    [SerializeField] private FootstepSurface defaultSurface;
+    [Header("Sounds")]
+    [SerializeField] private FootstepAudioProfile audioProfile;
 
     [Header("Movement")]
     [SerializeField] private MovementManager movementManager;
@@ -44,7 +44,9 @@ public class CharacterFootsteps : MonoBehaviour
         if (movementManager == null || !movementManager.IsMoving)
             return;
 
-        FootstepSurface surface = DetectSurface();
+        FootstepSurface surface = audioProfile != null
+            ? audioProfile.Resolve(DetectSurfaceType())
+            : null;
 
         if (surface == null)
             return;
@@ -52,10 +54,10 @@ public class CharacterFootsteps : MonoBehaviour
         PlayRandomClip(surface, movementManager.IsRunning);
     }
 
-    private FootstepSurface DetectSurface()
+    private FootstepSurfaceType? DetectSurfaceType()
     {
         if (surfaceCheckPoint == null)
-            return defaultSurface;
+            return null;
 
         if (surfaceDirection.sqrMagnitude < 0.0001f)
         {
@@ -64,7 +66,7 @@ public class CharacterFootsteps : MonoBehaviour
                 this
             );
 
-            return defaultSurface;
+            return null;
         }
 
         Vector3 direction = surfaceDirection.normalized;
@@ -85,14 +87,12 @@ public class CharacterFootsteps : MonoBehaviour
         );
 
         if (!hitSurface)
-            return defaultSurface;
+            return null;
 
         FootstepSurfaceArea area =
             hit.collider.GetComponentInParent<FootstepSurfaceArea>();
 
-        return area != null && area.surface != null
-            ? area.surface
-            : defaultSurface;
+        return area != null ? area.surfaceType : null;
     }
 
     private void PlayRandomClip(

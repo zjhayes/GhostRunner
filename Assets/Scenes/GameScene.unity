@@ -2298,6 +2298,8 @@ GameObject:
   - component: {fileID: 100016054}
   - component: {fileID: 100016056}
   - component: {fileID: 100016055}
+  - component: {fileID: 100016058}
+  - component: {fileID: 100016057}
   m_Layer: 13
   m_Name: Cobblestone (2)
   m_TagString: Untagged
@@ -2376,6 +2378,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100016053}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &100016057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100016053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surfaceType: 0
+--- !u!65 &100016058
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100016053}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &106220387
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,7 +4113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &209410027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4286,6 +4322,7 @@ Transform:
   m_Children:
   - {fileID: 5064001392277414597}
   - {fileID: 737674954}
+  - {fileID: 567644055}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &222467376
@@ -5212,7 +5249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &298772801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6524,7 +6561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &387585471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8930,7 +8967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 66f3e75ab5d67954f89427c2c4326624, type: 2}
+  surfaceType: 2
 --- !u!65 &547997646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9133,7 +9170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &557634540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9970,6 +10007,84 @@ Transform:
   - {fileID: 2083155404}
   m_Father: {fileID: 1757949020}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &567644054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 218547274}
+    m_Modifications:
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 507081511170518107, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: startFrame
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3444902972150076297, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: startFrame
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408589904904907292, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: m_Name
+      value: Gremlin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305769315282242858, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: startFrame
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122496275297032596, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+      propertyPath: startFrame
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+--- !u!4 &567644055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 327510786786289969, guid: 8af58ad6f82f5e84192d514cf0a58a3b, type: 3}
+  m_PrefabInstance: {fileID: 567644054}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &575277746
 GameObject:
   m_ObjectHideFlags: 0
@@ -10563,7 +10678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &618268885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10600,7 +10715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625638793}
   - component: {fileID: 625638796}
-  - component: {fileID: 625638795}
+  - component: {fileID: 625638798}
   - component: {fileID: 625638794}
   - component: {fileID: 625638797}
   m_Layer: 0
@@ -10669,14 +10784,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!81 &625638795
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 625638792}
-  m_Enabled: 1
 --- !u!20 &625638796
 Camera:
   m_ObjectHideFlags: 0
@@ -10749,6 +10856,14 @@ MonoBehaviour:
   useBounds: 0
   minBounds: {x: -100, y: -100, z: -100}
   maxBounds: {x: 100, y: 100, z: 100}
+--- !u!81 &625638798
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625638792}
+  m_Enabled: 1
 --- !u!1001 &626716072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11457,7 +11572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &669156820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12881,7 +12996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &761183792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13006,7 +13121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &770578691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13348,7 +13463,7 @@ MonoBehaviour:
   surfaceDirection: {x: 0, y: 0, z: 1}
   surfaceCheckDistance: 2
   surfaceCheckOffset: 0.1
-  defaultSurface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  audioProfile: {fileID: 11400000, guid: f6a7b8c9d0e14c23d5fabcde67890123, type: 2}
   movementManager: {fileID: 862798099}
 --- !u!1001 &778430040
 PrefabInstance:
@@ -14274,7 +14389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 42f92c3ead9ec9a499c35c70cc4d4f3d, type: 2}
+  surfaceType: 1
 --- !u!65 &859518209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14652,7 +14767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &867334178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14808,7 +14923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &870113242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16631,7 +16746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 66f3e75ab5d67954f89427c2c4326624, type: 2}
+  surfaceType: 2
 --- !u!65 &995171926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17943,7 +18058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 66f3e75ab5d67954f89427c2c4326624, type: 2}
+  surfaceType: 2
 --- !u!65 &1072330451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19472,7 +19587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &1192714530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24432,7 +24547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &1553134146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30455,7 +30570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 42f92c3ead9ec9a499c35c70cc4d4f3d, type: 2}
+  surfaceType: 1
 --- !u!65 &1625128684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31398,7 +31513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &1679371706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32232,7 +32347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &1712135750
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32633,7 +32748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!1 &1727930949
 GameObject:
   m_ObjectHideFlags: 0
@@ -34042,7 +34157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &1831760137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34373,7 +34488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 42f92c3ead9ec9a499c35c70cc4d4f3d, type: 2}
+  surfaceType: 1
 --- !u!65 &1844014961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35348,7 +35463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
-  surface: {fileID: 11400000, guid: 18eb77f9f933b6e4283c8e6e4ca9aabe, type: 2}
+  surfaceType: 0
 --- !u!65 &1921279487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35689,7 +35804,9 @@ GameObject:
   - component: {fileID: 1954849219}
   - component: {fileID: 1954849221}
   - component: {fileID: 1954849220}
-  m_Layer: 0
+  - component: {fileID: 1954849223}
+  - component: {fileID: 1954849222}
+  m_Layer: 13
   m_Name: LawnPath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35767,6 +35884,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954849218}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1954849222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954849218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030150fed118cb644b40a957b632eca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootstepSurfaceArea
+  surfaceType: 0
+--- !u!65 &1954849223
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954849218}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 2.2204466e-16, z: 10.000002}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1957076879
 GameObject:
   m_ObjectHideFlags: 0
