@@ -47,6 +47,7 @@ public class GremlinContext : GhostContext
     public event Action OnFrightened;
     public event Action OnCalmed;
     public event Action OnHiding;
+    public event Action<GremlinState, GremlinState> OnStateChanged;
     public event Action<AnimationGroup> OnAnimationGroupChanged;
 
     protected override void Awake()
@@ -61,7 +62,7 @@ public class GremlinContext : GhostContext
         CancelInvoke(nameof(Calm));
         base.ResetState();
 
-        state = GremlinState.Walking;
+        SetState(GremlinState.Walking);
 
         if (frightened != null)
             frightened.Disable();
@@ -76,7 +77,7 @@ public class GremlinContext : GhostContext
         if (frightened != null)
             frightened.Disable();
 
-        state = GremlinState.Walking;
+        SetState(GremlinState.Walking);
         base.EnterScatter();
 
         OnCalmed?.Invoke();
@@ -103,7 +104,7 @@ public class GremlinContext : GhostContext
 
         DisableNormalBehaviours();
 
-        state = GremlinState.Frightened;
+        SetState(GremlinState.Frightened);
 
         if (frightened != null)
             frightened.Enable();
@@ -117,7 +118,7 @@ public class GremlinContext : GhostContext
         if (IsHiding)
             return;
 
-        state = GremlinState.Hiding;
+        SetState(GremlinState.Hiding);
 
         if (frightened != null)
             frightened.Disable();
@@ -138,7 +139,7 @@ public class GremlinContext : GhostContext
         if (state == nextState)
             return;
 
-        state = nextState;
+        SetState(nextState);
         OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
     }
 
@@ -152,7 +153,7 @@ public class GremlinContext : GhostContext
         if (state == GremlinState.Walking)
             return;
 
-        state = GremlinState.Walking;
+        SetState(GremlinState.Walking);
 
         if (frightened != null)
             frightened.Disable();
@@ -176,9 +177,20 @@ public class GremlinContext : GhostContext
         if (frightened != null)
             frightened.Disable();
 
-        state = GremlinState.Idle;
+        SetState(GremlinState.Idle);
         base.EnterIdle();
         OnAnimationGroupChanged?.Invoke(CurrentAnimationGroup);
+    }
+
+    private bool SetState(GremlinState nextState)
+    {
+        if (state == nextState)
+            return false;
+
+        GremlinState previousState = state;
+        state = nextState;
+        OnStateChanged?.Invoke(previousState, nextState);
+        return true;
     }
 
     private void ResetFearTimer(float duration)

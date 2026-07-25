@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,9 @@ public abstract class GhostBehaviour : MonoBehaviour
     [SerializeField] protected float duration;
 
     public GhostContext Context {  get; private set; }
+
+    public event Action<GhostBehaviour> Entered;
+    public event Action<GhostBehaviour> Exited;
 
     private void Awake()
     {
@@ -18,6 +22,8 @@ public abstract class GhostBehaviour : MonoBehaviour
     {
         if (Context?.Ghost?.Movement != null)
             Context.Ghost.Movement.DirectionResolver = ChooseDirectionAtNode;
+
+        Entered?.Invoke(this);
     }
 
     protected virtual void OnDisable()
@@ -25,6 +31,8 @@ public abstract class GhostBehaviour : MonoBehaviour
         if (Context?.Ghost?.Movement != null &&
             Context.Ghost.Movement.DirectionResolver == ChooseDirectionAtNode)
             Context.Ghost.Movement.DirectionResolver = null;
+
+        Exited?.Invoke(this);
     }
 
     public virtual void Enable()

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f19c570e76446e9308f482c16b3915, type: 3}
+  m_Name: Gremlin_Regular_Vocals
+  m_EditorClassIdentifier: Assembly-CSharp::RandomAudioCue
+  clips:
+  - {fileID: 8300000, guid: a25b4d8733affd141836f5b9c41b2a56, type: 3}
+  - {fileID: 8300000, guid: 56552323c85e1ed45b0209b0fcf0735e, type: 3}
+  - {fileID: 8300000, guid: 045e3d1f1d27050488fca2257233ac28, type: 3}
+  - {fileID: 8300000, guid: 26d475795dfa632448dea683ae174c45, type: 3}
+  volume: 0.1
+  volumeVariation: 0.05
+  pitchRange: {x: 0.96, y: 1.04}

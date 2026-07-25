@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f19c570e76446e9308f482c16b3915, type: 3}
+  m_Name: Gremlin_Frightened_Vocals
+  m_EditorClassIdentifier: Assembly-CSharp::RandomAudioCue
+  clips:
+  - {fileID: 8300000, guid: 27510abd45260ae4a84d41359d864c66, type: 3}
+  volume: 0.4
+  volumeVariation: 0
+  pitchRange: {x: 0.98, y: 1.02}

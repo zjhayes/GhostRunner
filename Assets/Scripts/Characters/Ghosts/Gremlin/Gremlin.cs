@@ -190,8 +190,8 @@ public class Gremlin : Ghost
 
         if (isPlayerClose && IsFacing(Target) && !IsFrightened && !IsHiding)
         {
-            Chase();
             Run();
+            Chase();
         }
     }
 
