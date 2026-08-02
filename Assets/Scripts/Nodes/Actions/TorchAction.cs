@@ -28,6 +28,7 @@ public class TorchAction : NodeAction
             return;
 
         player.Lantern.SetLanternColor(torch.LightColor);
+        torch.PlayInteractionFeedback();
     }
 
     protected override void OnResolveGhost(Ghost ghost, Cardinal direction, Node node, ActionEdge edge)
